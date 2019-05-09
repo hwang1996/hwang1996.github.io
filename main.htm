@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jiayuan Mao</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Jiayuan Mao is an undergraduate student at Tsinghua University.">
+    <meta name="keywords" content="Jiayuan Mao,Computer Vision,Natural Language Processing,Machine Learning,Cognitive Science">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+body{margin:0;padding:0;background-color:#eee}
+a{color:#dc906a}
+a:hover{color:#59301b}
+#background{position:fixed;top:0;overflow:hidden;height:0}
+#main{z-index:2;margin:0 auto;position:absolute;top:25%;width:100%;text-align:center;}
+#main-content{background:rgba(238,238,238,0.95);margin:0 auto;padding:0;text-align:center;cursor:default;text-align:center}
+#main-content-container{margin:auto;padding: 0 2em 20px;max-width:1080px}
+#main-content-container .col-avatar{text-align:center}
+#main-content-container .col-info{text-align:center}
+#main-content-container .col-link{text-align:center}
+#main-content-container .textbox-info{display:inline-block;margin:0 auto;text-align:left}
+#main-content-container .col-info .email{color:#666; font-size:14px}
+#main-more-container{background:#ffffff;width:100%;padding:0 30px}
+#main-bio-container{margin:auto;padding: 0 0em;max-width:1080px;text-align:left;padding-top:30px;max-width:1080px}
+#main-pub-container{margin:auto;padding: 0 0em;max-width:1080px;text-align:left;padding-top:30px;max-width:1080px}
+#avatar{z-index:100;width:200px;height:200px;margin-top:-125px;border-radius:100%;box-shadow:0 0 0 0.3em #fff;opacity:1;}
+#name{margin:20px 0 0;color:#5a301b;font-size:1.85em;font-family:Source Sans Pro,Helvetica,sans-serif}
+#link-ul{margin:20px auto auto;padding:0;list-style:none;text-align:center} .link-li{display:inline-block;margin:auto;padding:0 10px;color:#ccc;line-height:10px}
+.subtitle{color:#5a301b;}
+.link-li a{width:45px;height:45px;color:#ccc;padding:0;font-size:45px;line-height:45px}
+.link-li a:focus,.link-li a:hover{text-decoration:none;cursor:hand}
+.link-li a.border{border:1px solid #ccc;border-radius:100%;}
+.link-li a.padding{padding:0px 0px;font-size:22px}
+#main-pub-container .pub-card{width: 100%;padding-bottom:20px}
+#main-pub-container .pub-card .conference{font-weight:600}
+#main-pub-container .pub-card-body{width: 100%;background:transparent;padding-left:0px}
+#main-pub-container .row{margin:0}
+#main-pub-container .col-l, #main-pub-container .col-r {vertical-align:top;display:inline-block;margin:0;padding-left:0px}
+#footer{margin:0;padding:1.5em 0 0.5em;background:#f4f4f4;opacity:0.95;font-size:14px;line-height:12px;text-align:center}
+#footer-cr{margin:0 auto;text-align:left;display:inline-block;font-size:12px;line-height:0px}
+#wave-canvas{display:block;position:relative;top:0;left:0;width:100%;height:150px;border:0}
+.highlight{color:#BB2222;font-weight:600}
+    </style>
+</head>
+<body>
+<img src="static/img/bondi4.jpg" id="background" class="" />
+<div id="main">
+    <canvas id="wave-canvas"></canvas>
+    <div id="main-content">
+        <div id="main-content-container" class="container">
+          <div class="row">
+            <div class="col-md-12 col-xl-4 col-avatar">
+                <img src="static/img/avatar4.jpg" id="avatar" class="" />
+            </div>
+            <div class="col-md-12 col-xl-4 col-info">
+                <div class="textbox-info">
+                    <h1 id="name">Jiayuan Mao (茅佳源)</h1>
+                    <p class="email">Email: maojiayuan [at] gmail [dot] com</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-xl-4 col-link">
+                <ul id="link-ul" class="clear">
+                    <li class="link-li">
+                        <p><a class="fa fa-wordpress icon" aria-hidden="true" href="http://blog.jiayuanm.com"></a></p>
+                    </li>
+                    <li class="link-li">
+                        <p><a class="fa fa-github icon border" aria-hidden="true" href="https://github.com/vacancy"></a></p>
+                    </li>
+                    <li class="link-li">
+                        <p><a class="fa fa-instagram icon" aria-hidden="true"
+                                                           href="https://www.instagram.com/maojiayuan"></a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="main-more-container">
+        <div id="main-bio-container">
+            <p>
+            I am an undergraduate student at <a href="http://iiis.tsinghua.edu.cn/">IIIS (YaoClass)</a>, Tsinghua University, majoring in computer science.
+            </p>
+
+            <p>
+            Currently, I am a visiting student of <a href="http://cocosci.mit.edu/">COCOSCI</a> group at MIT, adviced by <a href="http://web.mit.edu/cocosci/josh.html">Prof. Josh Tenenbaum</a>.
+            I was a visiting student of CLVR group at USC during the spring and summer of 2017, adviced by <a href="http://www-bcf.usc.edu/~limjj/">Prof. Joseph Lim</a>.
+            I spent most of my undergraduate years being an intern researcher at <a href="http://megvii.com">Megvii Inc. (Face++)</a>, where my research career began.
+            I also had a great time at <a href="https://www.blog.google/around-the-globe/google-asia/google-ai-china-center/">Google AI China Center</a> and <a href="http://bytedance.com">Bytedance Inc. (Toutiao AI Lab).</a>
+            </p>
+
+            <p>
+            I aim at building machines that can learn efficiently and generalize reliably as humans do.
+            Towards this goal, my research focuses on structured knowledge representations that can be transferred among tasks and inductive biases that improve the learning efficiency and generalization.
+            Specifically, my work centered around the task of learning concepts, skills, and rules from limited, noisy, and even biased data.
+            </p>
+
+            <h5 class="subtitle">Research Highlights</h5>
+
+            <ul>
+                <li><b>Concept learning</b>: visual-semantic representation [COLING18] [CVPR19], visually-grounded language acquisition [ICLR19a].</li>
+                <li><b>Skill learning</b>: transfer learning in DRL [ICLR18].</li>
+                <li><b>Rule learning</b>: neural inductive logic [ICLR19b].</li>
+            </ul>
+        </div>
+
+        <div id="main-pub-container">
+            <h4 class="subtitle">Publications (by date)</h4>
+            <p class="subtitle-aux">(* indicates equal contribution)</p>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/ngsi.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Neurally-Guided Structure Inference</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Sidi Lu*, <u>Jiayuan Mao</u>*, Joshua B. Tenenbaum, Jiajun Wu</h6>
+                            <p class="card-text">
+                            <span class="conference">ICML 2019</span>
+                            <br />
+                            <!--a href="#">[ArXiv]</a-->
+                            Paper and code will be released soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/uvse.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Unified Visual-Semantic Embeddings:<br />Bridging Vision and Language with Structured Meaning Representations</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Hao Wu*, <u>Jiayuan Mao</u>*, Yufeng Zhang, Weiwei Sun, Yuning Jiang, Lei Li, Wei-Ying Ma</h6>
+                            <p class="card-text">
+                            <span class="conference">CVPR 2019</span>
+                            <span class="highlight">(Oral)</span>
+                            <a href="https://arxiv.org/abs/1904.05521">[ArXiv]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/nscl.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">The Neuro-Symbolic Concept Learner:<br />Interpreting Scenes, Words, and Sentences From Natural Supervision</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><u>Jiayuan Mao</u>, Chuang Gan, Pushmeet Kohli, Joshua B. Tenenbaum, Jiajun Wu</h6>
+                            <p class="card-text">
+                            <span class="conference">ICLR 2019</span>
+                            <span class="highlight">(Oral)</span>
+                            <a href="https://openreview.net/forum?id=rJgMlhRctm">[OpenReview]</a>
+                            <a href="http://nscl.csail.mit.edu">[Project Page]</a>
+                            <a href="http://news.mit.edu/2019/teaching-machines-to-reason-about-what-they-see-0402">[MIT News]</a>
+                            <a href="https://www.technologyreview.com/s/613270/two-rival-ai-approaches-combine-to-let-machines-learn-about-the-world-like-a-child/">[Technology Review]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/nlm.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Neural Logic Machines</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Honghua Dong*, <u>Jiayuan Mao</u>*, Tian Lin, Chong Wang, Lihong Li, Denny Zhou</h6>
+                            <p class="card-text">
+                            <span class="conference">ICLR 2019</span>
+                            <a href="https://arxiv.org/abs/1904.11694">[ArXiv]</a>
+                            <a href="https://openreview.net/forum?id=B1xY-hRctX">[OpenReview]</a>
+                            <a href="https://sites.google.com/view/neural-logic-machines">[Project Page]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/iounet.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Acquisition of Localization Confidence for Accurate Object Detection</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Borui Jiang*, Ruixuan Luo*, <u>Jiayuan Mao</u>*, Tete Xiao, Yuning Jiang</h6>
+                            <p class="card-text">
+                            <span class="conference">ECCV 2018</span>
+                            <span class="highlight">(Oral)</span>
+                            <a href="https://arxiv.org/abs/1807.11590">[ArXiv]</a>
+                            <a href="https://github.com/vacancy/PreciseRoIPooling">[Code]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/vsec.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Learning Visually-Grounded Sementics from Contrastive Adversarial Samples</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Haoyue Shi*, <u>Jiayuan Mao</u>*, Tete Xiao*, Yuning Jiang, Jian Sun</h6>
+                            <p class="card-text">
+                            <span class="conference">COLING 2018</span>
+                            <a href="https://arxiv.org/abs/1806.10348">[ArXiv]</a>
+                            <a href="https://github.com/ExplorerFreda/VSE-C">[Code]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/ua.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Universal Agent for Disentangling Environments and Tasks</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><u>Jiayuan Mao</u>, Honghua Dong, Joseph J. Lim</h6>
+                            <p class="card-text">
+                            <span class="conference">ICLR 2018</span>
+                            <a href="https://openreview.net/forum?id=B1mvVm-C-">[OpenReview]</a>
+                            <a href="http://jiayuanm.com/projects/universal-agent">[Project Page]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <img src="data/projects/wchpd.png" width="100%" />
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">What Can Help Pedestrian Detection?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><u>Jiayuan Mao</u>*, Tete Xiao*, Yuning Jiang, Zhimin Cao</h6>
+                            <p class="card-text">
+                            <span class="conference">CVPR 2017</span>
+                            <a href="https://arxiv.org/abs/1705.02757">[ArXiv]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; 2015-2019</p>
+        <!--p style="font-size:12px">Background photo: Rainbow Bridge (レインボーブリッジ) @ Tokyo, Japan, 2016</p-->
+        <div id="footer-cr">
+            <p>Background photo: Bondi Beach @ Sydney, Australia, 2017.</p>
+            <p>Avatar photo: MIT @ Cambridge, USA, 2018.</p>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/js/jquery.color.min.js"></script>
+<script type="text/javascript" src="static/js/wave.js"></script>
+<script type="text/javascript">
+$(function() {
+    getRealSize = function(bgImg) {
+        var img = new Image();
+        img.src = bgImg.attr("src");
+        var width = img.width,
+            height = img.height;
+        return {
+            width: width,
+            height: height
+        }
+    };
+    getRealWindowSize = function() {
+        var winWidth = null,
+            winHeight = null;
+        if (window.innerWidth) winWidth = window.innerWidth;
+        else if ((document.body) && (document.body.clientWidth)) winWidth = document.body.clientWidth;
+        if (window.innerHeight) winHeight = window.innerHeight;
+        else if ((document.body) && (document.body.clientHeight)) winHeight = document.body.clientHeight;
+        if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
+            winHeight = document.documentElement.clientHeight;
+            winWidth = document.documentElement.clientWidth
+        }
+        return {
+            width: winWidth,
+            height: winHeight
+        }
+    };
+    fullBg = function() {
+        var bgImg = $("#background");
+        var mainContainer = $("#main");
+        var firstFire = null;
+
+        function resizeImg() {
+            var realSize = getRealSize(bgImg);
+            var imgWidth = realSize.width;
+            var imgHeight = realSize.height;
+
+            if (imgWidth == 0 || imgHeight == 0) {
+                setTimeout(function() {
+                    resizeImg();
+                }, 200);
+            }
+
+            console.log(realSize);
+            var realWinSize = getRealWindowSize();
+            var winWidth = realWinSize.width;
+            var winHeight = realWinSize.height;
+            var widthRatio = winWidth / imgWidth;
+            var heightRatio = winHeight / imgHeight;
+            console.log(realWinSize);
+            if (widthRatio > heightRatio) {
+                bgImg.width(imgWidth * widthRatio + 'px').height(imgHeight * widthRatio + 'px').css({'top':
+                    -(imgHeight * widthRatio - winHeight) / 2 + 'px', 'left': '0'})
+            } else {
+                bgImg.width(imgWidth * heightRatio + 'px').height(imgHeight * heightRatio + 'px').css({'left':
+                    -(imgWidth * heightRatio - winWidth) / 10 * 7 + 'px', 'top': '0'})
+            }
+            // mainContainer.css({
+            //     width: winWidth,
+            //     height: winHeight
+            // });
+        }
+
+        resizeImg();
+        window.onresize = function() {
+            if (firstFire === null) {
+                firstFire = setTimeout(function() {
+                    resizeImg();
+                    firstFire = null
+                }, 100)
+            }
+        }
+    };
+
+    targetColor = $("#name").css("color")
+    animatedLink = function(speed) {
+        $(".link-li").hover(function() {
+            $(this).find('.icon').animate({
+                color: targetColor,
+                borderColor: targetColor
+            }, speed);
+            $(this).find('.caption').animate({
+                color: '#798350'
+            })
+        }, function() {
+            $(this).find('.icon').animate({
+                borderColor: '#cccccc',
+                color: '#cccccc'
+            }, speed);
+            $(this).find('.caption').animate({
+                color: '#cccccc'
+            })
+        })
+    };
+    fullBg();
+    animatedLink(400)
+});
+</script>
+</body>
+</html>
+
