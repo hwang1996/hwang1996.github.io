@@ -106,7 +106,7 @@ author_profile: true
     FoodAI: Food Image Recognition via Deep Learning for Smart Food Logging <a href="https://arxiv.org/abs/1909.11946">[Paper]</a>
     <br/> 
     Doyen Sahoo, <strong><font color="blue">Hao Wang</font></strong>, Shu Ke, Xiongwei Wu, Hung Le, Palakorn Achananuparp, Ee-Peng Lim, Steven Hoi.
-    <br/><i>ACM SIGKDD International Conference on Knowledge Discovery & Data Mining</i>
+    <br/><i> ACM SIGKDD conference, 2019</i>
     <strong>(KDD-2019)</strong> <br>
 </li>
 <li>
