@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: publications/
 
   - title: "Experience"
-    url: /experiences/
+    url: experiences/
     
   # - title: "Award"
   #   url: /awards/
@@ -22,7 +22,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: cv/
     
   # - title: "Guide"
   #   url: /markdown/
