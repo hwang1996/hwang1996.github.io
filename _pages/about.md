@@ -12,6 +12,8 @@ I am currently a final year Ph.D. candidate at School of Computer Science and En
 
 My primary research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Particularly, my work involves investigating various deep learning approaches on visual-to-text generation, controllable visual content generation and cross-modal retrieval.
 
+Here is my [CV](https://github.com/hwang1996/hwang1996.github.io/tree/master/files/wanghao_resume.pdf).
+
 
 <p style="color:red;"> I will join the AI Thrust at The Hong Kong University of Science and Technology (Guangzhou) as a tenure-track Assistant Professor. 
 I am looking for self-motivated PhD students, RAs and interns starting from Fall 2023. Please feel free to drop me an email if you are interested.
