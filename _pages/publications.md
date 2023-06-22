@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Preprints (* denotes equal contributions)
+## Preprints
 
 <ul>
 <li>
@@ -21,7 +21,7 @@ author_profile: true
 <li>
   StarNet: Style-Aware 3D Point Cloud Generation <a href="https://arxiv.org/abs/2303.15805">[Paper]</a> 
   <br/> 
-  Yunfan Zhang<sup>*</sup>, <strong><font color="blue">Hao Wang<sup>*</sup></font></strong>, Guosheng Lin, Vun Chan Hua Nicholas, Zhiqi Shen, Chunyan Miao.
+  Yunfan Zhang<sup>*</sup>, <strong><font color="blue">Hao Wang*</font></strong>, Guosheng Lin, Vun Chan Hua Nicholas, Zhiqi Shen, Chunyan Miao. (* denotes equal contributions)
 </li>
 <li>
   Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
@@ -30,13 +30,13 @@ author_profile: true
 </li>
 </ul>
 
-## Conference/Journal Papers (* indicates equal contributions)
+## Conference/Journal Papers
 
 <ul>
 <li>
     TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision <a href="https://arxiv.org/abs/2303.13273">[Paper]</a> <a href="https://github.com/plusmultiply/taps3d">[Code]</a>
     <br/>
-    Jiacheng Wei<sup>*</sup>, <strong><font color="blue">Hao Wang<sup>*</sup></font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap. (<sup>*</sup> denotes equal contributions)
+    Jiacheng Wei<sup>*</sup>, <strong><font color="blue">Hao Wang*</font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap. (* denotes equal contributions)
     <br/>
     <i>IEEE Conference on Computer Vision and Pattern Recognition </i> <strong>(CVPR-2023)</strong><br>
 </li>
