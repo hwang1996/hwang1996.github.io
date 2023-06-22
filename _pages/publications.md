@@ -5,9 +5,7 @@ permalink: publications/
 author_profile: true
 ---
 
-Preprints
-=====
-
+## Preprints
 
 <ul>
 <li>
@@ -32,8 +30,7 @@ Preprints
 </li>
 </ul>
 
-Conference/Journal Papers
-=====
+## Conference/Journal Papers
 
 <ul>
 <li>
