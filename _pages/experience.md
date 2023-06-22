@@ -11,6 +11,7 @@ author_profile: true
 * Ph.D. in Nanyang Technological University, 2023 (expected)
 * B.E. in Huazhong University of Science and Technology, 2018
 
+
 ## Work experience
 * Intern at TikTok Singapore, Feb 2022 - Jan 2023
   * Research topics: text-guided face editing and 3D object generation.
@@ -23,3 +24,7 @@ author_profile: true
 
 * Intern at Institute of Automation, Chinese Academy of Sciences, Jul 2017 - Sept 2017
   * Research topics: neural network-based data cleansing methods.
+
+
+## Service
+* Reviewer: CVPR, ECCV, ACM MM, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
