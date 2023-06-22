@@ -25,7 +25,7 @@ I am looking for self-motivated PhD students, RAs and interns starting from Fall
 News
 ======
 
-* [Feb 2023] One paper is accepted to CVPR23.
+* [Feb 2023] One paper is accepted to CVPR 2023.
 * [Jun 2022] One paper is accepted to TIP.
 * [Jun 2022] One paper is accepted to ACM MM 2022.
 * [May 2022] One paper is accepted to TPAMI.
