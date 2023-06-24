@@ -11,14 +11,14 @@ Thank you for your interest in my group. As an incoming HKUST-GZ faculty member,
 **There are openings for multiple fully-funded PhD, RA, and intern positions starting in Fall 2023.** Please read the following information before contacting me. I will carefully review each application, but only shortlisted applicants will receive a reply.
 
 The research topics include, but are not limited to:
-- <font color="blue">Conditional visual content generation:</font> dynamic 3D scene generation, 3D object generation, 3D layout generation, fine-grained image editing.
-- <font color="blue">Visual-to-text generation:</font> 3D captioning, food recipe generation, medical report generation.
-- <font color="blue">Cross-modal retrieval:</font> 3D retrieval, food retrieval.
+- <font color="blue">**Conditional visual content generation:**</font> dynamic 3D scene generation, 3D object generation, 3D layout generation, fine-grained image editing.
+- <font color="blue">**Visual-to-text generation:**</font> 3D captioning, food recipe generation, medical report generation.
+- <font color="blue">**Cross-modal retrieval:**</font> 3D retrieval, food retrieval.
 
 ## What can I offer you?
-- <font color="blue">Research guidance:</font> I will do my best to provide support for literature review, code debugging, paper writing, career development, and more.
-- <font color="blue">Research environment:</font> Innovative research ideas, sufficient computational resources, competitive salary, and a brand-new campus.
-- <font color="blue">Research connection:</font> I am willing to encourage you to visit/intern at other academic institutions or tech companies, such as ByteDance, Tencent, etc.
+- <font color="blue">**Research guidance:**</font> I will do my best to provide support for literature review, code debugging, paper writing, career development, and more.
+- <font color="blue">**Research environment:**</font> Innovative research ideas, sufficient computational resources, competitive salary, and a brand-new campus.
+- <font color="blue">**Research connection:**</font> I am willing to encourage you to visit/intern at other academic institutions or tech companies, such as ByteDance, Tencent, etc.
 
 ## What do I expect from you?
 
