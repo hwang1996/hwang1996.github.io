@@ -15,7 +15,7 @@ The research topics include, but are not limited to:
 - **Visual-to-text generation:** 3D captioning, food recipe generation, medical report generation.
 - **Cross-modal retrieval:** 3D retrieval, food retrieval.
 
-## What can I offer you?
+## <font color=RoyalBlue>What can I offer you?</font>
 - **Research guidance:** I will do my best to provide support for literature review, code debugging, paper writing, career development, and more.
 - **Research environment:** Innovative research ideas, sufficient computational resources, competitive salary, and a brand-new campus.
 - **Research connection:** I am willing to encourage you to visit/intern at other academic institutions or tech companies, such as ByteDance, Tencent, etc.
