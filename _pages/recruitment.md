@@ -13,7 +13,7 @@ Thank you for your interest in my group. As an incoming [HKUST-GZ](https://hkust
 The research topics include, but are not limited to:
 - **Conditional visual content generation:** dynamic 3D scene generation, 3D object generation, 3D layout generation, fine-grained image editing.
 - **Visual-to-text generation:** 3D captioning, food recipe generation, medical report generation.
-- **Cross-modal retrieval:** 3D retrieval, food retrieval.
+- **Cross-modal retrieval:** 3D retrieval, cross-modal food retrieval.
 
 ## <font color=RoyalBlue>What can I offer you?</font>
 - **Research guidance:** I will do my best to provide support for literature review, code debugging, paper writing, career development, and more.
