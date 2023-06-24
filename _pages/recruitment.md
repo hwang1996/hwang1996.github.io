@@ -37,7 +37,7 @@ You should have demonstrated excellence in at least one of the following aspects
 - Relevant working or research experiences.
 - Good GPA ranking in your school.
 
-Interested candidates may send me your CV and transcripts via email. Admitted Ph.D. students will receive a scholarship of ¥15k/month.
+Interested candidates may send me your **CV, transcripts, and publications (if any)** via email. Admitted Ph.D. students will receive a scholarship of ¥15k/month.
 
 
 ### Research Assistant (RA) / Interns
@@ -49,4 +49,4 @@ You should meet the following requirements:
 - For RAs, you will join us in full-time employment.
 - For interns, you should be a current student in another university.
 
-Interested candidates may send me your **CV and transcripts** via email. Please also state your intended duration when you contact me. The salary would be competitive.
+Interested candidates may send me your **CV, transcripts, and publications (if any)** via email. Please also state your intended duration when you contact me. The salary would be competitive.
