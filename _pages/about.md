@@ -15,9 +15,9 @@ My primary research interests lie in the development of AI-powered perception an
 Here is my [CV](files/wanghao_resume.pdf).
 
 
-<p style="color:red;"> I will join the AI Thrust at The Hong Kong University of Science and Technology (Guangzhou) as a tenure-track Assistant Professor. 
-I am looking for self-motivated PhD students, RAs and interns starting from Fall 2023. Please check the recruitment page.
-</p>
+I will join the AI Thrust at The Hong Kong University of Science and Technology (Guangzhou) as a tenure-track Assistant Professor. 
+<p style="color:red;"> I am looking for self-motivated PhD students, RAs and interns starting from Fall 2023.</p> Please check my [recruitment page](https://wanghao.tech/recruitment/).
+
 
 <br />
 
