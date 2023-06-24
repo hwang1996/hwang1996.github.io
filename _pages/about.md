@@ -16,7 +16,7 @@ Here is my [CV](files/wanghao_resume.pdf).
 
 
 <p style="color:red;"> I will join the AI Thrust at The Hong Kong University of Science and Technology (Guangzhou) as a tenure-track Assistant Professor. 
-I am looking for self-motivated PhD students, RAs and interns starting from Fall 2023. Please feel free to drop me an email if you are interested.
+I am looking for self-motivated PhD students, RAs and interns starting from Fall 2023. Please check the [recruitment page](https://wanghao.tech/recruitment/).
 </p>
 
 <br />
