@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-Thank you for your interest in my group. As an incoming HKUST-GZ faculty member, I am currently building a new team. 
+Thank you for your interest in my group. As an incoming [HKUST-GZ](https://wanghao.tech/recruitment/) faculty member, I am currently building a new team. 
 
 **There are openings for multiple fully-funded PhD, RA, and intern positions starting in Fall 2023.** Please read the following information before contacting me. I will carefully review each application, but only shortlisted applicants will receive a reply.
 
