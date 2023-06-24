@@ -20,14 +20,14 @@ The research topics include, but are not limited to:
 - **Research environment:** Innovative research ideas, sufficient computational resources, competitive salary, and a brand-new campus.
 - **Research connection:** I am willing to encourage you to visit/intern at other academic institutions or tech companies, such as ByteDance, Tencent, etc.
 
-## What do I expect from you?
+## <font color=RoyalBlue>What do I expect from you?</font>
 
-### General Requirements:
+### <font color=RoyalBlue>General Requirements:</font>
 - Strong self-motivation: You should be keen to learn and explore AI. Please do not apply if you are only seeking a degree and not interested in research.
 - Strong hands-on ability and mathematical skills.
 
 
-### Ph.D. Students
+### <font color=RoyalBlue>Ph.D. Students</font>
 Please refer to the University's basic requirements found [here](https://hkust-gz.edu.cn/admissions/). The application deadline is **July 15, 2023**.
 
 You should have demonstrated excellence in at least one of the following aspects:
@@ -40,7 +40,7 @@ You should have demonstrated excellence in at least one of the following aspects
 Interested candidates may send me your **CV, transcripts, and publications (if any)** via email. Admitted Ph.D. students will receive a scholarship of ¥15k/month.
 
 
-### Research Assistant (RA) / Interns
+### <font color=RoyalBlue>Research Assistant (RA) / Interns</font>
 
 You should meet the following requirements:
 
