@@ -8,7 +8,7 @@ author_profile: true
 
 Thank you for your interest in my group. As an incoming [HKUST-GZ](https://hkust-gz.edu.cn/) faculty member, I am currently building a new team. 
 
-**There are openings for multiple fully-funded PhD, RA, and intern positions starting in Fall 2023.** Please read the following information before contacting me. I will carefully review each application, but only shortlisted applicants will receive a reply.
+**There are openings for multiple fully-funded PhD, RA, and intern positions.** Please read the following information before contacting me. I will carefully review each application, but only shortlisted applicants will receive a reply.
 
 The research topics include, but are not limited to:
 - **Conditional visual content generation:** dynamic 3D scene generation, 3D object generation, 3D layout generation, fine-grained image editing.

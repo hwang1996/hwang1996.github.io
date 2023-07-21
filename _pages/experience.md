@@ -8,7 +8,7 @@ author_profile: true
 
 ## Education
 
-* Ph.D. in Nanyang Technological University, 2023 (expected)
+* Ph.D. in Nanyang Technological University, 2023
 * B.E. in Huazhong University of Science and Technology, 2018
 
 
