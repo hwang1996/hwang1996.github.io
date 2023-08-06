@@ -12,8 +12,6 @@ I received my Ph.D. at School of Computer Science and Engineering, Nanyang Techn
 
 My primary research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Particularly, my work involves investigating various deep learning approaches on visual-to-text generation, controllable visual content generation, and cross-modal retrieval.
 
-Here is my [CV](files/wanghao_resume.pdf).
-
 
 I will join the AI Thrust at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/) as a tenure-track Assistant Professor. <font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font> Please check my [recruitment page](https://wanghao.tech/recruitment/).
 
