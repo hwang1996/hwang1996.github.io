@@ -12,7 +12,7 @@ I am a tenure-track Assistant Professor of the AI Thrust at [The Hong Kong Unive
 
 My primary research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Particularly, my work involves investigating various deep learning approaches on controllable visual content generation, visual-to-text generation, and cross-modal retrieval.
 
-<font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font> Please check my [recruitment page](https://wanghao.tech/recruitment/).
+<font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns. Please check my [recruitment page](https://wanghao.tech/recruitment/).</font>
 
 
 <br />
