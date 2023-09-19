@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "WANG Hao"
 title_separator          : "-"
 name                     : &name "WANG Hao"
-description              : &description "PhD, Nanyang Technological University"
+description              : &description "Assistant Professor, HKUST (GZ)"
 url                      : https://wanghao.tech/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/hwang1996/hwang1996.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "WANG Hao"
   avatar           : "me.jpg"
-  bio              : "PhD, Nanyang Technological University"
-  location         : "Singapore"
+  bio              : "Assistant Professor, HKUST (GZ)"
+  location         : "Guangzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com.sg/citations?user=856zi9EAAAAJ"
-  email            : "hao005@e.ntu.edu.sg"
+  email            : "haowang@hkust-gz.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
