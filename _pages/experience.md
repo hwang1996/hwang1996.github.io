@@ -13,6 +13,9 @@ author_profile: true
 
 
 ## Work Experience
+* Assistant Professor at The Hong Kong University of Science and Technology (Guangzhou), Sep. 2023 - Present
+
+
 * Intern at TikTok Singapore, Feb 2022 - Jan 2023
   * Research topics: text-guided face editing and 3D object generation.
 
