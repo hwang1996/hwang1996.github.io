@@ -9,9 +9,9 @@ author_profile: true
 **There are openings for multiple fully-funded PhD, RA, and intern positions.** Please read the following information before contacting me. I will carefully review each application, but only shortlisted applicants will receive a reply.
 
 The research topics include, but are not limited to:
-- **Conditional visual content generation:** dynamic 3D scene generation, 3D object generation, 3D layout generation, fine-grained image editing.
-- **Visual-to-text generation:** 3D captioning, food recipe generation, medical report generation.
-- **Cross-modal retrieval:** 3D retrieval, cross-modal food retrieval.
+- **3D:** 3D object reconstruction, 3D object generation, 3D dynamics reconstruction, 3D scene reconstruction, etc.
+- **LLM:** LLM agents, LLM safety, accelerated inference of LLM, multimodal LLM, etc.
+
 
 ## <font color=RoyalBlue>What can I offer you?</font>
 - **Research guidance:** I will do my best to provide support for literature review, code debugging, paper writing, career development, and more.
