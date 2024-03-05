@@ -9,6 +9,11 @@ author_profile: true
 
 <ul>
 <li>
+  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> 
+  <br/> 
+  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang</font></strong>.
+</li>
+<li>
   ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://arxiv.org/abs/2210.00445">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
   <br/> 
   <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
