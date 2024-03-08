@@ -9,7 +9,7 @@ author_profile: true
 
 <ul>
 <li>
-  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> 
+  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> <a href="https://github.com/3DAgentWorld/LLM-Game-Agent">[Code]</a>
   <br/> 
   Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang</font></strong>.
 </li>
