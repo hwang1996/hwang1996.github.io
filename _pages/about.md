@@ -33,7 +33,12 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/).
 
 Publications
 ======
-<ul>
+
+- Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
+  - Hanyu Shi, Jiacheng Wei, <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
+  - International Journal of Computer Vision  <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]
+
+<!-- <ul>
 <li>
   Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
   <br/> 
@@ -131,4 +136,4 @@ Publications
     <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
     <strong>(CVPR-2019)</strong> <br>
 </li>
-</ul>
+</ul> -->
