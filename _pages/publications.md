@@ -23,16 +23,18 @@ author_profile: true
   <br/> 
   Yunfan Zhang*, <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin, Vun Chan Hua Nicholas, Zhiqi Shen, Chunyan Miao. (* denotes equal contributions)
 </li>
-<li>
-  Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
-  <br/> 
-  Hanyu Shi, Jiacheng Wei, <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
-</li>
 </ul>
 
 ## Conference/Journal Papers
 
 <ul>
+<li>
+  Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
+  <br/> 
+  Hanyu Shi, Jiacheng Wei, <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
+  <br/><i>International Journal of Computer Vision</i>
+    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+</li>
 <li>
   ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
   <br/> 
