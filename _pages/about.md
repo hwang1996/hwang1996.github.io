@@ -53,7 +53,7 @@ Publications
     <br/>
     Hao Wu, Ruochong LI, <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong. (* denotes corresponding author)
     <br/>
-    <i>IEEE Conference on Multimedia Expo (ICME) </i> <strong>(ICME-2024 Oral)</strong><br>
+    <i>IEEE Conference on Multimedia Expo </i> <strong>(ICME-2024 Oral)</strong><br>
 </li>
 <li>
     TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision <a href="https://arxiv.org/abs/2303.13273">[Paper]</a> <a href="https://github.com/plusmultiply/taps3d">[Code]</a>
