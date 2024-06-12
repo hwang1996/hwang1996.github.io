@@ -43,6 +43,13 @@ author_profile: true
     <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
 </li>
 <li>
+    COM3D: Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval <a href="https://arxiv.org/abs/2405.04103">[Paper]</a>
+    <br/>
+    Hao Wu, Ruochong LI, <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong. (* denotes corresponding author)
+    <br/>
+    <i>IEEE Conference on Multimedia Expo </i> <strong>(ICME-2024 Oral)</strong><br>
+</li>
+<li>
     TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision <a href="https://arxiv.org/abs/2303.13273">[Paper]</a> <a href="https://github.com/plusmultiply/taps3d">[Code]</a>
     <br/>
     Jiacheng Wei*, <strong><font color="black">Hao Wang*</font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap. (* denotes equal contributions)
