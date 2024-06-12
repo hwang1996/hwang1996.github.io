@@ -14,11 +14,6 @@ author_profile: true
   Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang</font></strong>.
 </li>
 <li>
-  ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://arxiv.org/abs/2210.00445">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
-  <br/> 
-  <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
-</li>
-<li>
   3D Cartoon Face Generation with Controllable Expressions from a Single GAN Image <a href="https://arxiv.org/abs/2207.14425">[Paper]</a> <a href="https://github.com/hwang1996/3D-Cartoon-Face-Generation">[Code]</a>
   <br/> 
   <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
@@ -38,6 +33,13 @@ author_profile: true
 ## Conference/Journal Papers
 
 <ul>
+<li>
+  ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
+  <br/> 
+  <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
+  <br/><i>International Journal of Computer Vision</i>
+    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+</li>
 <li>
     TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision <a href="https://arxiv.org/abs/2303.13273">[Paper]</a> <a href="https://github.com/plusmultiply/taps3d">[Code]</a>
     <br/>
