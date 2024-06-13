@@ -31,20 +31,20 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/).
 
 
 
-Publications
+Selected Publications
 ======
 <ul>
-<li>
-  Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
-  <br/> 
-  Hanyu Shi, Jiacheng Wei, <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
-  <br/><i>International Journal of Computer Vision</i>
-    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
-</li>
 <li>
   ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
   <br/> 
   <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
+  <br/><i>International Journal of Computer Vision</i>
+    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+</li>
+<li>
+  Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
+  <br/> 
+  Hanyu Shi, Jiacheng Wei, <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
   <br/><i>International Journal of Computer Vision</i>
     <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
 </li>
@@ -61,12 +61,6 @@ Publications
     Jiacheng Wei*, <strong><font color="black">Hao Wang*</font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap. (* denotes equal contributions)
     <br/>
     <i>IEEE Conference on Computer Vision and Pattern Recognition </i> <strong>(CVPR-2023)</strong><br>
-</li>
-<li>
-    Smart Decision-Support System for Pig Farming <a href="https://www.mdpi.com/2504-446X/6/12/389">[Paper]</a> <a href="https://github.com/hwang1996/Pig-Image-Data">[Data]</a>
-    <br/>
-    <strong><font color="black">Hao Wang</font></strong>, Boyang Li, Haoming Zhong, Ahong Xu, Yingjie Huang, Jingfu Zou, Yuanyuan Chen, Pengcheng Wu, Yiqiang Chen, Cyril Leung, Chunyan Miao.
-    <br/><i>Drones</i> <strong>(2022)</strong> [<alert>IF:5.532</alert>]<br>
 </li>
 <li>
     Cross-Modal Graph with Meta Concepts for Video Captioning <a href="https://arxiv.org/abs/2108.06458">[Paper]</a> <a href="https://github.com/hwang1996/Meta-Concepts-for-Video-Captioning">[Code]</a>
@@ -90,25 +84,11 @@ Publications
     <strong>(TPAMI-2022)</strong> [<alert>IF:24.314</alert>]<br>
 </li>
 <li>
-    Decomposing Generation Networks with Structure Prediction for Recipe Generation <a href="https://arxiv.org/abs/2007.13374">[Paper]</a>
-    <br/>
-    <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>Pattern Recognition</i>
-    <strong>(PR-2022)</strong> [<alert>IF:8.518</alert>]<br>
-</li>
-<li>
     Cycle-Consistent Inverse GAN for Text-to-Image Synthesis <a href="https://arxiv.org/abs/2108.01361">[Paper]</a>
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
     <br/><i>ACM International Conference on Multimedia</i>
     <strong>(ACM MM-2021)</strong><br>
-</li>
-<li>
-    Cross-Modal Food Retrieval: Learning a Joint Embedding of Food Images and Recipes with Semantic Consistency and Attention Mechanism <a href="https://arxiv.org/abs/2003.03955">[Paper]</a>
-    <br/>
-    <strong><font color="black">Hao Wang</font></strong>, Doyen Sahoo, Chenghao Liu, Ke Shu, Palakorn Achananuparp, Ee-peng Lim, Steven C. H. Hoi.
-    <br/><i>IEEE Transactions on Multimedia</i>
-    <strong>(TMM-2021)</strong> [<alert>IF:8.182</alert>]<br>
 </li>
 <li>
     Structure-Aware Generation Network for Recipe Generation from Images <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5757_ECCV_2020_paper.php">[Paper]</a> <a href="https://github.com/hwang1996/SGN">[Code]</a>
