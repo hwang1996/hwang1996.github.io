@@ -34,13 +34,31 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/).
 Selected Publications
 ======
 <ul>
+
 <li>
-  ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
+  GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes <a href="https://arxiv.org/pdf/2411.01853">[Paper]</a>
   <br/> 
-  <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
-  <br/><i>International Journal of Computer Vision</i>
-    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+  Gaochao Song, Cheng Chong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>Conference on Neural Information Processing Systems</i>
+    <strong>(NeurIPS 2024)</strong> <br>
 </li>
+
+<li>
+  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> <a href="https://github.com/3DAgentWorld/LLM-Game-Agent">[Code]</a>
+  <br/> 
+  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. * denotes corresponding author)
+  <br/><i>The 2024 Conference on Empirical Methods in Natural Language Processing</i>
+    <strong>(EMNLP 2024 Main)</strong> <br>
+</li>
+
+<li>
+  HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3681641">[Paper]</a>
+  <br/> 
+  Wenhao Shen, Wanqi Yin, <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin. (* denotes corresponding author)
+  <br/><i>ACM International Conference on Multimedia</i>
+    <strong>(ACM MM-2024)</strong><br>
+</li>
+
 <li>
   Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
   <br/> 
@@ -48,6 +66,15 @@ Selected Publications
   <br/><i>International Journal of Computer Vision</i>
     <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
 </li>
+
+<li>
+  ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
+  <br/> 
+  <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
+  <br/><i>International Journal of Computer Vision</i>
+    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+</li>
+
 <li>
     COM3D: Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval <a href="https://arxiv.org/abs/2405.04103">[Paper]</a>
     <br/>
