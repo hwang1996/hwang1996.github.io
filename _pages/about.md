@@ -46,7 +46,7 @@ Selected Publications
 <li>
   LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> <a href="https://github.com/3DAgentWorld/LLM-Game-Agent">[Code]</a>
   <br/> 
-  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. * denotes corresponding author)
+  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
   <br/><i>The 2024 Conference on Empirical Methods in Natural Language Processing</i>
     <strong>(EMNLP 2024 Main)</strong> <br>
 </li>
@@ -54,7 +54,7 @@ Selected Publications
 <li>
   HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3681641">[Paper]</a>
   <br/> 
-  Wenhao Shen, Wanqi Yin, <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin. (* denotes corresponding author)
+  Wenhao Shen, Wanqi Yin, <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin*. (* denotes corresponding author)
   <br/><i>ACM International Conference on Multimedia</i>
     <strong>(ACM MM-2024)</strong><br>
 </li>
