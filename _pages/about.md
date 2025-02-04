@@ -36,6 +36,31 @@ Selected Publications
 <ul>
 
 <li>
+  RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes 
+  <br/> 
+  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Robotics and Automation</i>
+    <strong>(ICRA 2025)</strong> <br>
+</li>
+
+<li>
+  SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation 
+  <br/> 
+  Junlong Ren, Hao Wu, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Robotics and Automation</i>
+    <strong>(ICRA 2025)</strong> <br>
+</li>
+
+<li>
+  Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting <a href="https://openreview.net/forum?id=56vHbnk35S">[Paper]</a>
+  <br/> 
+  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Learning Representations</i>
+    <strong>(ICLR 2025)</strong> <br>
+</li>
+
+
+<li>
   GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes <a href="https://arxiv.org/pdf/2411.01853">[Paper]</a>
   <br/> 
   Gaochao Song, Cheng Chong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)

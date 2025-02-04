@@ -24,6 +24,55 @@ author_profile: true
 ## Conference/Journal Papers
 
 <ul>
+
+<li>
+  RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes 
+  <br/> 
+  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Robotics and Automation</i>
+    <strong>(ICRA 2025)</strong> <br>
+</li>
+
+<li>
+  SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation 
+  <br/> 
+  Junlong Ren, Hao Wu, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Robotics and Automation</i>
+    <strong>(ICRA 2025)</strong> <br>
+</li>
+
+<li>
+  Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting <a href="https://openreview.net/forum?id=56vHbnk35S">[Paper]</a>
+  <br/> 
+  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Learning Representations</i>
+    <strong>(ICLR 2025)</strong> <br>
+</li>
+
+<li>
+  DVM: Towards Controllable LLM Agents in Social Deduction Games <a href="https://arxiv.org/pdf/2501.06695">[Paper]</a>
+  <br/> 
+  Zheng Zhang, Yihuai Lan, Yangsen Chen, Lei Wang, Xiang Wang, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Acoustics, Speech, and Signal Processing</i>
+    <strong>(ICASSP 2025)</strong> <br>
+</li>
+
+<li>
+  Diversified Augmentation with Domain Adaption for Debiased Video Temporal Grounding <a href="https://arxiv.org/pdf/2501.06746">[Paper]</a>
+  <br/> 
+  Junlong Ren, Gangjian Zhang, Haifeng Sun, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Acoustics, Speech, and Signal Processing</i>
+    <strong>(ICASSP 2025)</strong> <br>
+</li>
+
+<li>
+  BrainVis: Exploring the Bridge between Brain and Visual Signals via Image Reconstruction <a href="https://arxiv.org/pdf/2312.14871">[Paper]</a>
+  <br/> 
+  Honghao Fu, <strong><font color="black">Hao Wang*</font></strong>, Jing Jih Chin, Zhiqi Shen. (* denotes corresponding author)
+  <br/><i>International Conference on Acoustics, Speech, and Signal Processing</i>
+    <strong>(ICASSP 2025)</strong> <br>
+</li>
+
 <li>
   GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes <a href="https://arxiv.org/pdf/2411.01853">[Paper]</a>
   <br/> 
