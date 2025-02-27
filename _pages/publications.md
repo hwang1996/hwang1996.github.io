@@ -29,7 +29,7 @@ author_profile: true
   MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction 
   <br/> 
   Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
-  <br/><i>IEEE Conference on Computer Vision and Pattern Recognition/i>
+  <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
     <strong>(CVPR 2025)</strong> <br>
 </li>
 
@@ -37,7 +37,7 @@ author_profile: true
   StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements 
   <br/> 
   Mingkun Lei, Xue Song, Beier Zhu, <strong><font color="black">Hao Wang</font></strong>, Chi Zhang. 
-  <br/><i>IEEE Conference on Computer Vision and Pattern Recognition/i>
+  <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
     <strong>(CVPR 2025)</strong> <br>
 </li>
 
