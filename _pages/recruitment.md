@@ -26,7 +26,7 @@ The research topics include, but are not limited to:
 
 
 ### <font color=RoyalBlue>Ph.D. Students</font>
-Please refer to the University's basic requirements found [here](https://hkust-gz.edu.cn/admissions/). The application deadline is **July 15, 2023**.
+Please refer to the University's basic requirements found [here](https://hkust-gz.edu.cn/admissions/).
 
 You should have demonstrated excellence in at least one of the following aspects:
 
