@@ -113,8 +113,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   padding:0.6rem;
   display:flex;
   flex-direction:column;
-  align-items:flex-start;
-  text-align:left;
+  align-items:center;
+  text-align:center;
 }
 .projects-grid .project-card h4 {
   margin:0.5rem 0 0.25rem 0;
@@ -165,10 +165,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 </div>
 
 <!-- （请确保下面的 .projects-grid 和每个 .project-card 已存在且每个 card 带 data-group 属性） -->
-
-
-
-
 
 <!-- projects grid（为每个 card 添加 data-group） -->
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
@@ -233,29 +229,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   </div>
 </div>
 
-<!-- <script>
-(function(){
-  const buttons = document.querySelectorAll('.filter-buttons button');
-  const cards = document.querySelectorAll('.projects-grid .project-card');
-
-  function setFilter(filter){
-    cards.forEach(c=>{
-      c.style.display = (c.dataset.group === filter) ? '' : 'none';
-    });
-  }
-
-  buttons.forEach(btn=>{
-    btn.addEventListener('click', ()=>{
-      buttons.forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      setFilter(btn.dataset.filter);
-    });
-  });
-
-  // 默认显示第一组（如果想默认显示全部，注释下一行）
-  setFilter(document.querySelector('.filter-buttons button.active').dataset.filter);
-})();
-</script> -->
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
