@@ -36,6 +36,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <br />
 
+<!-- Highlighted projects -->
 Highlighted Projects
 ======
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
@@ -45,7 +46,7 @@ Highlighted Projects
       <img src="/images/projects/opengs-slam.png" alt="Project 1" style="width:100%;height:auto;" />
     </a>
     <h4 style="margin:0.5rem 0;">
-      <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">Project Title 1</a>
+      <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">OpenGS-SLAM</a>
     </h4>
     <p style="margin:0;"><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p>
   </div>
@@ -53,7 +54,7 @@ Highlighted Projects
 
 
 <br />
-
+<br />
 
 
 Selected Publications
