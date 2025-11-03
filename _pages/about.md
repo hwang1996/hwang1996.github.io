@@ -40,7 +40,37 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 <!-- Highlighted Projects
 ====== -->
 
+
 ## Highlighted Projects
+
+<!-- 增加一个 style 块，统一调整字体大小和响应式 -->
+<style>
+.projects-grid .project-card { width:300px; border:1px solid #eee; padding:0.5rem; box-sizing:border-box; }
+.projects-grid .project-card h4 { margin:0.5rem 0; font-size:18px; line-height:1.2; }
+.projects-grid .project-card p { margin:0; font-size:14px; color:#555; }
+.projects-grid .project-card img { width:100%; height:auto; display:block; }
+@media (max-width:600px){
+  .projects-grid { flex-direction:column; }
+  .projects-grid .project-card { width:100%; }
+  .projects-grid .project-card h4 { font-size:16px; }
+  .projects-grid .project-card p { font-size:13px; }
+}
+</style>
+
+<div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+  <!-- Project 1 -->
+  <div class="project-card">
+    <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
+      <img src="/images/projects/opengs-slam.png" alt="OpenGS-SLAM" />
+    </a>
+    <h4>
+      <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">OpenGS-SLAM</a>
+    </h4>
+    <p><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p>
+  </div>
+</div>
+
+<!-- ## Highlighted Projects
 
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
   <!-- Project 1 -->
@@ -52,7 +82,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
       <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">OpenGS-SLAM</a>
     </h4>
     <p style="margin:0;"><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p>
-  </div>
+  </div> -->
 
 
 
