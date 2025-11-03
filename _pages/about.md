@@ -157,7 +157,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 </style>
 
 
-<div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+<!-- <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+  
   <div class="project-card">
     <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">
       <img src="/images/projects/vggt4d.png" alt="VGGT4D" />
@@ -187,7 +188,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
   </h4>
   </div>
-
 
 
   <div class="project-card">
@@ -220,7 +220,120 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     </h4>
   </div>
 
+</div> -->
+
+
+<!-- 按钮：按组筛选（水平排列） -->
+<style>
+.filter-buttons { display:flex; gap:0.5rem; margin:0 0 1rem 0; flex-wrap:wrap; }
+.filter-buttons button {
+  padding:0.45rem 0.9rem;
+  border:1px solid #ccc;
+  background:#fff;
+  cursor:pointer;
+  border-radius:4px;
+  font-size:14px;
+}
+.filter-buttons button.active {
+  background:#0366d6;
+  color:#fff;
+  border-color:#0366d6;
+}
+</style>
+
+<div class="filter-buttons">
+  <button data-filter="group1" class="active">3D Scene Reconstruction</button>
+  <button data-filter="group2">3D Human Reconstruction</button>
+  <button data-filter="group3">Embodied Agents</button>
 </div>
+
+<!-- projects grid（为每个 card 添加 data-group） -->
+<div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+  <div class="project-card" data-group="group1">
+    <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">
+      <img src="/images/projects/vggt4d.png" alt="VGGT4D" />
+    </a>
+    <h4>
+      <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">VGGT4D</a>
+    </h4>
+  </div>
+
+  <div class="project-card" data-group="group1">
+    <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
+      <img src="/images/projects/opengs-slam.png" alt="3DGS-SLAM" />
+    </a>
+    <h4>
+      <a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener">3DGS-SLAM</a>
+    </h4>
+  </div>
+
+  <div class="project-card" data-group="group2">
+    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">
+      <video width="100%" height="200px" autoplay loop muted playsinline>
+        <source src="/images/projects/multigo++.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </a>
+    <h4>
+      <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
+    </h4>
+  </div>
+
+  <div class="project-card" data-group="group2">
+    <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">
+      <img src="/images/projects/human_mesh_recovery.png" alt="human_mesh_recovery" />
+    </a>
+    <h4>
+      <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">Human Mesh Recovery</a>
+    </h4>
+  </div>
+
+  <div class="project-card" data-group="group3">
+    <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">
+      <video width="100%" height="200px" autoplay loop muted playsinline>
+        <source src="/images/projects/Pumpkin.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </a>
+    <h4>
+      <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">Minecraft Agents</a>
+    </h4>
+  </div>
+
+  <div class="project-card" data-group="group3">
+    <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">
+      <img src="/images/projects/multimind.png" alt="multimind" />
+    </a>
+    <h4>
+      <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
+    </h4>
+  </div>
+</div>
+
+<script>
+(function(){
+  const buttons = document.querySelectorAll('.filter-buttons button');
+  const cards = document.querySelectorAll('.projects-grid .project-card');
+
+  function setFilter(filter){
+    cards.forEach(c=>{
+      c.style.display = (c.dataset.group === filter) ? '' : 'none';
+    });
+  }
+
+  buttons.forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      buttons.forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      setFilter(btn.dataset.filter);
+    });
+  });
+
+  // 默认显示第一组（如果想默认显示全部，注释下一行）
+  setFilter(document.querySelector('.filter-buttons button.active').dataset.filter);
+})();
+</script>
+
 
 
 <!-- <br />
