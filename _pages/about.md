@@ -131,9 +131,19 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     </video>
   </a>
   <h4>
-    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">MultiGO++</a>
+    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
   </h4>
 </div>
+
+<div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+  <div class="project-card">
+    <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">
+      <img src="/images/projects/human_mesh_recovery.png" alt="human_mesh_recovery" />
+    </a>
+    <h4>
+      <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">Human Mesh Recovery</a>
+    </h4>
+  </div>
 
 </div>
 
