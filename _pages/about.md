@@ -36,7 +36,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <br />
 
-<!-- Highlighted projects -->
 Highlighted Projects
 ======
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
@@ -52,12 +51,6 @@ Highlighted Projects
   </div>
 
 
-
-</div>
-
-<!-- Notes:
-- Put project images in "images/projects/" (create the folder if missing).
-- Replace PROJECT_LINK_X, PAPER_LINK_X and image filenames/titles with real values. -->
 
 <br />
 
