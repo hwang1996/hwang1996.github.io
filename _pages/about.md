@@ -36,67 +36,9 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <!-- <br /> -->
 
-<!-- Highlighted projects -->
-<!-- Highlighted Projects
-====== -->
 
 
 ## Highlighted Projects
-
-
-
-<!-- 统一图片尺寸为固定高度并保持填充（不拉伸），两列布局在桌面端刚好撑满屏幕，文字左对齐 -->
-<!-- <style>
-.projects-grid {
-  display:flex;
-  flex-wrap:wrap;
-  gap:1rem;
-}
-
-/* 两列布局：每个卡片宽度 = (容器宽度 - gap) / 2，保证两张卡片并排刚好撑满 */
-.projects-grid .project-card {
-  width: calc((100% - 1rem) / 2);
-  box-sizing: border-box;
-  border:1px solid #eee;
-  padding:0.6rem;
-  display:flex;
-  flex-direction:column;
-  align-items:center; /* 文字左对齐 */
-  text-align:center;
-}
-
-/* 标题、说明尺寸 */
-.projects-grid .project-card h4 {
-  margin:0.5rem 0 0.25rem 0;
-  font-size:18px;
-  line-height:1.2;
-  word-break:break-word;
-}
-.projects-grid .project-card p {
-  margin:0;
-  font-size:14px;
-  color:#555;
-}
-
-/* 图片和视频统一尺寸并使用 cover 填充，保持不拉伸 */
-.projects-grid .project-card img,
-.projects-grid .project-card video {
-  width:100%;
-  height:260px;         /* 根据需要调整高度 */
-  object-fit:cover;
-  display:block;
-  border-radius:4px;
-}
-
-/* 窄屏（手机）时每卡占满宽度，改为单列 */
-@media (max-width:900px){
-  .projects-grid .project-card {
-    width:100%;
-  }
-  .projects-grid .project-card h4 { font-size:17px; }
-  .projects-grid .project-card p { font-size:13px; }
-}
-</style> -->
 
 
 <!-- 清理并替换 projects 样式、按钮与脚本（确保没有未闭合的标签） -->
@@ -142,7 +84,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 }
 
 /* 按钮样式 */
-.filter-buttons { display:flex; gap:0.5rem; margin:0 0 1rem 0; flex-wrap:wrap; }
+/* .filter-buttons { display:flex; gap:0.5rem; margin:0 0 1rem 0; flex-wrap:wrap; }
 .filter-buttons button {
   padding:0.45rem 0.9rem;
   border:1px solid #ccc;
@@ -155,6 +97,45 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   background:#0366d6;
   color:#fff;
   border-color:#0366d6;
+} */
+
+/* 按钮容器样式 */
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 0 1rem 0;
+  width: 100%;  /* 确保容器占满宽度 */
+}
+
+/* 按钮样式 */
+.filter-buttons button {
+  flex: 1;      /* 让按钮平均分配容器宽度 */
+  padding: 0.45rem 0.9rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;  /* 防止文字换行 */
+  text-align: center;
+}
+
+.filter-buttons button.active {
+  background: #0366d6;
+  color: #fff;
+  border-color: #0366d6;
+}
+
+/* 移动端样式 */
+@media (max-width: 768px) {
+  .filter-buttons {
+    flex-direction: column;  /* 垂直排列 */
+    gap: 0.5rem;
+  }
+  
+  .filter-buttons button {
+    width: 100%;  /* 占满容器宽度 */
+  }
 }
 </style>
 
@@ -163,6 +144,9 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   <button data-filter="group2">3D Human Reconstruction</button>
   <button data-filter="group3">Embodied Agents</button>
 </div>
+
+
+
 
 <!-- （请确保下面的 .projects-grid 和每个 .project-card 已存在且每个 card 带 data-group 属性） -->
 
