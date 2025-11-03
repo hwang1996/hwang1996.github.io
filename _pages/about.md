@@ -43,68 +43,10 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 ## Highlighted Projects
 
-<!-- 增加一个 style 块，统一调整字体大小和响应式 -->
-<!-- <style>
-.projects-grid .project-card { width:300px; border:1px solid #eee; padding:0.5rem; box-sizing:border-box; }
-.projects-grid .project-card h4 { margin:0.5rem 0; font-size:18px; line-height:1.2; }
-.projects-grid .project-card p { margin:0; font-size:14px; color:#555; }
-.projects-grid .project-card img { width:100%; height:auto; display:block; }
-@media (max-width:600px){
-  .projects-grid { flex-direction:column; }
-  .projects-grid .project-card { width:100%; }
-  .projects-grid .project-card h4 { font-size:16px; }
-  .projects-grid .project-card p { font-size:13px; }
-}
-</style> -->
-
-
-<!-- 统一图片尺寸为固定高度并保持填充（不拉伸），同时居中对齐标题
-<style>
-.projects-grid { display:flex; flex-wrap:wrap; gap:1rem; }
-.projects-grid .project-card {
-  width:300px;
-  border:1px solid #eee;
-  padding:0.5rem;
-  box-sizing:border-box;
-
-  display:flex;
-  flex-direction:column;
-  align-items:center;    /* 标题和链接居中对齐 */
-  text-align:center;
-}
-.projects-grid .project-card h4 {
-  margin:0.5rem 0;
-  font-size:18px;
-  line-height:1.2;
-  word-break:break-word;
-}
-.projects-grid .project-card p {
-  margin:0;
-  font-size:14px;
-  color:#555;
-}
-
-/* 图片固定高度，保持宽度100%，使用 cover 填充（裁切）以避免拉伸 */
-.projects-grid .project-card img {
-  width:100%;
-  height:200px;        /* 根据需要调整高度（如180/220px） */
-  object-fit:cover;
-  display:block;
-  border-radius:4px;
-}
-
-/* 响应式：窄屏时卡片撑满宽度并缩小文字 */
-@media (max-width:600px){
-  .projects-grid { flex-direction:column; }
-  .projects-grid .project-card { width:100%; }
-  .projects-grid .project-card h4 { font-size:16px; }
-  .projects-grid .project-card p { font-size:13px; }
-}
-</style> -->
 
 
 <!-- 统一图片尺寸为固定高度并保持填充（不拉伸），两列布局在桌面端刚好撑满屏幕，文字左对齐 -->
-<style>
+<!-- <style>
 .projects-grid {
   display:flex;
   flex-wrap:wrap;
@@ -154,77 +96,52 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   .projects-grid .project-card h4 { font-size:17px; }
   .projects-grid .project-card p { font-size:13px; }
 }
-</style>
+</style> -->
 
 
-<!-- <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
-  
-  <div class="project-card">
-    <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">
-      <img src="/images/projects/vggt4d.png" alt="VGGT4D" />
-    </a>
-    <h4>
-      <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">VGGT4D</a>
-    </h4>
-  </div>
-
-  <div class="project-card">
-    <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
-      <img src="/images/projects/opengs-slam.png" alt="3DGS-SLAM" />
-    </a>
-    <h4>
-      <a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener">3DGS-SLAM</a>
-    </h4>
-  </div>
-
-  <div class="project-card">
-  <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">
-    <video width="100%" height="200px" autoplay loop muted playsinline>
-      <source src="/images/projects/multigo++.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </a>
-  <h4>
-    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
-  </h4>
-  </div>
-
-
-  <div class="project-card">
-    <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">
-      <img src="/images/projects/human_mesh_recovery.png" alt="human_mesh_recovery" />
-    </a>
-    <h4>
-      <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">Human Mesh Recovery</a>
-    </h4>
-  </div>
-
-  <div class="project-card">
-  <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">
-    <video width="100%" height="200px" autoplay loop muted playsinline>
-      <source src="/images/projects/Pumpkin.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </a>
-  <h4>
-    <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">Minecraft Agents</a>
-  </h4>
-  </div>
-
-  <div class="project-card">
-    <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">
-      <img src="/images/projects/multimind.png" alt="multimind" />
-    </a>
-    <h4>
-      <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
-    </h4>
-  </div>
-
-</div> -->
-
-
-<!-- 按钮：按组筛选（水平排列） -->
+<!-- 清理并替换 projects 样式、按钮与脚本（确保没有未闭合的标签） -->
 <style>
+.projects-grid {
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+}
+.projects-grid .project-card {
+  width: calc((100% - 1rem) / 2);
+  box-sizing: border-box;
+  border:1px solid #eee;
+  padding:0.6rem;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  text-align:left;
+}
+.projects-grid .project-card h4 {
+  margin:0.5rem 0 0.25rem 0;
+  font-size:18px;
+  line-height:1.2;
+  word-break:break-word;
+}
+.projects-grid .project-card p {
+  margin:0;
+  font-size:14px;
+  color:#555;
+}
+.projects-grid .project-card img,
+.projects-grid .project-card video {
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  display:block;
+  border-radius:4px;
+}
+@media (max-width:900px){
+  .projects-grid .project-card { width:100%; }
+  .projects-grid .project-card h4 { font-size:17px; }
+  .projects-grid .project-card p { font-size:13px; }
+}
+
+/* 按钮样式 */
 .filter-buttons { display:flex; gap:0.5rem; margin:0 0 1rem 0; flex-wrap:wrap; }
 .filter-buttons button {
   padding:0.45rem 0.9rem;
@@ -247,32 +164,11 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   <button data-filter="group3">Embodied Agents</button>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const buttons = Array.from(document.querySelectorAll('.filter-buttons button'));
-  const cards = Array.from(document.querySelectorAll('.projects-grid .project-card'));
-  if (!buttons.length || !cards.length) return;
+<!-- （请确保下面的 .projects-grid 和每个 .project-card 已存在且每个 card 带 data-group 属性） -->
 
-  function setFilter(filter) {
-    cards.forEach(c => {
-      // 当显示时，移除 inline display 以使用 CSS 中定义的布局（flex）
-      c.style.display = (filter === 'all' || c.dataset.group === filter) ? '' : 'none';
-    });
-  }
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      setFilter(btn.dataset.filter);
-    });
-  });
 
-  // 初始显示：激活按钮对应的组（如果没有激活则显示第一组）
-  const init = document.querySelector('.filter-buttons button.active') || buttons[0];
-  setFilter(init ? init.dataset.filter : 'all');
-});
-</script>
+
 
 <!-- projects grid（为每个 card 添加 data-group） -->
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
@@ -337,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
 </div>
 
-<script>
+<!-- <script>
 (function(){
   const buttons = document.querySelectorAll('.filter-buttons button');
   const cards = document.querySelectorAll('.projects-grid .project-card');
@@ -359,9 +255,32 @@ document.addEventListener('DOMContentLoaded', function () {
   // 默认显示第一组（如果想默认显示全部，注释下一行）
   setFilter(document.querySelector('.filter-buttons button.active').dataset.filter);
 })();
+</script> -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = Array.from(document.querySelectorAll('.filter-buttons button'));
+  const cards = Array.from(document.querySelectorAll('.projects-grid .project-card'));
+  if (!buttons.length || !cards.length) return;
+
+  function setFilter(filter) {
+    cards.forEach(c => {
+      c.style.display = (filter === 'all' || c.dataset.group === filter) ? '' : 'none';
+    });
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      setFilter(btn.dataset.filter);
+    });
+  });
+
+  const initBtn = document.querySelector('.filter-buttons button.active') || buttons[0];
+  setFilter(initBtn ? initBtn.dataset.filter : 'all');
+});
 </script>
-
-
 
 <!-- <br />
 <br /> -->
