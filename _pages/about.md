@@ -37,8 +37,11 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 <br />
 
 <!-- Highlighted projects -->
-Highlighted Projects
-======
+<!-- Highlighted Projects
+====== -->
+
+## Highlighted Projects
+
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
   <!-- Project 1 -->
   <div class="project-card" style="width:300px;border:1px solid #eee;padding:0.5rem;">
@@ -57,8 +60,10 @@ Highlighted Projects
 <br />
 
 
-Selected Publications
-======
+<!-- Selected Publications
+====== -->
+## Selected Publications
+
 <ul>
 
 <li>
