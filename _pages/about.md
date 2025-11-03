@@ -44,11 +44,56 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 ## Highlighted Projects
 
 <!-- 增加一个 style 块，统一调整字体大小和响应式 -->
-<style>
+<!-- <style>
 .projects-grid .project-card { width:300px; border:1px solid #eee; padding:0.5rem; box-sizing:border-box; }
 .projects-grid .project-card h4 { margin:0.5rem 0; font-size:18px; line-height:1.2; }
 .projects-grid .project-card p { margin:0; font-size:14px; color:#555; }
 .projects-grid .project-card img { width:100%; height:auto; display:block; }
+@media (max-width:600px){
+  .projects-grid { flex-direction:column; }
+  .projects-grid .project-card { width:100%; }
+  .projects-grid .project-card h4 { font-size:16px; }
+  .projects-grid .project-card p { font-size:13px; }
+}
+</style> -->
+
+
+<!-- 统一图片尺寸为固定高度并保持填充（不拉伸），同时居中对齐标题 -->
+<style>
+.projects-grid { display:flex; flex-wrap:wrap; gap:1rem; }
+.projects-grid .project-card {
+  width:300px;
+  border:1px solid #eee;
+  padding:0.5rem;
+  box-sizing:border-box;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;    /* 标题和链接居中对齐 */
+  text-align:center;
+}
+.projects-grid .project-card h4 {
+  margin:0.5rem 0;
+  font-size:18px;
+  line-height:1.2;
+  word-break:break-word;
+}
+.projects-grid .project-card p {
+  margin:0;
+  font-size:14px;
+  color:#555;
+}
+
+/* 图片固定高度，保持宽度100%，使用 cover 填充（裁切）以避免拉伸 */
+.projects-grid .project-card img {
+  width:100%;
+  height:200px;        /* 根据需要调整高度（如180/220px） */
+  object-fit:cover;
+  display:block;
+  border-radius:4px;
+}
+
+/* 响应式：窄屏时卡片撑满宽度并缩小文字 */
 @media (max-width:600px){
   .projects-grid { flex-direction:column; }
   .projects-grid .project-card { width:100%; }
