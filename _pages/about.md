@@ -119,8 +119,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   padding:0.6rem;
   display:flex;
   flex-direction:column;
-  align-items:flex-start; /* 文字左对齐 */
-  text-align:left;
+  align-items:center; /* 文字左对齐 */
+  text-align:center;
 }
 
 /* 标题、说明尺寸 */
@@ -184,7 +184,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     </video>
   </a>
   <h4>
-    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Reconstruction</a>
+    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
   </h4>
   </div>
 
