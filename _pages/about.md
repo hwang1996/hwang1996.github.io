@@ -13,7 +13,7 @@ redirect_from:
 My general research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Recently, we are working on projects of <font color=RoyalBlue>3D reconstruction</font> and <font color=RoyalBlue>LLM-based agents</font>. Please drop me an email if you are interested in collaborations. -->
 
 
-I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was a researcher with TikTok and Horizon Robotics. 
+I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
 
 My research interests include spatial intelligence, 3D Gaussian Splatting, LLM agents, and related areas. I have published over 50 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serve as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award (广东省高层次青年人才) and etc. 
 
@@ -83,41 +83,32 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   .projects-grid .project-card p { font-size:13px; }
 }
 
-/* 按钮样式 */
-/* .filter-buttons { display:flex; gap:0.5rem; margin:0 0 1rem 0; flex-wrap:wrap; }
-.filter-buttons button {
-  padding:0.45rem 0.9rem;
-  border:1px solid #ccc;
-  background:#fff;
-  cursor:pointer;
-  border-radius:4px;
-  font-size:14px;
-}
-.filter-buttons button.active {
-  background:#0366d6;
-  color:#fff;
-  border-color:#0366d6;
-} */
 
 /* 按钮容器样式 */
 .filter-buttons {
   display: flex;
-  gap: 0.5rem;
-  margin: 0 0 1rem 0;
-  width: 100%;  /* 确保容器占满宽度 */
+  gap: 0.8rem;  /* 增加按钮间距 */
+  margin: 0 0 1.5rem 0;
+  width: 100%;
 }
 
 /* 按钮样式 */
 .filter-buttons button {
-  flex: 1;      /* 让按钮平均分配容器宽度 */
-  padding: 0.45rem 0.9rem;
-  border: 1px solid #ccc;
-  background: #fff;
+  flex: 1;
+  padding: 0.8rem 1.2rem;  /* 增加内边距使按钮更大 */
+  border: 1px solid #ddd;
+  background: #f5f5f5;  /* 浅灰色背景 */
   cursor: pointer;
-  border-radius: 4px;
-  font-size: 14px;
-  white-space: nowrap;  /* 防止文字换行 */
+  border-radius: 6px;
+  font-size: 16px;  /* 增大字体 */
+  font-weight: 500;  /* 稍微加粗 */
+  white-space: nowrap;
   text-align: center;
+  transition: all 0.2s ease;  /* 平滑过渡效果 */
+}
+
+.filter-buttons button:hover {
+  background: #eee;  /* 悬停时稍微变深 */
 }
 
 .filter-buttons button.active {
@@ -129,12 +120,14 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 /* 移动端样式 */
 @media (max-width: 768px) {
   .filter-buttons {
-    flex-direction: column;  /* 垂直排列 */
-    gap: 0.5rem;
+    flex-direction: column;
+    gap: 0.6rem;
   }
   
   .filter-buttons button {
-    width: 100%;  /* 占满容器宽度 */
+    width: 100%;
+    font-size: 15px;  /* 移动端稍微小一点 */
+    padding: 0.7rem 1rem;
   }
 }
 </style>
