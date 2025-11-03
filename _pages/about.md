@@ -66,7 +66,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     <h4>
       <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">OpenGS-SLAM</a>
     </h4>
-    <p><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p>
+    <!-- <p><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p> -->
   </div>
 </div>
 
