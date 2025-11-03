@@ -58,7 +58,16 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 </style>
 
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
-  <!-- Project 1 -->
+  <div class="project-card">
+    <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">
+      <img src="/images/projects/vggt4d.png" alt="VGGT4D" />
+    </a>
+    <h4>
+      <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">VGGT4D</a>
+    </h4>
+    <!-- <p><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p> -->
+  </div>
+
   <div class="project-card">
     <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
       <img src="/images/projects/opengs-slam.png" alt="OpenGS-SLAM" />
