@@ -34,6 +34,34 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 * [May 2022] Our paper is accepted to TPAMI. -->
 
 
+<br />
+
+<!-- Highlighted projects -->
+Highlighted Projects
+======
+<div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+  <!-- Project 1 -->
+  <div class="project-card" style="width:300px;border:1px solid #eee;padding:0.5rem;">
+    <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
+      <img src="/images/projects/opengs-slam.png" alt="Project 1" style="width:100%;height:auto;" />
+    </a>
+    <h4 style="margin:0.5rem 0;">
+      <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">Project Title 1</a>
+    </h4>
+    <p style="margin:0;"><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p>
+  </div>
+
+
+
+</div>
+
+<!-- Notes:
+- Put project images in "images/projects/" (create the folder if missing).
+- Replace PROJECT_LINK_X, PAPER_LINK_X and image filenames/titles with real values. -->
+
+<br />
+
+
 
 Selected Publications
 ======
