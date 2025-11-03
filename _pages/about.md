@@ -147,7 +147,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   <div class="project-card">
   <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">
     <video width="100%" height="200px" autoplay loop muted playsinline>
-      <source src="/images/projects/Pumkin.mp4" type="video/mp4">
+      <source src="/images/projects/Pumpkin.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </a>
