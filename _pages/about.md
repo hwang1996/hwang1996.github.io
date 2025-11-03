@@ -110,18 +110,31 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     <h4>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">VGGT4D</a>
     </h4>
-    <!-- <p><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p> -->
   </div>
 
   <div class="project-card">
     <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
-      <img src="/images/projects/opengs-slam.png" alt="OpenGS-SLAM" />
+      <img src="/images/projects/opengs-slam.png" alt="3DGS-SLAM" />
     </a>
     <h4>
-      <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">OpenGS-SLAM</a>
+      <a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener">3DGS-SLAM</a>
     </h4>
-    <!-- <p><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener">[Paper]</a></p> -->
   </div>
+
+
+
+  <div class="project-card">
+  <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">
+    <video width="100%" height="200px" autoplay loop muted playsinline>
+      <source src="/images/projects/multigo++.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </a>
+  <h4>
+    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">MultiGO++</a>
+  </h4>
+</div>
+
 </div>
 
 
