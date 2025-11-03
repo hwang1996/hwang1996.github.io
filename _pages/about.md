@@ -121,8 +121,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     </h4>
   </div>
 
-
-
   <div class="project-card">
   <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">
     <video width="100%" height="200px" autoplay loop muted playsinline>
@@ -135,7 +133,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   </h4>
   </div>
 
-  <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+
+
   <div class="project-card">
     <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">
       <img src="/images/projects/human_mesh_recovery.png" alt="human_mesh_recovery" />
@@ -157,7 +156,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   </h4>
   </div>
 
-  <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
   <div class="project-card">
     <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">
       <img src="/images/projects/multimind.png" alt="multimind" />
@@ -166,8 +164,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
       <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
     </h4>
   </div>
-
-
 
 </div>
 
