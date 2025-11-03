@@ -247,6 +247,33 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   <button data-filter="group3">Embodied Agents</button>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = Array.from(document.querySelectorAll('.filter-buttons button'));
+  const cards = Array.from(document.querySelectorAll('.projects-grid .project-card'));
+  if (!buttons.length || !cards.length) return;
+
+  function setFilter(filter) {
+    cards.forEach(c => {
+      // 当显示时，移除 inline display 以使用 CSS 中定义的布局（flex）
+      c.style.display = (filter === 'all' || c.dataset.group === filter) ? '' : 'none';
+    });
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      setFilter(btn.dataset.filter);
+    });
+  });
+
+  // 初始显示：激活按钮对应的组（如果没有激活则显示第一组）
+  const init = document.querySelector('.filter-buttons button.active') || buttons[0];
+  setFilter(init ? init.dataset.filter : 'all');
+});
+</script>
+
 <!-- projects grid（为每个 card 添加 data-group） -->
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
   <div class="project-card" data-group="group1">
