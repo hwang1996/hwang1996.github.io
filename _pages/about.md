@@ -58,7 +58,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 </style> -->
 
 
-<!-- 统一图片尺寸为固定高度并保持填充（不拉伸），同时居中对齐标题 -->
+<!-- 统一图片尺寸为固定高度并保持填充（不拉伸），同时居中对齐标题
 <style>
 .projects-grid { display:flex; flex-wrap:wrap; gap:1rem; }
 .projects-grid .project-card {
@@ -100,7 +100,62 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   .projects-grid .project-card h4 { font-size:16px; }
   .projects-grid .project-card p { font-size:13px; }
 }
+</style> -->
+
+
+<!-- 统一图片尺寸为固定高度并保持填充（不拉伸），两列布局在桌面端刚好撑满屏幕，文字左对齐 -->
+<style>
+.projects-grid {
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+}
+
+/* 两列布局：每个卡片宽度 = (容器宽度 - gap) / 2，保证两张卡片并排刚好撑满 */
+.projects-grid .project-card {
+  width: calc((100% - 1rem) / 2);
+  box-sizing: border-box;
+  border:1px solid #eee;
+  padding:0.6rem;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start; /* 文字左对齐 */
+  text-align:left;
+}
+
+/* 标题、说明尺寸 */
+.projects-grid .project-card h4 {
+  margin:0.5rem 0 0.25rem 0;
+  font-size:18px;
+  line-height:1.2;
+  word-break:break-word;
+}
+.projects-grid .project-card p {
+  margin:0;
+  font-size:14px;
+  color:#555;
+}
+
+/* 图片和视频统一尺寸并使用 cover 填充，保持不拉伸 */
+.projects-grid .project-card img,
+.projects-grid .project-card video {
+  width:100%;
+  height:260px;         /* 根据需要调整高度 */
+  object-fit:cover;
+  display:block;
+  border-radius:4px;
+}
+
+/* 窄屏（手机）时每卡占满宽度，改为单列 */
+@media (max-width:900px){
+  .projects-grid .project-card {
+    width:100%;
+  }
+  .projects-grid .project-card h4 { font-size:17px; }
+  .projects-grid .project-card p { font-size:13px; }
+}
 </style>
+
 
 <div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
   <div class="project-card">
@@ -129,7 +184,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
     </video>
   </a>
   <h4>
-    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
+    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Reconstruction</a>
   </h4>
   </div>
 
