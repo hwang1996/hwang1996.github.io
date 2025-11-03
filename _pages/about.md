@@ -15,7 +15,7 @@ My general research interests lie in the development of AI-powered perception an
 
 I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was a researcher with TikTok and Horizon Robotics. 
 
-My research interests include spatial intelligence, 3D Gaussian Splatting, LLM agents, and related areas. I have published over 50 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serves as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award (广东省高层次青年人才) and etc. 
+My research interests include spatial intelligence, 3D Gaussian Splatting, LLM agents, and related areas. I have published over 50 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serve as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award (广东省高层次青年人才) and etc. 
 
 <!-- <font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font>
 Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
