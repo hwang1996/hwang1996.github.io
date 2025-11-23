@@ -42,24 +42,22 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <style>
 /* 让内容宽度延伸到边缘 */
-.page__content {
-  max-width: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.projects-container {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  background: transparent;
 }
 
 .projects-grid {
   display:flex;
   flex-wrap:wrap;
   gap:1rem;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  padding: 0 1rem;
-  box-sizing: border-box;
+  max-width: 100%;
 }
 .projects-grid .project-card {
-  width: calc((calc(100vw - 2rem) - 1rem) / 2);
+  width: calc((100% - 1rem) / 2);
   box-sizing: border-box;
   border:1px solid #eee;
   padding:0.6rem;
@@ -143,6 +141,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 ## Highlighted Projects
 
+<div class="projects-container">
+
 <div class="filter-buttons">
   <button data-filter="group1" class="active">3D Scene Reconstruction</button>
   <button data-filter="group2">3D Human Reconstruction</button>
@@ -209,6 +209,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
       <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
     </h4>
   </div>
+</div>
+
 </div>
 
 <script>
