@@ -37,12 +37,17 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 <!-- <br /> -->
 
 
+<div class="projects-container">
 
 ## Highlighted Projects
 
 
 <!-- 清理并替换 projects 样式、按钮与脚本（确保没有未闭合的标签） -->
 <style>
+.projects-container {
+  width: 100%;
+}
+
 .projects-grid {
   display:flex;
   flex-wrap:wrap;
@@ -206,6 +211,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   </div>
 </div>
 
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -386,3 +392,5 @@ document.addEventListener('DOMContentLoaded', function () {
     <strong>(CVPR-2019)</strong> <br>
 </li>
 </ul>
+
+
