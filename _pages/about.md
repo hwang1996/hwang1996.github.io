@@ -36,18 +36,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <!-- <br /> -->
 
-
-<div class="projects-container">
-
-## Highlighted Projects
-
-
-<!-- 清理并替换 projects 样式、按钮与脚本（确保没有未闭合的标签） -->
 <style>
-.projects-container {
-  width: 100%;
-}
-
 .projects-grid {
   display:flex;
   flex-wrap:wrap;
@@ -88,11 +77,10 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   .projects-grid .project-card p { font-size:13px; }
 }
 
-
 /* 按钮容器样式 */
 .filter-buttons {
   display: flex;
-  gap: 0.8rem;  /* 增加按钮间距 */
+  gap: 0.8rem;
   margin: 0 0 1.5rem 0;
   width: 100%;
 }
@@ -100,20 +88,20 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 /* 按钮样式 */
 .filter-buttons button {
   flex: 1;
-  padding: 0.8rem 1.2rem;  /* 增加内边距使按钮更大 */
+  padding: 0.8rem 1.2rem;
   border: 1px solid #ddd;
-  background: #f5f5f5;  /* 浅灰色背景 */
+  background: #f5f5f5;
   cursor: pointer;
   border-radius: 6px;
-  font-size: 16px;  /* 增大字体 */
-  font-weight: 500;  /* 稍微加粗 */
+  font-size: 16px;
+  font-weight: 500;
   white-space: nowrap;
   text-align: center;
-  transition: all 0.2s ease;  /* 平滑过渡效果 */
+  transition: all 0.2s ease;
 }
 
 .filter-buttons button:hover {
-  background: #eee;  /* 悬停时稍微变深 */
+  background: #eee;
 }
 
 .filter-buttons button.active {
@@ -131,11 +119,13 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   
   .filter-buttons button {
     width: 100%;
-    font-size: 15px;  /* 移动端稍微小一点 */
+    font-size: 15px;
     padding: 0.7rem 1rem;
   }
 }
 </style>
+
+## Highlighted Projects
 
 <div class="filter-buttons">
   <button data-filter="group1" class="active">3D Scene Reconstruction</button>
@@ -143,13 +133,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   <button data-filter="group3">Embodied Agents</button>
 </div>
 
-
-
-
-<!-- （请确保下面的 .projects-grid 和每个 .project-card 已存在且每个 card 带 data-group 属性） -->
-
-<!-- projects grid（为每个 card 添加 data-group） -->
-<div class="projects-grid" style="display:flex;flex-wrap:wrap;gap:1rem;">
+<div class="projects-grid">
   <div class="project-card" data-group="group1">
     <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">
       <img src="/images/projects/vggt4d.png" alt="VGGT4D" />
@@ -170,7 +154,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
   <div class="project-card" data-group="group2">
     <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">
-      <video width="100%" height="200px" autoplay loop muted playsinline>
+      <video width="100%" height="260px" autoplay loop muted playsinline>
         <source src="/images/projects/multigo++.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -191,7 +175,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
   <div class="project-card" data-group="group3">
     <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">
-      <video width="100%" height="200px" autoplay loop muted playsinline>
+      <video width="100%" height="260px" autoplay loop muted playsinline>
         <source src="/images/projects/Pumpkin.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -209,8 +193,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
       <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
     </h4>
   </div>
-</div>
-
 </div>
 
 <script>
