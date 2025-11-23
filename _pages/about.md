@@ -13,7 +13,7 @@ redirect_from:
 My general research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Recently, we are working on projects of <font color=RoyalBlue>3D reconstruction</font> and <font color=RoyalBlue>LLM-based agents</font>. Please drop me an email if you are interested in collaborations. -->
 
 
-<div style="margin-right: -9999px; padding-right: 9999px; background: transparent;">
+<!-- <div style="margin-right: -9999px; padding-right: 9999px; background: transparent;"> -->
 
 I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
 
@@ -22,7 +22,7 @@ My research interests include spatial intelligence, 3D Gaussian Splatting, LLM a
 <!-- <font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font>
 Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
-</div>
+<!-- </div> -->
 
 
 <!-- <br /> -->
