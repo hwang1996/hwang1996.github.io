@@ -13,7 +13,7 @@ redirect_from:
 My general research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Recently, we are working on projects of <font color=RoyalBlue>3D reconstruction</font> and <font color=RoyalBlue>LLM-based agents</font>. Please drop me an email if you are interested in collaborations. -->
 
 
-<div style="width: 100vw; margin-left: calc(-50vw + 50%); padding: 2rem 1rem; box-sizing: border-box; background: transparent;">
+<div style="margin-right: -9999px; padding-right: 9999px; background: transparent;">
 
 I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
 
@@ -41,20 +41,10 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 <!-- <br /> -->
 
 <style>
-/* 让内容宽度延伸到边缘 */
-.projects-container {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  padding: 2rem 1rem;
-  box-sizing: border-box;
-  background: transparent;
-}
-
 .projects-grid {
   display:flex;
   flex-wrap:wrap;
   gap:1rem;
-  max-width: 100%;
 }
 .projects-grid .project-card {
   width: calc((100% - 1rem) / 2);
@@ -141,8 +131,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 ## Highlighted Projects
 
-<div class="projects-container">
-
 <div class="filter-buttons">
   <button data-filter="group1" class="active">3D Scene Reconstruction</button>
   <button data-filter="group2">3D Human Reconstruction</button>
@@ -209,8 +197,6 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
       <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
     </h4>
   </div>
-</div>
-
 </div>
 
 <script>
