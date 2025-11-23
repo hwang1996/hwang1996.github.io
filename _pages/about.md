@@ -37,13 +37,25 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 <!-- <br /> -->
 
 <style>
+/* 让内容宽度延伸到边缘 */
+.page__content {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .projects-grid {
   display:flex;
   flex-wrap:wrap;
   gap:1rem;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 .projects-grid .project-card {
-  width: calc((100% - 1rem) / 2);
+  width: calc((calc(100vw - 2rem) - 1rem) / 2);
   box-sizing: border-box;
   border:1px solid #eee;
   padding:0.6rem;
