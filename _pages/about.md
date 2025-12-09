@@ -254,8 +254,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft
-  <br/> <a href="https://aclanthology.org/2025.emnlp-main.1111/">[Paper]</a>
+  VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft <a href="https://aclanthology.org/2025.emnlp-main.1111/">[Paper]</a>
+  <br/> 
   Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>Empirical Methods in Natural Language Processing</i>
@@ -263,8 +263,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks
-  <br/> <a href="https://aclanthology.org/2025.findings-emnlp.777/">[Paper]</a>
+  CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks <a href="https://aclanthology.org/2025.findings-emnlp.777/">[Paper]</a>
+  <br/> 
   Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>EMNLP Findings</i>
@@ -272,8 +272,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction
-  <br/> <a href="https://arxiv.org/abs/2508.19688">[Paper]</a>
+  SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <a href="https://arxiv.org/abs/2508.19688">[Paper]</a>
+  <br/> 
   Gangjian Zhang, Jian Shu, Nanjie Yao,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
@@ -281,8 +281,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind
-  <br/> <a href="https://arxiv.org/abs/2504.18039">[Paper]</a>
+  MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind <a href="https://arxiv.org/abs/2504.18039">[Paper]</a>
+  <br/> 
   Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
