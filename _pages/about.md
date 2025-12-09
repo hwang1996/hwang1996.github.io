@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 <li>
-  Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths
+  Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths <a href="https://arxiv.org/abs/2508.08001">[Paper]</a> <a href="https://github.com/yuuki20001/FOMC-sentiment-path">[Code]</a>
   <br/>
   Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
   <strong><font color="black">Hao Wang*</font></strong>.
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation
+  FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation <a href="https://arxiv.org/abs/2508.08001">[Paper]</a> <a href="https://3dagentworld.github.io/fastanimate/">[Project page]</a>
   <br/>
   Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
   <strong><font color="black">Hao Wang*</font></strong>.
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <li>
   VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft
-  <br/>
+  <br/> <a href="https://aclanthology.org/2025.emnlp-main.1111/">[Paper]</a>
   Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>Empirical Methods in Natural Language Processing</i>
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <li>
   CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks
-  <br/>
+  <br/> <a href="https://aclanthology.org/2025.findings-emnlp.777/">[Paper]</a>
   Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>EMNLP Findings</i>
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <li>
   SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction
-  <br/>
+  <br/> <a href="https://arxiv.org/abs/2508.19688">[Paper]</a>
   Gangjian Zhang, Jian Shu, Nanjie Yao,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <li>
   MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind
-  <br/>
+  <br/> <a href="https://arxiv.org/abs/2504.18039">[Paper]</a>
   Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
