@@ -485,15 +485,13 @@ document.addEventListener('DOMContentLoaded', function () {
     FoodAI: Food Image Recognition via Deep Learning for Smart Food Logging <a href="https://arxiv.org/abs/1909.11946">[Paper]</a>
     <br/> 
     Doyen Sahoo, <strong><font color="black">Hao Wang</font></strong>, Shu Ke, Xiongwei Wu, Hung Le, Palakorn Achananuparp, Ee-Peng Lim, Steven Hoi.
-    <br/><i> ACM SIGKDD conference, 2019</i>
-    <strong>(KDD-2019)</strong> <br>
+    <br/><i> KDD 2019</i> <br>
 </li>
 <li>
     Learning Cross-Modal Embeddings with Adversarial Networks for Cooking Recipes and Food Images <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Learning_Cross-Modal_Embeddings_With_Adversarial_Networks_for_Cooking_Recipes_and_CVPR_2019_paper.html">[Paper]</a> <a href="https://github.com/hwang1996/ACME">[Code]</a>
     <br/> 
     <strong><font color="black">Hao Wang</font></strong>, Doyen Sahoo, Chenghao Liu, Ee-peng Lim, Steven C. H. Hoi.
-    <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
-    <strong>(CVPR-2019)</strong> <br>
+    <br/><i>CVPR 2019</i><br>
 </li>
 </ul>
 
