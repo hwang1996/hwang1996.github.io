@@ -234,6 +234,108 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <ul>
 
+
+<li>
+  Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths
+  <br/>
+  Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>AAAI Conference on Artificial Intelligence</i>
+  <strong>(AAAI 2026, Oral)</strong> <br>
+</li>
+
+<li>
+  FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation
+  <br/>
+  Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>AAAI Conference on Artificial Intelligence</i>
+  <strong>(AAAI 2026)</strong> <br>
+</li>
+
+<li>
+  VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft
+  <br/>
+  Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>Empirical Methods in Natural Language Processing</i>
+  <strong>(EMNLP 2025)</strong> <br>
+</li>
+
+<li>
+  CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks
+  <br/>
+  Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>EMNLP Findings</i>
+  <strong>(2025)</strong> <br>
+</li>
+
+<li>
+  SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction
+  <br/>
+  Gangjian Zhang, Jian Shu, Nanjie Yao,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>ACM Multimedia</i>
+  <strong>(ACM MM 2025)</strong> <br>
+</li>
+
+<li>
+  MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind
+  <br/>
+  Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>ACM Multimedia</i>
+  <strong>(ACM MM 2025)</strong> <br>
+</li>
+
+<li>
+  Wavelet-GS: 3D Gaussian Splatting with Wavelet Decomposition
+  <br/>
+  Beizhen Zhao, Yifan Zhou, Sicheng Yu, Zijian Wang,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>ACM Multimedia</i>
+  <strong>(ACM MM 2025)</strong> <br>
+</li>
+
+<li>
+  Graph-Guided Dual-Level Augmentation for 3D Scene Segmentation
+  <br/>
+  Hongbin Lin, Yifan Jiang, Juangui Xu, Jesse Jiaxi Xu, Yi Lu, Zhengyu Hu, Ying-Cong Chen,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>ACM Multimedia</i>
+  <strong>(ACM MM 2025)</strong> <br>
+</li>
+
+<li>
+  Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps
+  <br/>
+  Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Computer Vision</i>
+  <strong>(ICCV 2025)</strong> <br>
+</li>
+
+<li>
+  RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration
+  <br/>
+  Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
+  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <br/><i>International Conference on Computer Vision</i>
+  <strong>(ICCV 2025)</strong> <br>
+</li>
+
+<li>
+  ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimization
+  <br/>
+  Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
+  <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*. (* denotes corresponding author)
+  <br/><i>International Conference on Machine Learning</i>
+  <strong>(ICML 2025)</strong> <br>
+</li>
+
+
+
 <li>
   MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction 
   <br/> 
