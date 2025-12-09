@@ -240,8 +240,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>AAAI Conference on Artificial Intelligence</i>
-  <strong>(AAAI 2026, Oral)</strong> <br>
+  <br/><i>AAAI 2026, Oral</i> <br>
 </li>
 
 <li>
@@ -249,8 +248,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>AAAI Conference on Artificial Intelligence</i>
-  <strong>(AAAI 2026)</strong> <br>
+  <br/><i>AAAI 2026</i><br>
 </li>
 
 <li>
@@ -258,8 +256,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>Empirical Methods in Natural Language Processing</i>
-  <strong>(EMNLP 2025)</strong> <br>
+  <br/><i>EMNLP Main 2025</i> <br>
 </li>
 
 <li>
@@ -267,8 +264,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>EMNLP Findings</i>
-  <strong>(2025)</strong> <br>
+  <br/><i>EMNLP Findings 2025</i> <br>
 </li>
 
 <li>
@@ -276,8 +272,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Gangjian Zhang, Jian Shu, Nanjie Yao,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ACM Multimedia</i>
-  <strong>(ACM MM 2025)</strong> <br>
+  <br/><i>ACM MM 2025</i><br>
 </li>
 
 <li>
@@ -285,8 +280,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ACM Multimedia</i>
-  <strong>(ACM MM 2025)</strong> <br>
+  <br/><i>ACM MM 2025</i> <br>
 </li>
 
 <li>
@@ -294,8 +288,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Beizhen Zhao, Yifan Zhou, Sicheng Yu, Zijian Wang,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ACM Multimedia</i>
-  <strong>(ACM MM 2025)</strong> <br>
+  <br/><i>ACM MM 2025</i> <br>
 </li>
 
 <li>
@@ -303,8 +296,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Hongbin Lin, Yifan Jiang, Juangui Xu, Jesse Jiaxi Xu, Yi Lu, Zhengyu Hu, Ying-Cong Chen,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ACM Multimedia</i>
-  <strong>(ACM MM 2025)</strong> <br>
+  <br/><i>ACM MM 2025</i> <br>
 </li>
 
 <li>
@@ -312,8 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>International Conference on Computer Vision</i>
-  <strong>(ICCV 2025)</strong> <br>
+  <br/><i>ICCV 2025</i><br>
 </li>
 
 <li>
@@ -321,8 +312,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>International Conference on Computer Vision</i>
-  <strong>(ICCV 2025)</strong> <br>
+  <br/><i>ICCV 2025</i> <br>
 </li>
 
 <li>
@@ -330,8 +320,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
   <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*.
-  <br/><i>International Conference on Machine Learning</i>
-  <strong>(ICML 2025)</strong> <br>
+  <br/><i>ICML 2025</i><br>
 </li>
 
 <li>
@@ -339,8 +328,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, 
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
-  <strong>(CVPR 2025)</strong> <br>
+  <br/><i>CVPR 2025</i> <br>
 </li>
 
 <li>
@@ -348,8 +336,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, 
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>International Conference on Robotics and Automation</i>
-  <strong>(ICRA 2025)</strong> <br>
+  <br/><i>ICRA 2025</i> <br>
 </li>
 
 <li>
@@ -357,8 +344,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Junlong Ren, Hao Wu, Hui Xiong, 
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>International Conference on Robotics and Automation</i>
-  <strong>(ICRA 2025)</strong> <br>
+  <br/><i>ICRA 2025</i> <br>
 </li>
 
 <li>
@@ -366,8 +352,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, 
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>International Conference on Learning Representations</i>
-  <strong>(ICLR 2025)</strong> <br>
+  <br/><i>ICLR 2025</i> <br>
 </li>
 
 <li>
@@ -376,8 +361,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Gaochao Song, Cheng Chong, 
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>Conference on Neural Information Processing Systems</i>
-  <strong>(NeurIPS 2024)</strong> <br>
+  <br/><i>NeurIPS 2024</i> <br>
 </li>
 
 <li>
@@ -386,8 +370,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, 
   <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>Empirical Methods in Natural Language Processing</i>
-  <strong>(EMNLP 2024 Main)</strong> <br>
+  <br/><i>EMNLP 2024 Main</i> <br>
 </li>
 
 <li>
@@ -396,8 +379,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Wenhao Shen, Wanqi Yin, 
   <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin*.
-  <br/><i>ACM International Conference on Multimedia</i>
-  <strong>(ACM MM 2024)</strong><br>
+  <br/><i>ACM MM 2024</i><br>
 </li>
 
 <li>
@@ -406,8 +388,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/> 
   Hanyu Shi, Jiacheng Wei, 
   <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
-  <br/><i>International Journal of Computer Vision</i>
-  <strong>(IJCV 2024)</strong> [<alert>IF:19.5</alert>]<br>
+  <br/><i>IJCV 2024</i><br>
 </li>
 
 <li>
@@ -416,8 +397,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
   <br/> 
   <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
-  <br/><i>International Journal of Computer Vision</i>
-  <strong>(IJCV 2024)</strong> [<alert>IF:19.5</alert>]<br>
+  <br/><i>IJCV 2024</i><br>
 </li>
 
 <li>
@@ -426,60 +406,50 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/>
   Hao Wu, Ruochong Li, 
   <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong.
-  <br/><i>IEEE Conference on Multimedia Expo </i> 
-  <strong>(ICME 2024, Oral)</strong><br>
+  <br/><i>ICME 2024, Oral </i> <br>
 </li>
-
-
 
 <li>
     TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision <a href="https://arxiv.org/abs/2303.13273">[Paper]</a> <a href="https://github.com/plusmultiply/taps3d">[Code]</a>
     <br/>
-    Jiacheng Wei*, <strong><font color="black">Hao Wang*</font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap. (* denotes equal contributions)
-    <br/>
-    <i>IEEE Conference on Computer Vision and Pattern Recognition </i> <strong>(CVPR-2023)</strong><br>
+    Jiacheng Wei*, <strong><font color="black">Hao Wang*</font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap.
+    <br/><i>CVPR 2023 </i> <br>
 </li>
 <li>
     Cross-Modal Graph with Meta Concepts for Video Captioning <a href="https://arxiv.org/abs/2108.06458">[Paper]</a> <a href="https://github.com/hwang1996/Meta-Concepts-for-Video-Captioning">[Code]</a>
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>IEEE Transactions on Image Processing</i>
-    <strong>(TIP-2022)</strong> [<alert>IF:11.041</alert>]<br>
+    <br/><i>TIP 2022</i><br>
 </li>
 <li>
     Paired Cross-Modal Data Augmentation for Fine-Grained Image-to-Text Retrieval <a href="https://arxiv.org/abs/2207.14428">[Paper]</a>
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>ACM International Conference on Multimedia</i>
-    <strong>(ACM MM-2022)</strong><br>
+    <br/><i>ACM MM 2022</i><br>
 </li>
 <li>
     Learning Structural Representations for Recipe Generation and Food Retrieval <a href="https://arxiv.org/abs/2110.01209">[Paper]</a>
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>
-    <strong>(TPAMI-2022)</strong> [<alert>IF:24.314</alert>]<br>
+    <br/><i>TPAMI 2022</i><br>
 </li>
 <li>
     Cycle-Consistent Inverse GAN for Text-to-Image Synthesis <a href="https://arxiv.org/abs/2108.01361">[Paper]</a>
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>ACM International Conference on Multimedia</i>
-    <strong>(ACM MM-2021)</strong><br>
+    <br/><i>ACM MM 2021</i><br>
 </li>
 <li>
     Structure-Aware Generation Network for Recipe Generation from Images <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5757_ECCV_2020_paper.php">[Paper]</a> <a href="https://github.com/hwang1996/SGN">[Code]</a>
     <br/> 
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>European Conference on Computer Vision</i>
-    <strong>(ECCV-2020)</strong> <br>
+    <br/><i>ECCV 2020</i> <br>
 </li>
 <li>
     SpSequenceNet: Semantic Segmentation Network on 4D Point Clouds <a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Shi_SpSequenceNet_Semantic_Segmentation_Network_on_4D_Point_Clouds_CVPR_2020_paper.html">[Paper]</a> <a href="https://github.com/dante0shy/SpSequenceNet">[Code]</a>
     <br/> 
     Hanyu Shi, Guosheng Lin, <strong><font color="black">Hao Wang</font></strong>, Tzu-Yi Hung, Zhenhua Wang.
-    <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
-    <strong>(CVPR-2020)</strong> <br>
+    <br/><i>CVPR 2020</i> <br>
 </li>
 <li>
     FoodAI: Food Image Recognition via Deep Learning for Smart Food Logging <a href="https://arxiv.org/abs/1909.11946">[Paper]</a>
