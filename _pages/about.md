@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths
   <br/>
   Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>AAAI Conference on Artificial Intelligence</i>
   <strong>(AAAI 2026, Oral)</strong> <br>
 </li>
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function () {
   FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation
   <br/>
   Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>AAAI Conference on Artificial Intelligence</i>
   <strong>(AAAI 2026)</strong> <br>
 </li>
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function () {
   VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft
   <br/>
   Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>Empirical Methods in Natural Language Processing</i>
   <strong>(EMNLP 2025)</strong> <br>
 </li>
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
   CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks
   <br/>
   Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>EMNLP Findings</i>
   <strong>(2025)</strong> <br>
 </li>
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
   SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction
   <br/>
   Gangjian Zhang, Jian Shu, Nanjie Yao,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
   <strong>(ACM MM 2025)</strong> <br>
 </li>
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function () {
   MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind
   <br/>
   Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
   <strong>(ACM MM 2025)</strong> <br>
 </li>
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Wavelet-GS: 3D Gaussian Splatting with Wavelet Decomposition
   <br/>
   Beizhen Zhao, Yifan Zhou, Sicheng Yu, Zijian Wang,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
   <strong>(ACM MM 2025)</strong> <br>
 </li>
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Graph-Guided Dual-Level Augmentation for 3D Scene Segmentation
   <br/>
   Hongbin Lin, Yifan Jiang, Juangui Xu, Jesse Jiaxi Xu, Yi Lu, Zhengyu Hu, Ying-Cong Chen,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM Multimedia</i>
   <strong>(ACM MM 2025)</strong> <br>
 </li>
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps
   <br/>
   Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>International Conference on Computer Vision</i>
   <strong>(ICCV 2025)</strong> <br>
 </li>
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', function () {
   RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration
   <br/>
   Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
-  <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>International Conference on Computer Vision</i>
   <strong>(ICCV 2025)</strong> <br>
 </li>
@@ -329,93 +329,109 @@ document.addEventListener('DOMContentLoaded', function () {
   ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimization
   <br/>
   Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
-  <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*. (* denotes corresponding author)
+  <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*.
   <br/><i>International Conference on Machine Learning</i>
   <strong>(ICML 2025)</strong> <br>
 </li>
 
-
-
 <li>
   MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction 
   <br/> 
-  Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, 
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>IEEE Conference on Computer Vision and Pattern Recognition</i>
-    <strong>(CVPR 2025)</strong> <br>
+  <strong>(CVPR 2025)</strong> <br>
 </li>
 
 <li>
   RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes 
   <br/> 
-  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, 
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>International Conference on Robotics and Automation</i>
-    <strong>(ICRA 2025)</strong> <br>
+  <strong>(ICRA 2025)</strong> <br>
 </li>
 
 <li>
   SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation 
   <br/> 
-  Junlong Ren, Hao Wu, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  Junlong Ren, Hao Wu, Hui Xiong, 
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>International Conference on Robotics and Automation</i>
-    <strong>(ICRA 2025)</strong> <br>
+  <strong>(ICRA 2025)</strong> <br>
 </li>
 
 <li>
   Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting <a href="https://openreview.net/forum?id=56vHbnk35S">[Paper]</a>
   <br/> 
-  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, 
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>International Conference on Learning Representations</i>
-    <strong>(ICLR 2025)</strong> <br>
+  <strong>(ICLR 2025)</strong> <br>
 </li>
 
-
 <li>
-  GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes <a href="https://arxiv.org/pdf/2411.01853">[Paper]</a>
+  GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes 
+  <a href="https://arxiv.org/pdf/2411.01853">[Paper]</a>
   <br/> 
-  Gaochao Song, Cheng Chong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
+  Gaochao Song, Cheng Chong, 
+  <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>Conference on Neural Information Processing Systems</i>
-    <strong>(NeurIPS 2024)</strong> <br>
+  <strong>(NeurIPS 2024)</strong> <br>
 </li>
 
 <li>
-  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> <a href="https://github.com/3DAgentWorld/LLM-Game-Agent">[Code]</a>
+  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay 
+  <a href="https://arxiv.org/abs/2310.14985">[Paper]</a> <a href="https://github.com/3DAgentWorld/LLM-Game-Agent">[Code]</a>
   <br/> 
-  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, <strong><font color="black">Hao Wang*</font></strong>. (* denotes corresponding author)
-  <br/><i>The 2024 Conference on Empirical Methods in Natural Language Processing</i>
-    <strong>(EMNLP 2024 Main)</strong> <br>
+  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, 
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>Empirical Methods in Natural Language Processing</i>
+  <strong>(EMNLP 2024 Main)</strong> <br>
 </li>
 
 <li>
-  HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3681641">[Paper]</a>
+  HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery 
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3681641">[Paper]</a>
   <br/> 
-  Wenhao Shen, Wanqi Yin, <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin*. (* denotes corresponding author)
+  Wenhao Shen, Wanqi Yin, 
+  <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin*.
   <br/><i>ACM International Conference on Multimedia</i>
-    <strong>(ACM MM-2024)</strong><br>
+  <strong>(ACM MM 2024)</strong><br>
 </li>
 
 <li>
-  Learning Temporal Variations for 4D Point Cloud Segmentation <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
+  Learning Temporal Variations for 4D Point Cloud Segmentation 
+  <a href="https://arxiv.org/abs/2207.04673">[Paper]</a>
   <br/> 
-  Hanyu Shi, Jiacheng Wei, <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
+  Hanyu Shi, Jiacheng Wei, 
+  <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
   <br/><i>International Journal of Computer Vision</i>
-    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+  <strong>(IJCV 2024)</strong> [<alert>IF:19.5</alert>]<br>
 </li>
 
 <li>
-  ManiCLIP: Multi-Attribute Face Manipulation from Text <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
+  ManiCLIP: Multi-Attribute Face Manipulation from Text 
+  <a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">[Paper]</a> 
+  <a href="https://github.com/hwang1996/ManiCLIP">[Code]</a>
   <br/> 
   <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen.
   <br/><i>International Journal of Computer Vision</i>
-    <strong>(IJCV-2024)</strong> [<alert>IF:19.5</alert>]<br>
+  <strong>(IJCV 2024)</strong> [<alert>IF:19.5</alert>]<br>
 </li>
 
 <li>
-    COM3D: Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval <a href="https://arxiv.org/abs/2405.04103">[Paper]</a>
-    <br/>
-    Hao Wu, Ruochong LI, <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong. (* denotes corresponding author)
-    <br/>
-    <i>IEEE Conference on Multimedia Expo </i> <strong>(ICME-2024 Oral)</strong><br>
+  COM3D: Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval 
+  <a href="https://arxiv.org/abs/2405.04103">[Paper]</a>
+  <br/>
+  Hao Wu, Ruochong Li, 
+  <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong.
+  <br/><i>IEEE Conference on Multimedia Expo </i> 
+  <strong>(ICME 2024, Oral)</strong><br>
 </li>
+
+
+
 <li>
     TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision <a href="https://arxiv.org/abs/2303.13273">[Paper]</a> <a href="https://github.com/plusmultiply/taps3d">[Code]</a>
     <br/>
