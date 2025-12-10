@@ -242,7 +242,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 <li>
-  Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths <a href="https://arxiv.org/abs/2508.08001">[Paper]</a> <a href="https://github.com/yuuki20001/FOMC-sentiment-path">[Code]</a>
+  Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths <br/>
+  <a href="https://arxiv.org/abs/2508.08001">[Paper]</a> <a href="https://github.com/yuuki20001/FOMC-sentiment-path">[Code]</a>
   <br/>
   Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
   <strong><font color="black">Hao Wang*</font></strong>.
