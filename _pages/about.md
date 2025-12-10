@@ -141,7 +141,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 ## Highlighted Projects
 
-<div style="max-width: 900px; margin: 0 auto;">
+<div class="filter-buttons">
   <button data-filter="group1" class="active">3D Scene Reconstruction</button>
   <button data-filter="group2">3D Human Reconstruction</button>
   <button data-filter="group3">Embodied Agents</button>
@@ -273,27 +273,30 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks <a href="https://aclanthology.org/2025.findings-emnlp.777/">[Paper]</a>
+  CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks
   <br/> 
   Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>EMNLP Findings 2025</i> <br>
+  [<a href="https://aclanthology.org/2025.findings-emnlp.777">Paper</a>]
 </li>
 
 <li>
-  SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <a href="https://arxiv.org/abs/2508.19688">[Paper]</a>
+  SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction 
   <br/> 
   Gangjian Zhang, Jian Shu, Nanjie Yao,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM MM 2025</i><br>
+  [<a href="https://arxiv.org/abs/2508.19688">Paper</a>]
 </li>
 
 <li>
-  MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind <a href="https://arxiv.org/abs/2504.18039">[Paper]</a>
+  MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind 
   <br/> 
   Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM MM 2025</i> <br>
+  [<a href="https://arxiv.org/abs/2504.18039">Paper</a>]
 </li>
 
 <li>
@@ -302,6 +305,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Beizhen Zhao, Yifan Zhou, Sicheng Yu, Zijian Wang,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM MM 2025</i> <br>
+  [<a href="https://arxiv.org/abs/2507.12498">Paper</a>]
 </li>
 
 <li>
@@ -310,6 +314,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Hongbin Lin, Yifan Jiang, Juangui Xu, Jesse Jiaxi Xu, Yi Lu, Zhengyu Hu, Ying-Cong Chen,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ACM MM 2025</i> <br>
+  [<a href="https://arxiv.org/abs/2507.22668">Paper</a>]
 </li>
 
 <li>
@@ -318,6 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICCV 2025</i><br>
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Outdoor_Monocular_SLAM_with_Global_Scale-Consistent_3D_Gaussian_Pointmaps_ICCV_2025_paper.pdf">Paper</a>]
 </li>
 
 <li>
@@ -326,6 +332,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICCV 2025</i> <br>
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_RegGS_Unposed_Sparse_Views_Gaussian_Splatting_with_3DGS_Registration_ICCV_2025_paper.pdf">Paper</a>]
 </li>
 
 <li>
