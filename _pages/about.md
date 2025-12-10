@@ -141,7 +141,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 ## Highlighted Projects
 
-<div class="filter-buttons">
+<div style="max-width: 900px; margin: 0 auto;">
   <button data-filter="group1" class="active">3D Scene Reconstruction</button>
   <button data-filter="group2">3D Human Reconstruction</button>
   <button data-filter="group3">Embodied Agents</button>
