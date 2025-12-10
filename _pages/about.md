@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICCV 2025</i><br>
-  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Outdoor_Monocular_SLAM_with_Global_Scale-Consistent_3D_Gaussian_Pointmaps_ICCV_2025_paper.pdf">Paper</a>]
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Outdoor_Monocular_SLAM_with_Global_Scale-Consistent_3D_Gaussian_Pointmaps_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/S3PO-GS/">Project Page</a>] [<a href="https://github.com/3DAgentWorld/S3PO-GS">Code</a>]  
 </li>
 
 <li>
@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICCV 2025</i> <br>
-  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_RegGS_Unposed_Sparse_Views_Gaussian_Splatting_with_3DGS_Registration_ICCV_2025_paper.pdf">Paper</a>]
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_RegGS_Unposed_Sparse_Views_Gaussian_Splatting_with_3DGS_Registration_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/reggs/">Project Page</a>]  [<a href="https://github.com/3DAgentWorld/RegGS">Code</a>]  
 </li>
 
 <li>
@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, 
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>CVPR 2025</i> <br>
-  [<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf">Paper</a>]
+  [<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf">Paper</a>] [<a href="https://multigohuman.github.io/">Project page</a>]
 </li>
 
 <li>
@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, 
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICRA 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2502.15633">Paper</a>]
+  [<a href="https://arxiv.org/abs/2502.15633">Paper</a>] [<a href="https://3dagentworld.github.io/opengs-slam/">Project page</a>]
 </li>
 
 <li>
