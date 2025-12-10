@@ -51,9 +51,10 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   display:flex;
   flex-wrap:wrap;
   gap:1rem;
+  width: 100%;  
 }
 .projects-grid .project-card {
-  width: calc((100% - 1rem) / 2);
+  width: calc((100% - 1rem) / 2);  
   box-sizing: border-box;
   border:1px solid #eee;
   padding:0.6rem;
@@ -243,12 +244,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <li>
   Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths 
-  
   <br/>
   Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>AAAI 2026, Oral</i> <br>
-  <br/>[<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>]
+  [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>]
 </li>
 
 <li>
