@@ -263,6 +263,62 @@ document.addEventListener('DOMContentLoaded', function () {
   [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://3dagentworld.github.io/fastanimate/">Project page</a>]
 </li>
 
+
+
+<li>
+  Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps
+  <br/>
+  Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>ICCV 2025</i><br>
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Outdoor_Monocular_SLAM_with_Global_Scale-Consistent_3D_Gaussian_Pointmaps_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/S3PO-GS/">Project Page</a>] [<a href="https://github.com/3DAgentWorld/S3PO-GS">Code</a>]  
+</li>
+
+<li>
+  RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration
+  <br/>
+  Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>ICCV 2025</i> <br>
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_RegGS_Unposed_Sparse_Views_Gaussian_Splatting_with_3DGS_Registration_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/reggs/">Project Page</a>]  [<a href="https://github.com/3DAgentWorld/RegGS">Code</a>]  
+</li>
+
+<li>
+  MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction 
+  <br/> 
+  Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, 
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>CVPR 2025</i> <br>
+  [<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf">Paper</a>] [<a href="https://multigohuman.github.io/">Project page</a>]
+</li>
+
+<li>
+  RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes 
+  <br/> 
+  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, 
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>ICRA 2025</i> <br>
+  [<a href="https://arxiv.org/abs/2502.15633">Paper</a>] [<a href="https://3dagentworld.github.io/opengs-slam/">Project page</a>]
+</li>
+
+<li>
+  SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation 
+  <br/> 
+  Junlong Ren, Hao Wu, Hui Xiong, 
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>ICRA 2025</i> <br>
+  [<a href="https://arxiv.org/abs/2502.19128">Paper</a>] [<a href="https://github.com/3DAgentWorld/SCA3D">Code</a>]
+</li>
+
+<li>
+  Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting
+  <br/> 
+  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, 
+  <strong><font color="black">Hao Wang*</font></strong>.
+  <br/><i>ICLR 2025</i> <br>
+  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://github.com/3DAgentWorld/GraphGS">Code</a>]
+</li>
+
 <li>
   VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft 
   <br/> 
@@ -318,69 +374,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps
-  <br/>
-  Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
-  <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ICCV 2025</i><br>
-  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Outdoor_Monocular_SLAM_with_Global_Scale-Consistent_3D_Gaussian_Pointmaps_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/S3PO-GS/">Project Page</a>] [<a href="https://github.com/3DAgentWorld/S3PO-GS">Code</a>]  
-</li>
-
-<li>
-  RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration
-  <br/>
-  Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
-  <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ICCV 2025</i> <br>
-  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_RegGS_Unposed_Sparse_Views_Gaussian_Splatting_with_3DGS_Registration_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/reggs/">Project Page</a>]  [<a href="https://github.com/3DAgentWorld/RegGS">Code</a>]  
-</li>
-
-<li>
-  ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimization
-  <br/>
-  Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
-  <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*.
-  <br/><i>ICML 2025</i><br>
-  [<a href="https://arxiv.org/abs/2505.10250">Paper</a>]
-</li>
-
-<li>
-  MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction 
-  <br/> 
-  Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, 
-  <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>CVPR 2025</i> <br>
-  [<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf">Paper</a>] [<a href="https://multigohuman.github.io/">Project page</a>]
-</li>
-
-<li>
-  RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes 
-  <br/> 
-  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, 
-  <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ICRA 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2502.15633">Paper</a>] [<a href="https://3dagentworld.github.io/opengs-slam/">Project page</a>]
-</li>
-
-<li>
-  SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation 
-  <br/> 
-  Junlong Ren, Hao Wu, Hui Xiong, 
-  <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ICRA 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2502.19128">Paper</a>] [<a href="https://github.com/3DAgentWorld/SCA3D">Code</a>]
-</li>
-
-<li>
-  Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting
-  <br/> 
-  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, 
-  <strong><font color="black">Hao Wang*</font></strong>.
-  <br/><i>ICLR 2025</i> <br>
-  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://github.com/3DAgentWorld/GraphGS">Code</a>]
-</li>
-
-<li>
   GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes 
   <br/> 
   Gaochao Song, Cheng Chong, 
@@ -388,6 +381,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/><i>NeurIPS 2024</i> <br>
   [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://3dagentworld.github.io/gvkf/">Project Page</a>]
 </li>
+
 
 <li>
   LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay 
@@ -399,6 +393,17 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
+  ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimization
+  <br/>
+  Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
+  <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*.
+  <br/><i>ICML 2025</i><br>
+  [<a href="https://arxiv.org/abs/2505.10250">Paper</a>]
+</li>
+
+
+
+<li>
   HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery 
   <br/> 
   Wenhao Shen, Wanqi Yin, 
@@ -407,14 +412,14 @@ document.addEventListener('DOMContentLoaded', function () {
   [<a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3681641">Paper</a>]
 </li>
 
-<li>
+<!-- <li>
   Learning Temporal Variations for 4D Point Cloud Segmentation 
   <br/> 
   Hanyu Shi, Jiacheng Wei, 
   <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
   <br/><i>IJCV 2024</i><br>
   [<a href="https://arxiv.org/abs/2207.04673">Paper</a>]
-</li>
+</li> -->
 
 <li>
   ManiCLIP: Multi-Attribute Face Manipulation from Text 
@@ -424,14 +429,14 @@ document.addEventListener('DOMContentLoaded', function () {
   [<a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">Paper</a>] [<a href="https://github.com/hwang1996/ManiCLIP">Code</a>]
 </li>
 
-<li>
+<!-- <li>
   COM3D: Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval 
   <br/>
   Hao Wu, Ruochong Li, 
   <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong.
   <br/><i>ICME 2024, Oral </i> <br>
   [<a href="https://arxiv.org/abs/2405.04103">Paper</a>]
-</li>
+</li> -->
 
 <li>
   TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision
@@ -448,13 +453,13 @@ document.addEventListener('DOMContentLoaded', function () {
   <br/><i>TIP 2022</i><br>
   [<a href="https://arxiv.org/abs/2108.06458">Paper</a>] [<a href="https://github.com/hwang1996/Meta-Concepts-for-Video-Captioning">Code</a>]
 </li>
-<li>
+<!-- <li>
     Paired Cross-Modal Data Augmentation for Fine-Grained Image-to-Text Retrieval
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
     <br/><i>ACM MM 2022</i><br>
   [<a href="https://arxiv.org/abs/2207.14428">Paper</a>]
-</li>
+</li> -->
 <li>
     Learning Structural Representations for Recipe Generation and Food Retrieval 
     <br/>
@@ -462,13 +467,13 @@ document.addEventListener('DOMContentLoaded', function () {
     <br/><i>TPAMI 2022</i><br>
   [<a href="https://arxiv.org/abs/2110.01209">Paper</a>]
 </li>
-<li>
+<!-- <li>
     Cycle-Consistent Inverse GAN for Text-to-Image Synthesis 
     <br/>
     <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
     <br/><i>ACM MM 2021</i><br>
   [<a href="https://arxiv.org/abs/2108.01361">Paper</a>]
-</li>
+</li> -->
 <li>
     Structure-Aware Generation Network for Recipe Generation from Images
     <br/> 
@@ -476,7 +481,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <br/><i>ECCV 2020</i> <br>
     [<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5757_ECCV_2020_paper.php">Paper</a>] [<a href="https://github.com/hwang1996/SGN">Code</a>]
 </li>
-<li>
+<!-- <li>
     SpSequenceNet: Semantic Segmentation Network on 4D Point Clouds 
     <br/> 
     Hanyu Shi, Guosheng Lin, <strong><font color="black">Hao Wang</font></strong>, Tzu-Yi Hung, Zhenhua Wang.
@@ -489,7 +494,7 @@ document.addEventListener('DOMContentLoaded', function () {
     Doyen Sahoo, <strong><font color="black">Hao Wang</font></strong>, Shu Ke, Xiongwei Wu, Hung Le, Palakorn Achananuparp, Ee-Peng Lim, Steven Hoi.
     <br/><i> KDD 2019</i> <br>
   [<a href="https://arxiv.org/abs/1909.11946">Paper</a>]
-</li>
+</li> -->
 <li>
     Learning Cross-Modal Embeddings with Adversarial Networks for Cooking Recipes and Food Images
     <br/> 
