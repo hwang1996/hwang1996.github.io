@@ -48,10 +48,12 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <style>
 .projects-grid {
-  display:flex;
-  flex-wrap:wrap;
-  gap:1rem;
-  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;  /* 添加这行 */
+  max-width: 900px;  /* 添加这行 */
 }
 .projects-grid .project-card {
   width: calc((100% - 1rem) / 2);  
@@ -92,8 +94,9 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 .filter-buttons {
   display: flex;
   gap: 0.8rem;
-  margin: 0 0 1.5rem 0;
+  margin: 0 auto 1.5rem auto;  /* 改为 auto 居中 */
   width: 100%;
+  max-width: 900px;  /* 添加这行，与正文宽度保持一致 */
 }
 
 /* 按钮样式 */
@@ -252,19 +255,21 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 
 <li>
-  FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation <a href="https://arxiv.org/abs/2508.08001">[Paper]</a> <a href="https://3dagentworld.github.io/fastanimate/">[Project page]</a>
+  FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation 
   <br/>
   Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>AAAI 2026</i><br>
+  [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://3dagentworld.github.io/fastanimate/">Project page</a>]
 </li>
 
 <li>
-  VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft <a href="https://aclanthology.org/2025.emnlp-main.1111/">[Paper]</a>
+  VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft 
   <br/> 
   Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>EMNLP Main 2025</i> <br>
+  [<a href="https://aclanthology.org/2025.emnlp-main.1111/">Paper</a>]
 </li>
 
 <li>
