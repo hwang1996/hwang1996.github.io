@@ -9,44 +9,6 @@ redirect_from:
 ---
 
 <style>
-body, p, li {
-  text-align: justify;
-}
-</style>
-
-<!-- I am a tenure-track Assistant Professor of the AI Thrust at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I received my Ph.D. at School of Computer Science and Engineering, Nanyang Technological University, supervised by [Prof. Miao Chun Yan](https://dr.ntu.edu.sg/cris/rp/rp00084). My co-supervisor is [Prof. Guosheng Lin](https://guosheng.github.io). I also work closely with [Prof. Steven Hoi](https://sites.google.com/view/stevenhoi/home). I was an intern working with [Jiashi Feng](https://sites.google.com/site/jshfeng/home) at TikTok, Singapore. 
-
-My general research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Recently, we are working on projects of <font color=RoyalBlue>3D reconstruction</font> and <font color=RoyalBlue>LLM-based agents</font>. Please drop me an email if you are interested in collaborations. -->
-
-
-<!-- <div style="margin-right: -9999px; padding-right: 9999px; background: transparent;"> -->
-
-I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
-
-My research interests include spatial intelligence, 3D Gaussian Splatting, LLM agents, and related areas. I have published over 50 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serve as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award (广东省高层次青年人才) and etc. 
-
-<!-- <font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font>
-Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
-
-<!-- </div> -->
-
-
-<!-- <br /> -->
-
-
-<!-- News
-======
-
-* [Oct 2023] Our paper on LLM agents in Avalon gameplay is released!
-* [Feb 2023] Our paper is accepted to CVPR 2023.
-* [Jun 2022] Our paper is accepted to TIP.
-* [Jun 2022] Our paper is accepted to ACM MM 2022.
-* [May 2022] Our paper is accepted to TPAMI. -->
-
-
-<!-- <br /> -->
-
-<style>
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +100,53 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   }
 }
 </style>
+
+<style>
+body, p, li {
+  text-align: justify;
+}
+</style>
+
+<!-- I am a tenure-track Assistant Professor of the AI Thrust at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I received my Ph.D. at School of Computer Science and Engineering, Nanyang Technological University, supervised by [Prof. Miao Chun Yan](https://dr.ntu.edu.sg/cris/rp/rp00084). My co-supervisor is [Prof. Guosheng Lin](https://guosheng.github.io). I also work closely with [Prof. Steven Hoi](https://sites.google.com/view/stevenhoi/home). I was an intern working with [Jiashi Feng](https://sites.google.com/site/jshfeng/home) at TikTok, Singapore. 
+
+My general research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Recently, we are working on projects of <font color=RoyalBlue>3D reconstruction</font> and <font color=RoyalBlue>LLM-based agents</font>. Please drop me an email if you are interested in collaborations. -->
+
+
+<!-- <div style="margin-right: -9999px; padding-right: 9999px; background: transparent;"> -->
+
+I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
+
+My research interests include spatial intelligence, 3D Gaussian Splatting, LLM agents, and related areas. I have published over 50 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serve as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award (广东省高层次青年人才) and etc. 
+
+<!-- <font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font>
+Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
+
+<!-- </div> -->
+
+
+<!-- <br /> -->
+
+
+## News
+
+
+* [Nov 2025] Two papers accepted to AAAI 2026, one paper selected as AAAI 2026 Oral.
+* [Aug 2025] One paper accepted to EMNLP Main 2025, one paper accepted to EMNLP Findings 2025.
+* [Jul 2025] Four papers accepted to ACM-MM 2025.
+* [Jun 2025] Two papers accepted to ICCV 2025.
+* [May 2025] One paper accepted to ICML 2025.
+* [Apr 2025] Two papers accepted to CVPR 2025.
+* [Jan 2025] Two papers accepted to ICRA 2025.
+<!-- * [Oct 2023] Our paper on LLM agents in Avalon gameplay is released!
+* [Feb 2023] Our paper is accepted to CVPR 2023.
+* [Jun 2022] Our paper is accepted to TIP.
+* [Jun 2022] Our paper is accepted to ACM MM 2022.
+* [May 2022] Our paper is accepted to TPAMI. -->
+
+
+<!-- <br /> -->
+
+
 
 ## Highlighted Projects
 
