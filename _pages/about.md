@@ -52,8 +52,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   flex-wrap: wrap;
   gap: 1rem;
   width: 100%;
-  margin: 0 auto;  /* 添加这行 */
-  max-width: 900px;  /* 添加这行 */
+  margin: 0 0 1.5rem 0;
+  padding: 0;  /* 添加这行 */
 }
 .projects-grid .project-card {
   width: calc((100% - 1rem) / 2);  
@@ -94,9 +94,9 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 .filter-buttons {
   display: flex;
   gap: 0.8rem;
-  margin: 0 auto 1.5rem auto;  /* 改为 auto 居中 */
+  margin: 0 0 1.5rem 0;
   width: 100%;
-  max-width: 900px;  /* 添加这行，与正文宽度保持一致 */
+  padding: 0;  /* 添加这行 */
 }
 
 /* 按钮样式 */
@@ -368,6 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Junlong Ren, Hao Wu, Hui Xiong, 
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICRA 2025</i> <br>
+  [<a href="https://arxiv.org/abs/2502.19128">Paper</a>] [<a href="https://github.com/3DAgentWorld/SCA3D">Code</a>]
 </li>
 
 <li>
@@ -376,7 +377,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, 
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>ICLR 2025</i> <br>
-  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>]
+  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://github.com/3DAgentWorld/GraphGS">Code</a>]
 </li>
 
 <li>
@@ -385,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Gaochao Song, Cheng Chong, 
   <strong><font color="black">Hao Wang*</font></strong>.
   <br/><i>NeurIPS 2024</i> <br>
-  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>]
+  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://3dagentworld.github.io/gvkf/">Project Page</a>]
 </li>
 
 <li>
