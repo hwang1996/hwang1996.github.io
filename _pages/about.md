@@ -137,6 +137,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 * [May 2025] One paper accepted to ICML 2025.
 * [Apr 2025] Two papers accepted to CVPR 2025.
 * [Jan 2025] Two papers accepted to ICRA 2025.
+
 <!-- * [Oct 2023] Our paper on LLM agents in Avalon gameplay is released!
 * [Feb 2023] Our paper is accepted to CVPR 2023.
 * [Jun 2022] Our paper is accepted to TIP.
