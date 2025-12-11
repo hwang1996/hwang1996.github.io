@@ -107,6 +107,14 @@ body, p, li {
   line-height: 1;  /* 统一行距 */
   margin-bottom: 1.5em;  /* 统一段落下边距 */
 }
+
+@media (max-width: 768px) {
+  body, p, li {
+    text-align: left;  /* 手机上改为左对齐 */
+    line-height: 1.6;  /* 增加行距 */
+    margin-bottom: 1.2em;
+  }
+}
 </style>
 
 <!-- I am a tenure-track Assistant Professor of the AI Thrust at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I received my Ph.D. at School of Computer Science and Engineering, Nanyang Technological University, supervised by [Prof. Miao Chun Yan](https://dr.ntu.edu.sg/cris/rp/rp00084). My co-supervisor is [Prof. Guosheng Lin](https://guosheng.github.io). I also work closely with [Prof. Steven Hoi](https://sites.google.com/view/stevenhoi/home). I was an intern working with [Jiashi Feng](https://sites.google.com/site/jshfeng/home) at TikTok, Singapore. 
