@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "WANG Hao"
 title_separator          : "-"
 name                     : &name "WANG Hao"
-description              : &description "Assistant Professor<br>HKUST(GZ)"
+description              : &description "Assistant Professor, HKUST(GZ)"
 url                      : https://wanghao.tech/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hwang1996/hwang1996.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "WANG Hao"
   avatar           : "me.jpg"
-  bio              : "Assistant Professor, HKUST (GZ)"
+  bio              : "Assistant Professor\nHKUST (GZ)"
   location         : "Guangzhou, China"
   employer         :
   pubmed           : 
