@@ -180,7 +180,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
   </div>
 
   <div class="project-card" data-group="group1">
-    <a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener">
+    <a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener">
       <img src="/images/projects/opengs-slam.png" alt="3DGS-SLAM" />
     </a>
     <h4>
