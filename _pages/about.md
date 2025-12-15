@@ -124,7 +124,7 @@ My general research interests lie in the development of AI-powered perception an
 
 <!-- <div style="margin-right: -9999px; padding-right: 9999px; background: transparent;"> -->
 
-I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
+I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from Nanyang Technological University, Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
 
 My research interests include Spatial Intelligence, LLM Agents, Multimodal Learning and related areas. I have published over 50 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serve as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award and etc. 
 
