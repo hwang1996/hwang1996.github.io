@@ -142,13 +142,15 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 ## News
 
 
+* [Feb 2026] Two papers accepted to CVPR 2026.
+* [Jan 2026] One paper accepted to ICLR 2026.
 * [Nov 2025] Two papers accepted to AAAI 2026, one paper selected as AAAI 2026 Oral.
 * [Aug 2025] One paper accepted to EMNLP Main 2025, one paper accepted to EMNLP Findings 2025.
 * [Jul 2025] Four papers accepted to ACM-MM 2025.
 * [Jun 2025] Two papers accepted to ICCV 2025.
 * [May 2025] One paper accepted to ICML 2025.
 * [Apr 2025] Two papers accepted to CVPR 2025.
-* [Jan 2025] Two papers accepted to ICRA 2025.
+<!-- * [Jan 2025] Two papers accepted to ICRA 2025. -->
 
 <!-- * [Oct 2023] Our paper on LLM agents in Avalon gameplay is released!
 * [Feb 2023] Our paper is accepted to CVPR 2023.
@@ -265,6 +267,34 @@ document.addEventListener('DOMContentLoaded', function () {
 ## Selected Publications
 
 <ul>
+
+<li>
+  LongStream: Long-Sequence Streaming Autoregressive Visual Geometry 
+  <br/>
+  Chong Cheng, Xianda Chen, Tao Xie, Wei Yin, Weiqiang Ren, Qian Zhang, Xiaoyang Guo,
+  <strong><font color="black">Hao Wang*</font></strong>
+  <br/><i>CVPR 2026</i> <br>
+  [<a href="https://arxiv.org/abs/2602.13172">Paper</a>] [<a href="https://3dagentworld.github.io/longstream/">Project Page</a>]
+</li>
+
+<li>
+  VLM-Guided Group Preference Alignment for Diffusion-based Human Mesh Recovery 
+  <br/>
+  Wenhao Shen,
+  <strong><font color="black">Hao Wang*</font></strong>, Wanqi Yin, Fayao Liu, Xulei Yang, Chao Liang, Zhongang Cai, Guosheng Lin*
+  <br/><i>CVPR 2026</i> <br>
+  <!-- [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>] -->
+</li>
+
+
+<li>
+  ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures 
+  <br/>
+  Xiyin Zeng, Yuyu Sun, Haoyang Li, Shouqiang Liu,
+  <strong><font color="black">Hao Wang*</font></strong>
+  <br/><i>ICLR 2026</i> <br>
+  <!-- [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>] -->
+</li>
 
 
 <li>
