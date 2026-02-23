@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
   <strong><font color="black">Hao Wang*</font></strong>
   <br/><i>AAAI 2026</i><br>
-  [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://3dagentworld.github.io/fastanimate/">Project page</a>]
+  [<a href="https://arxiv.org/pdf/2512.01444">Paper</a>] [<a href="https://3dagentworld.github.io/fastanimate/">Project page</a>]
 </li>
 
 
