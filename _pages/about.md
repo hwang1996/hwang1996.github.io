@@ -142,7 +142,7 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 ## News
 
 
-* [Feb 2026] Two papers accepted to CVPR 2026.
+* [Feb 2026] Two papers accepted to CVPR 2026, one paper accepted to CVPR Findings 2026.
 * [Jan 2026] One paper accepted to ICLR 2026.
 * [Nov 2025] Two papers accepted to AAAI 2026, one paper selected as AAAI 2026 Oral.
 * [Aug 2025] One paper accepted to EMNLP Main 2025, one paper accepted to EMNLP Findings 2025.
