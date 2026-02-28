@@ -173,11 +173,11 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 
 <div class="projects-grid">
   <div class="project-card" data-group="group1">
-    <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">
-      <img src="/images/projects/vggt4d.png" alt="VGGT4D" />
+    <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener">
+      <img src="/images/projects/longstream.png" alt="LongStream" />
     </a>
     <h4>
-      <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener">VGGT4D</a>
+      <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener">LongStream</a>
     </h4>
   </div>
 
@@ -284,6 +284,15 @@ document.addEventListener('DOMContentLoaded', function () {
   <strong><font color="black">Hao Wang*</font></strong>, Wanqi Yin, Fayao Liu, Xulei Yang, Chao Liang, Zhongang Cai, Guosheng Lin*
   <br/><i>CVPR 2026</i> <br>
   <!-- [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>] -->
+</li>
+
+<li>
+  VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction 
+  <br/>
+  Yu Hu, Chong Cheng, Sicheng Yu, Xiaoyang Guo,
+  <strong><font color="black">Hao Wang*</font></strong>
+  <br/><i>CVPR 2026 Findings</i> <br>
+  [<a href="https://arxiv.org/abs/2511.19971">Paper</a>] [<a href="https://3dagentworld.github.io/vggt4d//">Project Page</a>]
 </li>
 
 
