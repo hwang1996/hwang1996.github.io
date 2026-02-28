@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
   <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*
   <br/><i>ICML 2025</i><br>
-  [<a href="https://arxiv.org/abs/2505.10250">Paper</a>]
+  [<a href="https://arxiv.org/abs/2505.10250">Paper</a>] [<a href="https://github.com/MotrixLab/ADHMR">Code</a>]
 </li>
 
 
