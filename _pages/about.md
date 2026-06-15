@@ -148,10 +148,10 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 * [Apr 2026] One paper accepted to ACL Main 2026, one paper accepted to ACL Findings 2026.
 * [Feb 2026] Two papers accepted to CVPR 2026, one paper accepted to CVPR Findings 2026.
 * [Jan 2026] One paper accepted to ICLR 2026.
-* [Nov 2025] Two papers accepted to AAAI 2026, one paper selected as AAAI 2026 Oral.
+<!-- * [Nov 2025] Two papers accepted to AAAI 2026, one paper selected as AAAI 2026 Oral.
 * [Aug 2025] One paper accepted to EMNLP Main 2025, one paper accepted to EMNLP Findings 2025.
 * [Jul 2025] Four papers accepted to ACM-MM 2025.
-* [Jun 2025] Two papers accepted to ICCV 2025.
+* [Jun 2025] Two papers accepted to ICCV 2025. -->
 <!-- * [May 2025] One paper accepted to ICML 2025. -->
 <!-- * [Apr 2025] Two papers accepted to CVPR 2025. -->
 <!-- * [Jan 2025] Two papers accepted to ICRA 2025. -->
