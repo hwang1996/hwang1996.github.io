@@ -142,6 +142,8 @@ Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
 ## News
 
 
+* [July 2026] Three papers accepted to ACM-MM 2026.
+* [June 2026] One paper accepted to ECCV 2026.
 * [May 2026] One paper accepted to TVCG 2026.
 * [May 2026] One paper accepted to KDD 2026 AI4Sciences Track (Oral).
 * [May 2026] One paper accepted to ICML 2026.
@@ -273,7 +275,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <ul>
 
-
+<li>
+  Robust and Efficient Monocular 3D Gaussian SLAM for Kilometer-Scale Outdoor Scenes
+  <br/>
+  Sicheng Yu, Dongxu Shen, Beizhen Zhao, Guanzhi Ding,
+  <strong><font color="black">Hao Wang*</font></strong>
+  <br/><i>ECCV 2026</i> <br>
+  [<a href="https://arxiv.org/abs/2606.30436">Paper</a>] [<a href="https://github.com/3DAgentWorld/KiloGS-SLAM">Project Page</a>]
+</li>
 
 <li>
   MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration
