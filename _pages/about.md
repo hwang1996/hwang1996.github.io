@@ -115,7 +115,7 @@ redirect_from:
     <div class="rh-section__head">
       <div>
         <span class="rh-kicker">Earlier foundations</span>
-        <h2 id="highlights-title">Selected visual highlights.</h2>
+        <h2 id="highlights-title">Selected highlights.</h2>
       </div>
     </div>
 
@@ -124,9 +124,9 @@ redirect_from:
         <img src="/images/projects/longstream.png" loading="lazy" decoding="async" alt="LongStream streaming 3D reconstruction results">
         <div class="rh-work-card__body"><span>3D reconstruction</span><h3>LongStream</h3></div>
       </a>
-      <a class="rh-work-card" href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/multimind.png" loading="lazy" decoding="async" alt="MultiMind multimodal game agent demonstration">
-        <div class="rh-work-card__body"><span>Game AI agent</span><h3>MultiMind</h3></div>
+      <a class="rh-work-card" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">
+        <img src="https://3dagentworld.github.io/avatar_wolf/static/images/motivation.png" loading="lazy" decoding="async" alt="CaM-Wolf multimodal social deduction game agent">
+        <div class="rh-work-card__body"><span>Multimodal game agent · ACM MM 2026</span><h3>CaM-Wolf</h3></div>
       </a>
       <a class="rh-work-card" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">
         <img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="VLM-guided diffusion human mesh recovery results">
@@ -135,9 +135,9 @@ redirect_from:
     </div>
     <div class="rh-more">
       <span>More:</span>
-      <a href="https://arxiv.org/abs/2606.30436" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
+      <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
-      <a href="https://arxiv.org/abs/2605.05680" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
+      <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
     </div>
   </section>
 

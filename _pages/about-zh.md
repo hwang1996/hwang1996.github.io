@@ -114,7 +114,7 @@ lang: zh-CN
     <div class="rh-section__head">
       <div>
         <span class="rh-kicker">相关基础</span>
-        <h2 id="highlights-title">其他代表工作。</h2>
+        <h2 id="highlights-title">精选代表工作。</h2>
       </div>
     </div>
 
@@ -123,9 +123,9 @@ lang: zh-CN
         <img src="/images/projects/longstream.png" loading="lazy" decoding="async" alt="LongStream 流式三维重建结果">
         <div class="rh-work-card__body"><span>三维重建</span><h3>LongStream</h3></div>
       </a>
-      <a class="rh-work-card" href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/multimind.png" loading="lazy" decoding="async" alt="MultiMind 多模态游戏智能体演示">
-        <div class="rh-work-card__body"><span>游戏 AI 智能体</span><h3>MultiMind</h3></div>
+      <a class="rh-work-card" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">
+        <img src="https://3dagentworld.github.io/avatar_wolf/static/images/motivation.png" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体">
+        <div class="rh-work-card__body"><span>多模态游戏智能体 · ACM MM 2026</span><h3>CaM-Wolf</h3></div>
       </a>
       <a class="rh-work-card" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">
         <img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="视觉语言模型引导的扩散式人体网格恢复结果">
@@ -134,9 +134,9 @@ lang: zh-CN
     </div>
     <div class="rh-more">
       <span>更多：</span>
-      <a href="https://arxiv.org/abs/2606.30436" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
+      <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
-      <a href="https://arxiv.org/abs/2605.05680" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
+      <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
     </div>
   </section>
 
