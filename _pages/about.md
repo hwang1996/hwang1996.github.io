@@ -48,12 +48,12 @@ redirect_from:
     <div class="rh-showcases">
       <article class="rh-showcase" id="persistent-worlds">
         <div class="rh-media">
-          <video class="rh-desktop-video" autoplay muted loop playsinline controls preload="metadata" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream streaming 3D reconstruction demo">
+          <video class="rh-desktop-video" autoplay muted loop playsinline controls preload="metadata" poster="/images/projects/horizonstream-poster.jpg" aria-label="HorizonStream streaming 3D reconstruction demo">
             <source src="https://3dagentworld.github.io/horizonstream/example/render/office/render.mp4" type="video/mp4" media="(min-width: 701px)">
             <a href="https://3dagentworld.github.io/horizonstream/">Watch the HorizonStream demo</a>
           </video>
-          <video class="rh-mobile-video" muted loop playsinline controls preload="none" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream streaming 3D reconstruction demo">
-            <source src="https://3dagentworld.github.io/horizonstream/example/render/office/render.mp4" type="video/mp4">
+          <video class="rh-mobile-video" autoplay muted loop playsinline controls preload="metadata" poster="/images/projects/horizonstream-poster.jpg" aria-label="HorizonStream streaming 3D reconstruction demo">
+            <source src="/images/projects/horizonstream-mobile.mp4" type="video/mp4">
             <a href="https://3dagentworld.github.io/horizonstream/">Watch the HorizonStream demo</a>
           </video>
           <span class="rh-media__badge">RGB input only · 10K+ frames</span>
@@ -114,27 +114,28 @@ redirect_from:
   <section class="rh-section" aria-labelledby="highlights-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">Earlier foundations</span>
+        <span class="rh-kicker">Research breadth</span>
         <h2 id="highlights-title">Selected highlights.</h2>
       </div>
     </div>
 
     <div class="rh-work-grid">
-      <a class="rh-work-card" href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/longstream.png" loading="lazy" decoding="async" alt="LongStream streaming 3D reconstruction results">
-        <div class="rh-work-card__body"><span>3D reconstruction</span><h3>LongStream</h3></div>
+      <a class="rh-work-card" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">
+        <img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav self-evolving navigation agent">
+        <div class="rh-work-card__body"><span>Self-evolving navigation</span><h3>EvolveNav</h3></div>
       </a>
       <a class="rh-work-card" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">
-        <img src="https://3dagentworld.github.io/avatar_wolf/static/images/motivation.png" loading="lazy" decoding="async" alt="CaM-Wolf multimodal social deduction game agent">
+        <img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf multimodal social deduction game agent">
         <div class="rh-work-card__body"><span>Multimodal game agent · ACM MM 2026</span><h3>CaM-Wolf</h3></div>
       </a>
       <a class="rh-work-card" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">
         <img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="VLM-guided diffusion human mesh recovery results">
-        <div class="rh-work-card__body"><span>Diffusion × perception</span><h3>VLM-Guided Diffusion HMR</h3></div>
+        <div class="rh-work-card__body"><span>Diffusion × perception · CVPR 2026</span><h3>VLM-Guided Diffusion HMR</h3></div>
       </a>
     </div>
     <div class="rh-more">
       <span>More:</span>
+      <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">LongStream ↗</a>
       <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
       <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>

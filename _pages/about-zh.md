@@ -47,12 +47,12 @@ lang: zh-CN
     <div class="rh-showcases">
       <article class="rh-showcase" id="persistent-worlds">
         <div class="rh-media">
-          <video class="rh-desktop-video" autoplay muted loop playsinline controls preload="metadata" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream 流式三维重建演示">
+          <video class="rh-desktop-video" autoplay muted loop playsinline controls preload="metadata" poster="/images/projects/horizonstream-poster.jpg" aria-label="HorizonStream 流式三维重建演示">
             <source src="https://3dagentworld.github.io/horizonstream/example/render/office/render.mp4" type="video/mp4" media="(min-width: 701px)">
             <a href="https://3dagentworld.github.io/horizonstream/">观看 HorizonStream 演示</a>
           </video>
-          <video class="rh-mobile-video" muted loop playsinline controls preload="none" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream 流式三维重建演示">
-            <source src="https://3dagentworld.github.io/horizonstream/example/render/office/render.mp4" type="video/mp4">
+          <video class="rh-mobile-video" autoplay muted loop playsinline controls preload="metadata" poster="/images/projects/horizonstream-poster.jpg" aria-label="HorizonStream 流式三维重建演示">
+            <source src="/images/projects/horizonstream-mobile.mp4" type="video/mp4">
             <a href="https://3dagentworld.github.io/horizonstream/">观看 HorizonStream 演示</a>
           </video>
           <span class="rh-media__badge">仅 RGB 输入 · 10K+ 帧</span>
@@ -113,27 +113,28 @@ lang: zh-CN
   <section class="rh-section" aria-labelledby="highlights-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">相关基础</span>
+        <span class="rh-kicker">研究延展</span>
         <h2 id="highlights-title">精选代表工作。</h2>
       </div>
     </div>
 
     <div class="rh-work-grid">
-      <a class="rh-work-card" href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/longstream.png" loading="lazy" decoding="async" alt="LongStream 流式三维重建结果">
-        <div class="rh-work-card__body"><span>三维重建</span><h3>LongStream</h3></div>
+      <a class="rh-work-card" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">
+        <img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav 自进化导航智能体">
+        <div class="rh-work-card__body"><span>自进化具身导航</span><h3>EvolveNav</h3></div>
       </a>
       <a class="rh-work-card" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">
-        <img src="https://3dagentworld.github.io/avatar_wolf/static/images/motivation.png" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体">
+        <img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体">
         <div class="rh-work-card__body"><span>多模态游戏智能体 · ACM MM 2026</span><h3>CaM-Wolf</h3></div>
       </a>
       <a class="rh-work-card" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">
         <img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="视觉语言模型引导的扩散式人体网格恢复结果">
-        <div class="rh-work-card__body"><span>扩散模型 × 感知</span><h3>VLM-Guided Diffusion HMR</h3></div>
+        <div class="rh-work-card__body"><span>扩散模型 × 感知 · CVPR 2026</span><h3>VLM-Guided Diffusion HMR</h3></div>
       </a>
     </div>
     <div class="rh-more">
       <span>更多：</span>
+      <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">LongStream ↗</a>
       <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
       <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
