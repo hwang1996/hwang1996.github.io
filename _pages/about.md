@@ -1,644 +1,872 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About Me"
-author_profile: true
-redirect_from: 
+title: "Spatial Intelligence & Agentic AI"
+excerpt: "Spatial Intelligence, World Models, and Self-Evolving Agents"
+author_profile: false
+modified: 2026-09-10
+redirect_from:
   - about/
   - about.html
 ---
 
 <style>
-.projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  width: 100%;
-  margin: 0 0 1.5rem 0;
-  padding: 0;  /* 添加这行 */
-}
-.projects-grid .project-card {
-  width: calc((100% - 1rem) / 2);  
-  box-sizing: border-box;
-  border:1px solid #eee;
-  padding:0.6rem;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align:center;
-}
-.projects-grid .project-card h4 {
-  margin:0.5rem 0 0.25rem 0;
-  font-size:18px;
-  line-height:1.2;
-  word-break:break-word;
-}
-.projects-grid .project-card p {
-  margin:0;
-  font-size:14px;
-  color:#555;
-}
-.projects-grid .project-card img,
-.projects-grid .project-card video {
-  width:100%;
-  height:260px;
-  object-fit:cover;
-  display:block;
-  border-radius:4px;
-}
-@media (max-width:900px){
-  .projects-grid .project-card { width:100%; }
-  .projects-grid .project-card h4 { font-size:17px; }
-  .projects-grid .project-card p { font-size:13px; }
-}
-
-/* 按钮容器样式 */
-.filter-buttons {
-  display: flex;
-  gap: 0.8rem;
-  margin: 0 0 1.5rem 0;
-  width: 100%;
-  padding: 0;  /* 添加这行 */
-}
-
-/* 按钮样式 */
-.filter-buttons button {
-  flex: 1;
-  padding: 0.8rem 1.2rem;
-  border: 1px solid #ddd;
-  background: #f5f5f5;
-  cursor: pointer;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: 500;
-  white-space: nowrap;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-.filter-buttons button:hover {
-  background: #eee;
-}
-
-.filter-buttons button.active {
-  background: #0366d6;
-  color: #fff;
-  border-color: #0366d6;
-}
-
-/* 移动端样式 */
-@media (max-width: 768px) {
-  .filter-buttons {
-    flex-direction: column;
-    gap: 0.6rem;
+  .page__title,
+  .page__meta {
+    display: none;
   }
-  
-  .filter-buttons button {
+
+  #main {
+    max-width: 1440px;
+    margin-top: 1.25rem;
+  }
+
+  article.page {
+    float: none;
     width: 100%;
-    font-size: 15px;
-    padding: 0.7rem 1rem;
+    padding: 0;
   }
-}
+
+  .research-home {
+    --rh-ink: #0f172a;
+    --rh-muted: #526078;
+    --rh-soft: #eef4ff;
+    --rh-line: #dce5f2;
+    --rh-blue: #2563eb;
+    --rh-cyan: #0891b2;
+    --rh-violet: #7c3aed;
+    color: var(--rh-ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  .research-home,
+  .research-home * {
+    box-sizing: border-box;
+  }
+
+  .page__content .research-home a {
+    text-decoration: none;
+  }
+
+  .research-home p,
+  .research-home li {
+    margin: 0;
+    line-height: 1.65;
+    text-align: left;
+  }
+
+  .research-home h1,
+  .research-home h2,
+  .research-home h3 {
+    margin: 0;
+    color: var(--rh-ink);
+    font-family: inherit;
+    letter-spacing: -0.035em;
+  }
+
+  .research-home h2 {
+    padding: 0;
+    border: 0;
+  }
+
+  .rh-hero {
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 210px;
+    gap: clamp(2rem, 5vw, 5rem);
+    overflow: hidden;
+    padding: clamp(2rem, 5vw, 4.75rem);
+    border: 1px solid #d8e5ff;
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at 88% 16%, rgba(56, 189, 248, 0.24), transparent 27%),
+      radial-gradient(circle at 70% 86%, rgba(124, 58, 237, 0.13), transparent 32%),
+      linear-gradient(135deg, #f8fbff 0%, #eef5ff 52%, #f8f7ff 100%);
+    box-shadow: 0 24px 70px rgba(30, 64, 175, 0.09);
+  }
+
+  .rh-hero::after {
+    position: absolute;
+    z-index: -1;
+    top: -110px;
+    right: -90px;
+    width: 330px;
+    height: 330px;
+    border: 1px solid rgba(37, 99, 235, 0.18);
+    border-radius: 50%;
+    box-shadow:
+      0 0 0 42px rgba(37, 99, 235, 0.035),
+      0 0 0 86px rgba(8, 145, 178, 0.025);
+    content: "";
+  }
+
+  .rh-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 1.2rem;
+    color: #1d4ed8;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .rh-eyebrow::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #06b6d4;
+    box-shadow: 0 0 0 5px rgba(6, 182, 212, 0.13);
+    content: "";
+  }
+
+  .rh-hero h1 {
+    max-width: 820px;
+    font-size: clamp(2.5rem, 6vw, 5.35rem);
+    font-weight: 800;
+    line-height: 0.99;
+  }
+
+  .rh-hero h1 span {
+    color: #3157d5;
+    background: linear-gradient(105deg, #1d4ed8, #7c3aed 72%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .rh-hero__lead {
+    max-width: 790px;
+    margin-top: 1.65rem !important;
+    color: #334155;
+    font-size: clamp(1rem, 1.7vw, 1.22rem);
+  }
+
+  .rh-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.8rem;
+  }
+
+  .rh-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0.72rem 1.08rem;
+    border: 1px solid #cbd8ee;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.82);
+    color: #1e3a5f !important;
+    font-size: 0.88rem;
+    font-weight: 750;
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  }
+
+  .rh-button:hover {
+    border-color: #8fb0ed;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .rh-button--primary {
+    border-color: #1d4ed8;
+    background: #1d4ed8;
+    color: #fff !important;
+  }
+
+  .rh-button--primary:hover {
+    border-color: #1e40af;
+    background: #1e40af;
+  }
+
+  .rh-portrait {
+    align-self: center;
+    justify-self: end;
+    width: 100%;
+    max-width: 210px;
+  }
+
+  .rh-portrait img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 6px solid rgba(255, 255, 255, 0.82);
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 22px 54px rgba(30, 64, 175, 0.2);
+  }
+
+  .rh-portrait p {
+    margin-top: 0.85rem !important;
+    color: #40506a;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  .rh-proof {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    margin-top: 0.35rem;
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    border-radius: 16px;
+    background: rgba(148, 163, 184, 0.22);
+  }
+
+  .rh-proof div {
+    padding: 0.9rem 1rem;
+    background: rgba(255, 255, 255, 0.72);
+  }
+
+  .rh-proof strong,
+  .rh-proof span {
+    display: block;
+  }
+
+  .rh-proof strong {
+    font-size: 0.88rem;
+  }
+
+  .rh-proof span {
+    margin-top: 0.15rem;
+    color: #64748b;
+    font-size: 0.72rem;
+  }
+
+  .rh-section {
+    padding: clamp(3.5rem, 8vw, 6.5rem) clamp(0.15rem, 2.5vw, 2rem) 0;
+  }
+
+  .rh-section__head {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(280px, 1.2fr);
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 2rem;
+  }
+
+  .rh-section__head h2 {
+    font-size: clamp(2rem, 4vw, 3.35rem);
+    line-height: 1.05;
+  }
+
+  .rh-section__head p {
+    color: var(--rh-muted);
+    font-size: 1rem;
+  }
+
+  .rh-kicker {
+    display: block;
+    margin-bottom: 0.55rem;
+    color: var(--rh-blue);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .rh-flow {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border: 1px solid var(--rh-line);
+    border-radius: 18px;
+    background: #f8fafc;
+  }
+
+  .rh-flow div {
+    position: relative;
+    padding: 1.15rem 1.25rem;
+  }
+
+  .rh-flow div + div {
+    border-left: 1px solid var(--rh-line);
+  }
+
+  .rh-flow strong,
+  .rh-flow span {
+    display: block;
+  }
+
+  .rh-flow strong {
+    font-size: 0.9rem;
+  }
+
+  .rh-flow span {
+    margin-top: 0.2rem;
+    color: #64748b;
+    font-size: 0.74rem;
+  }
+
+  .rh-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .rh-card {
+    position: relative;
+    display: flex;
+    min-height: 460px;
+    flex-direction: column;
+    overflow: hidden;
+    padding: clamp(1.35rem, 2.4vw, 2rem);
+    border: 1px solid var(--rh-line);
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.055);
+  }
+
+  .rh-card::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5px;
+    background: var(--card-accent);
+    content: "";
+  }
+
+  .rh-card:nth-child(1) {
+    --card-accent: linear-gradient(90deg, #0ea5e9, #2563eb);
+  }
+
+  .rh-card:nth-child(2) {
+    --card-accent: linear-gradient(90deg, #2563eb, #7c3aed);
+  }
+
+  .rh-card:nth-child(3) {
+    --card-accent: linear-gradient(90deg, #7c3aed, #db2777);
+  }
+
+  .rh-card__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .rh-card__number {
+    color: #94a3b8;
+    font-size: 0.74rem;
+    font-weight: 850;
+    letter-spacing: 0.13em;
+  }
+
+  .rh-card__status {
+    padding: 0.3rem 0.55rem;
+    border-radius: 999px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .rh-card h3 {
+    font-size: clamp(1.45rem, 2.4vw, 2rem);
+    line-height: 1.08;
+  }
+
+  .rh-card__project {
+    display: block;
+    margin-bottom: 0.55rem;
+    color: var(--rh-blue);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .rh-card__summary {
+    margin-top: 1rem !important;
+    color: var(--rh-muted);
+    font-size: 0.91rem;
+  }
+
+  .rh-card__question {
+    margin-top: 1.1rem !important;
+    padding: 0.8rem 0.9rem;
+    border-left: 3px solid #93c5fd;
+    border-radius: 0 10px 10px 0;
+    background: #f8fafc;
+    color: #334155;
+    font-size: 0.78rem;
+    font-weight: 650;
+  }
+
+  .rh-card__footer {
+    margin-top: auto;
+    padding-top: 1.5rem;
+  }
+
+  .rh-card__links,
+  .rh-related {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .rh-card__links a {
+    color: #1746a2 !important;
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .rh-card__links a::after {
+    content: " ↗";
+  }
+
+  .rh-related {
+    margin-top: 0.85rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid #edf1f7;
+  }
+
+  .rh-related span,
+  .rh-related a {
+    color: #64748b !important;
+    font-size: 0.69rem;
+    font-weight: 650;
+  }
+
+  .rh-related span {
+    width: 100%;
+    color: #334155 !important;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .rh-related a {
+    padding: 0.28rem 0.48rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    background: #f8fafc;
+  }
+
+  .rh-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+    gap: 1.25rem;
+  }
+
+  .rh-panel {
+    padding: clamp(1.5rem, 3vw, 2.4rem);
+    border: 1px solid var(--rh-line);
+    border-radius: 22px;
+    background: #fff;
+  }
+
+  .rh-panel h2 {
+    font-size: clamp(1.65rem, 3vw, 2.35rem);
+    line-height: 1.1;
+  }
+
+  .rh-panel > p {
+    margin-top: 1rem !important;
+    color: var(--rh-muted);
+    font-size: 0.94rem;
+  }
+
+  .rh-topics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-top: 1.4rem;
+  }
+
+  .rh-topic {
+    padding: 0.85rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #f8fafc;
+  }
+
+  .rh-topic strong,
+  .rh-topic span {
+    display: block;
+  }
+
+  .rh-topic strong {
+    font-size: 0.79rem;
+  }
+
+  .rh-topic span {
+    margin-top: 0.2rem;
+    color: #64748b;
+    font-size: 0.69rem;
+    line-height: 1.4;
+  }
+
+  .rh-news {
+    list-style: none;
+    margin: 1.25rem 0 0;
+    padding: 0;
+  }
+
+  .rh-news li {
+    display: grid;
+    grid-template-columns: 70px minmax(0, 1fr);
+    gap: 0.9rem;
+    padding: 0.75rem 0;
+    border-top: 1px solid #edf1f7;
+    color: #40506a;
+    font-size: 0.79rem;
+  }
+
+  .rh-news time {
+    color: #1d4ed8;
+    font-weight: 850;
+  }
+
+  .rh-news a {
+    color: #29466f !important;
+    font-weight: 750;
+  }
+
+  .rh-collab {
+    position: relative;
+    overflow: hidden;
+    margin-top: clamp(3.5rem, 8vw, 6.5rem);
+    padding: clamp(2rem, 5vw, 4rem);
+    border-radius: 26px;
+    background: #101b35;
+    color: #dbeafe;
+  }
+
+  .rh-collab::after {
+    position: absolute;
+    right: -80px;
+    bottom: -140px;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.24), transparent 68%);
+    content: "";
+  }
+
+  .rh-collab__inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .rh-collab h2 {
+    color: #fff;
+    font-size: clamp(1.9rem, 4vw, 3.2rem);
+    line-height: 1.04;
+  }
+
+  .rh-collab p {
+    max-width: 780px;
+    margin-top: 0.9rem !important;
+    color: #b9c7df;
+    font-size: 0.94rem;
+  }
+
+  .rh-collab .rh-button {
+    border-color: #67e8f9;
+    background: #67e8f9;
+    color: #10203d !important;
+    white-space: nowrap;
+  }
+
+  .rh-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.5rem 0 0;
+    color: #64748b;
+    font-size: 0.74rem;
+  }
+
+  .rh-footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .rh-footer a {
+    color: #31527f !important;
+    font-weight: 750;
+  }
+
+  .research-home a:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.35);
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 980px) {
+    .rh-hero {
+      grid-template-columns: minmax(0, 1fr) 150px;
+    }
+
+    .rh-cards {
+      grid-template-columns: 1fr;
+    }
+
+    .rh-card {
+      min-height: 0;
+    }
+
+    .rh-split {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 700px) {
+    #main {
+      margin-top: 0.75rem;
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+    }
+
+    .rh-hero {
+      grid-template-columns: 1fr;
+      border-radius: 20px;
+    }
+
+    .rh-portrait {
+      grid-row: 1;
+      justify-self: start;
+      width: 92px;
+    }
+
+    .rh-portrait img {
+      border-width: 4px;
+      border-radius: 20px;
+    }
+
+    .rh-portrait p {
+      display: none;
+    }
+
+    .rh-proof,
+    .rh-flow,
+    .rh-section__head,
+    .rh-collab__inner {
+      grid-template-columns: 1fr;
+    }
+
+    .rh-proof div + div,
+    .rh-flow div + div {
+      border-top: 1px solid var(--rh-line);
+      border-left: 0;
+    }
+
+    .rh-section__head {
+      gap: 1rem;
+    }
+
+    .rh-topics {
+      grid-template-columns: 1fr;
+    }
+
+    .rh-news li {
+      grid-template-columns: 62px minmax(0, 1fr);
+      gap: 0.65rem;
+    }
+
+    .rh-collab .rh-button {
+      justify-self: start;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rh-button {
+      transition: none;
+    }
+  }
 </style>
 
-<style>
-body, p, li {
-  text-align: justify;
-  line-height: 1.6;  /* 统一行距 */
-  margin-bottom: 1.5em;  /* 统一段落下边距 */
-}
+<div class="research-home">
+  <header class="rh-hero">
+    <div class="rh-hero__copy">
+      <div class="rh-eyebrow">Spatial Intelligence × Agentic AI</div>
+      <h1>From Persistent Worlds<br>to <span>Self-Evolving Agents.</span></h1>
+      <p class="rh-hero__lead">
+        I build spatially grounded agents that can understand, act in, and continually improve through open-ended worlds. My research connects persistent 3D reconstruction, actionable world models, game and embodied agents, diffusion, and AI-driven self-evolution.
+      </p>
+      <div class="rh-actions" aria-label="Primary links">
+        <a class="rh-button rh-button--primary" href="#research">Explore the research</a>
+        <a class="rh-button" href="mailto:haowang@hkust-gz.edu.cn">Discuss collaboration</a>
+        <a class="rh-button" href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+      </div>
+    </div>
 
-@media (max-width: 768px) {
-  body, p, li {
-    text-align: left;  /* 手机上改为左对齐 */
-    line-height: 1.6;  /* 增加行距 */
-    margin-bottom: 1.2em;
-  }
-}
-</style>
+    <div class="rh-portrait">
+      <img src="/images/me.jpg" alt="Portrait of Hao Wang">
+      <p>WANG Hao<br>Assistant Professor · HKUST(GZ)</p>
+    </div>
 
-<!-- I am a tenure-track Assistant Professor of the AI Thrust at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I received my Ph.D. at School of Computer Science and Engineering, Nanyang Technological University, supervised by [Prof. Miao Chun Yan](https://dr.ntu.edu.sg/cris/rp/rp00084). My co-supervisor is [Prof. Guosheng Lin](https://guosheng.github.io). I also work closely with [Prof. Steven Hoi](https://sites.google.com/view/stevenhoi/home). I was an intern working with [Jiashi Feng](https://sites.google.com/site/jshfeng/home) at TikTok, Singapore. 
+    <div class="rh-proof" aria-label="Research profile">
+      <div><strong>Assistant Professor</strong><span>AI Thrust · HKUST(GZ)</span></div>
+      <div><strong>60+ publications</strong><span>AI, vision, robotics &amp; agents</span></div>
+      <div><strong>Academia × Industry</strong><span>Joint research &amp; sponsored projects</span></div>
+    </div>
+  </header>
 
-My general research interests lie in the development of AI-powered perception and generation algorithms for multimodal data, including text, images, videos, and 3D shapes. Recently, we are working on projects of <font color=RoyalBlue>3D reconstruction</font> and <font color=RoyalBlue>LLM-based agents</font>. Please drop me an email if you are interested in collaborations. -->
+  <section class="rh-section" id="research" aria-labelledby="research-title">
+    <div class="rh-section__head">
+      <div>
+        <span class="rh-kicker">Research throughline</span>
+        <h2 id="research-title">One program.<br>Three frontiers.</h2>
+      </div>
+      <p>
+        Rather than treating 3D vision, world models, and agents as separate topics, I study them as a connected stack: maintain a persistent world, make it useful for action, then let the agent improve the stack itself.
+      </p>
+    </div>
 
+    <div class="rh-flow" aria-label="Research progression">
+      <div><strong>01 · Observe &amp; persist</strong><span>Build long-horizon spatial memory</span></div>
+      <div><strong>02 · Predict &amp; control</strong><span>Turn worlds into actionable models</span></div>
+      <div><strong>03 · Learn &amp; improve</strong><span>Create self-evolving AI systems</span></div>
+    </div>
 
-<!-- <div style="margin-right: -9999px; padding-right: 9999px; background: transparent;"> -->
+    <div class="rh-cards">
+      <article class="rh-card">
+        <div class="rh-card__top">
+          <span class="rh-card__number">FRONTIER 01</span>
+          <span class="rh-card__status">Latest system</span>
+        </div>
+        <span class="rh-card__project">HorizonStream</span>
+        <h3>Persistent Worlds</h3>
+        <p class="rh-card__summary">
+          Long-horizon spatial intelligence needs memory that does not collapse as a scene grows. HorizonStream targets streaming 3D reconstruction beyond 10K frames with constant memory and linear-time updates—toward persistent digital worlds that agents can revisit and reason over.
+        </p>
+        <p class="rh-card__question">How can an agent maintain a coherent, efficient world model over an effectively unbounded stream?</p>
+        <div class="rh-card__footer">
+          <div class="rh-card__links">
+            <a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">Project</a>
+            <a href="https://arxiv.org/abs/2605.23889" target="_blank" rel="noopener noreferrer">Paper</a>
+          </div>
+          <div class="rh-related">
+            <span>Related threads</span>
+            <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">LongStream</a>
+            <a href="https://arxiv.org/abs/2606.30436" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a>
+            <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D</a>
+            <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3D Gaussian Splatting</a>
+          </div>
+        </div>
+      </article>
 
-I am a tenure-track Assistant Professor of AI at [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/). I obtained my PhD from Nanyang Technological University, Singapore; I was an intern researcher with TikTok and Horizon Robotics. 
+      <article class="rh-card">
+        <div class="rh-card__top">
+          <span class="rh-card__number">FRONTIER 02</span>
+          <span class="rh-card__status">New roadmap</span>
+        </div>
+        <span class="rh-card__project">EmbodiedWM</span>
+        <h3>Actionable World Models</h3>
+        <p class="rh-card__summary">
+          A world model should do more than generate a plausible future. EmbodiedWM organizes the field around a progression from <strong>plausible</strong>, to <strong>controllable</strong>, to <strong>actionable</strong>—connecting perception and simulation to planning, game AI, and embodied decision-making.
+        </p>
+        <p class="rh-card__question">What makes a learned world useful enough for an agent to plan, intervene, and complete real tasks?</p>
+        <div class="rh-card__footer">
+          <div class="rh-card__links">
+            <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">Project &amp; resources</a>
+          </div>
+          <div class="rh-related">
+            <span>Related threads</span>
+            <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener noreferrer">CausalMACE</a>
+            <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener noreferrer">MultiMind</a>
+            <a href="https://arxiv.org/abs/2310.14985" target="_blank" rel="noopener noreferrer">Avalon</a>
+            <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">Game AI agents</a>
+          </div>
+        </div>
+      </article>
 
-My research interests include Spatial Intelligence, LLM Agents, Multimodal Learning and related areas. I have published over 60 papers in top-tier conferences and journals, including TPAMI, IJCV, CVPR, and NeurIPS. I also serve as an area chair and reviewer for multiple leading conferences. I received the rising star award on ICCSE 2025, Guangdong provincial talent award and etc. 
+      <article class="rh-card">
+        <div class="rh-card__top">
+          <span class="rh-card__number">FRONTIER 03</span>
+          <span class="rh-card__status">New survey</span>
+        </div>
+        <span class="rh-card__project">AI4AI</span>
+        <h3>AI that Improves AI</h3>
+        <p class="rh-card__summary">
+          AI is increasingly becoming its own improver. AI4AI maps how models and agents contribute to data, training, evaluation, and system design. This direction unifies my work on self-evolving agents, automated feedback, and diffusion-based generation and perception.
+        </p>
+        <p class="rh-card__question">How can agents diagnose their limits, generate useful experience, and improve reliably with less human intervention?</p>
+        <div class="rh-card__footer">
+          <div class="rh-card__links">
+            <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">Project</a>
+            <a href="https://github.com/3DAgentWorld/AI4AI-survey" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
+          <div class="rh-related">
+            <span>Related threads</span>
+            <a href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">VLM-guided Diffusion</a>
+            <a href="https://arxiv.org/abs/2605.05680" target="_blank" rel="noopener noreferrer">MotionGRPO</a>
+            <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">Self-evolving agents</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<font color=RoyalBlue>There are RA and intern position openings on the 3D reconstruction projects.</font> Please drop me an email if you are interested in collaborations.
+  <section class="rh-section" aria-label="Profile and recent news">
+    <div class="rh-split">
+      <article class="rh-panel">
+        <span class="rh-kicker">About</span>
+        <h2>Research built for open-ended worlds.</h2>
+        <p>
+          I am a tenure-track Assistant Professor in the AI Thrust at The Hong Kong University of Science and Technology (Guangzhou). I received my Ph.D. from Nanyang Technological University. My group works across spatial intelligence, multimodal learning, and agentic AI, with a focus on systems that remain useful beyond a single scene, task, or training cycle.
+        </p>
+        <div class="rh-topics" aria-label="Collaboration areas">
+          <div class="rh-topic"><strong>3D reconstruction &amp; digital twins</strong><span>Streaming mapping, 3DGS, large-scale scenes</span></div>
+          <div class="rh-topic"><strong>Embodied &amp; game agents</strong><span>World models, planning, multi-agent systems</span></div>
+          <div class="rh-topic"><strong>Generative spatial intelligence</strong><span>Diffusion, human motion, controllable generation</span></div>
+          <div class="rh-topic"><strong>Self-evolving AI</strong><span>Automated feedback, evaluation, AI for AI</span></div>
+        </div>
+      </article>
 
-<!-- <font color=RoyalBlue>I am looking for self-motivated PhD students, RAs and interns.</font>
-Please check my [recruitment page](https://wanghao.tech/recruitment/). -->
+      <aside class="rh-panel" aria-labelledby="news-title">
+        <span class="rh-kicker">Selected updates</span>
+        <h2 id="news-title">Recent news</h2>
+        <ul class="rh-news">
+          <li><time datetime="2026-09">Sep 2026</time><span>Released <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">AI4AI</a>, a survey of AI systems that improve AI.</span></li>
+          <li><time datetime="2026">2026</time><span>Released <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">EmbodiedWM</a>: from plausible to controllable to actionable world models.</span></li>
+          <li><time datetime="2026-07">Jul 2026</time><span>Three papers accepted to ACM Multimedia 2026.</span></li>
+          <li><time datetime="2026-06">Jun 2026</time><span><a href="https://arxiv.org/abs/2606.30436" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a> accepted to ECCV 2026.</span></li>
+          <li><time datetime="2026-05">May 2026</time><span>Released <a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">HorizonStream</a> for long-horizon streaming 3D reconstruction.</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
 
-<!-- </div> -->
+  <section class="rh-collab" aria-labelledby="collab-title">
+    <div class="rh-collab__inner">
+      <div>
+        <span class="rh-kicker" style="color:#67e8f9;">Collaborate</span>
+        <h2 id="collab-title">Build the next intelligent world together.</h2>
+        <p>
+          I welcome joint research, sponsored projects, and technology transfer with universities and industry teams working on 3D spatial computing, digital twins, embodied or game agents, generative AI, and self-improving systems.
+        </p>
+      </div>
+      <a class="rh-button" href="mailto:haowang@hkust-gz.edu.cn?subject=Research%20collaboration">Start a conversation →</a>
+    </div>
+  </section>
 
-
-<!-- <br /> -->
-
-
-## News
-
-
-* [July 2026] Three papers accepted to ACM-MM 2026.
-* [June 2026] One paper accepted to ECCV 2026.
-* [May 2026] One paper accepted to TVCG 2026.
-* [May 2026] One paper accepted to KDD 2026 AI4Sciences Track (Oral).
-* [May 2026] One paper accepted to ICML 2026.
-* [Apr 2026] One paper accepted to ACL Main 2026, one paper accepted to ACL Findings 2026.
-* [Feb 2026] Two papers accepted to CVPR 2026, one paper accepted to CVPR Findings 2026.
-* [Jan 2026] One paper accepted to ICLR 2026.
-
-<!-- * [Nov 2025] Two papers accepted to AAAI 2026, one paper selected as AAAI 2026 Oral.
-* [Aug 2025] One paper accepted to EMNLP Main 2025, one paper accepted to EMNLP Findings 2025.
-* [Jul 2025] Four papers accepted to ACM-MM 2025.
-* [Jun 2025] Two papers accepted to ICCV 2025.
-* [May 2025] One paper accepted to ICML 2025.
-* [Apr 2025] Two papers accepted to CVPR 2025.
-* [Jan 2025] Two papers accepted to ICRA 2025.
-
-* [Oct 2023] Our paper on LLM agents in Avalon gameplay is released!
-* [Feb 2023] Our paper is accepted to CVPR 2023.
-* [Jun 2022] Our paper is accepted to TIP.
-* [Jun 2022] Our paper is accepted to ACM MM 2022.
-* [May 2022] Our paper is accepted to TPAMI. -->
-
-
-<!-- <br /> -->
-
-
-
-## Highlighted Projects
-
-<div class="filter-buttons">
-  <button data-filter="group1" class="active">3D Scene Reconstruction</button>
-  <button data-filter="group2">3D Human Reconstruction</button>
-  <button data-filter="group3">LLM Agents</button>
+  <footer class="rh-footer">
+    <span>WANG Hao · AI Thrust · HKUST(GZ)</span>
+    <div class="rh-footer__links">
+      <a href="mailto:haowang@hkust-gz.edu.cn">Email</a>
+      <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3DAgentWorld</a>
+    </div>
+  </footer>
 </div>
-
-<div class="projects-grid">
-  <div class="project-card" data-group="group1">
-    <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener">
-      <img src="/images/projects/longstream.png" alt="LongStream" />
-    </a>
-    <h4>
-      <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener">LongStream</a>
-    </h4>
-  </div>
-
-  <div class="project-card" data-group="group1">
-    <a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener">
-      <img src="/images/projects/opengs-slam.png" alt="3DGS-SLAM" />
-    </a>
-    <h4>
-      <a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener">3DGS-SLAM</a>
-    </h4>
-  </div>
-
-  <div class="project-card" data-group="group2">
-    <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">
-      <video width="100%" height="260px" autoplay loop muted playsinline>
-        <source src="/images/projects/multigo++.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </a>
-    <h4>
-      <a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener">Monocular Human Reconstruction</a>
-    </h4>
-  </div>
-
-  <div class="project-card" data-group="group2">
-    <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">
-      <img src="/images/projects/human_mesh_recovery.png" alt="human_mesh_recovery" />
-    </a>
-    <h4>
-      <a href="https://arxiv.org/abs/2505.10250" target="_blank" rel="noopener">Human Mesh Recovery</a>
-    </h4>
-  </div>
-
-  <div class="project-card" data-group="group3">
-    <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">
-      <video width="100%" height="260px" autoplay loop muted playsinline>
-        <source src="/images/projects/Pumpkin.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </a>
-    <h4>
-      <a href="https://arxiv.org/abs/2508.18797" target="_blank" rel="noopener">Minecraft Agents</a>
-    </h4>
-  </div>
-
-  <div class="project-card" data-group="group3">
-    <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">
-      <img src="/images/projects/multimind.png" alt="multimind" />
-    </a>
-    <h4>
-      <a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener">Social Deduction Agents</a>
-    </h4>
-  </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const buttons = Array.from(document.querySelectorAll('.filter-buttons button'));
-  const cards = Array.from(document.querySelectorAll('.projects-grid .project-card'));
-  if (!buttons.length || !cards.length) return;
-
-  function setFilter(filter) {
-    cards.forEach(c => {
-      c.style.display = (filter === 'all' || c.dataset.group === filter) ? '' : 'none';
-    });
-  }
-
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      setFilter(btn.dataset.filter);
-    });
-  });
-
-  const initBtn = document.querySelector('.filter-buttons button.active') || buttons[0];
-  setFilter(initBtn ? initBtn.dataset.filter : 'all');
-});
-</script>
-
-<!-- <br />
-<br /> -->
-
-
-<!-- Selected Publications
-====== -->
-## Selected Publications
-
-<ul>
-
-<li>
-  Robust and Efficient Monocular 3D Gaussian SLAM for Kilometer-Scale Outdoor Scenes
-  <br/>
-  Sicheng Yu, Dongxu Shen, Beizhen Zhao, Guanzhi Ding,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ECCV 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2606.30436">Paper</a>] [<a href="https://github.com/3DAgentWorld/KiloGS-SLAM">Project Page</a>]
-</li>
-
-<li>
-  MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration
-  <br/>
-  Nanjie Yao, Gangjian Zhang, Wenhao Shen, Jian Shu, Yu Feng,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>IEEE TVCG 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2603.04993">Paper</a>] [<a href="https://3dagentworld.github.io/multigo++/">Project Page</a>]
-</li>
-
-<li>
-  U-EHR: A Self-Evolving EHR Agent with Step-Level Credit Assignment and UCB-Guided Memory Retrieval
-  <br/>
-  Hao WU, Zihan Wang, Ziyang Rao, Heyi LIN, Jinjing Zhu, Qianyi Cai, Yi Zhou, An Lin,
-  <strong><font color="black">Hao Wang</font></strong>, Hui Xiong
-  <br/><i>KDD 2026 AI4Sciences Track (Oral)</i> <br>
-</li>
-
-<li>
-  MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery
-  <br/>
-  Nanjie Yao, Junlong Ren, Wenhao Shen,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICML 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2605.05680">Paper</a>] [<a href="https://github.com/3DAgentWorld/MotionGRPO">Project Page</a>]
-</li>
-
-<li>
-  The Stackelberg Speaker: Optimizing Persuasive Communication in Social Deduction Games
-  <br/>
-  Zhang Zheng, Deheng Ye, Peilin Zhao,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ACL 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2510.09087">Paper</a>] [<a href="https://3dagentworld.github.io/leader_follower/">Project Page</a>]
-
-</li>
-
-<li>
-  CoGR-MoE: Concept-Guided Expert Routing with Consistent Selection and Flexible Reasoning for Visual Question Answering
-  <br/>
-  Xiyin Zeng, Yi Lu,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ACL Findings 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2604.16930">Paper</a>]
-</li>
-
-<li>
-  LongStream: Long-Sequence Streaming Autoregressive Visual Geometry 
-  <br/>
-  Chong Cheng, Xianda Chen, Tao Xie, Wei Yin, Weiqiang Ren, Qian Zhang, Xiaoyang Guo,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>CVPR 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2602.13172">Paper</a>] [<a href="https://3dagentworld.github.io/longstream/">Project Page</a>]
-</li>
-
-<li>
-  VLM-Guided Group Preference Alignment for Diffusion-based Human Mesh Recovery 
-  <br/>
-  Wenhao Shen,
-  <strong><font color="black">Hao Wang*</font></strong>, Wanqi Yin, Fayao Liu, Xulei Yang, Chao Liang, Zhongang Cai, Guosheng Lin*
-  <br/><i>CVPR 2026</i> <br>
-  [<a href="https://arxiv.org/abs/2602.19180">Paper</a>]
-</li>
-
-<li>
-  VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction 
-  <br/>
-  Yu Hu, Chong Cheng, Sicheng Yu, Xiaoyang Guo,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>CVPR 2026 Findings</i> <br>
-  [<a href="https://arxiv.org/abs/2511.19971">Paper</a>] [<a href="https://3dagentworld.github.io/vggt4d//">Project Page</a>]
-</li>
-
-
-<li>
-  ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures 
-  <br/>
-  Xiyin Zeng, Yuyu Sun, Haoyang Li, Shouqiang Liu,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICLR 2026</i> <br>
-  <!-- [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>] -->
-</li>
-
-
-<li>
-  Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths 
-  <br/>
-  Rui Yao, Qi Chai, Jinhai Yao, Siyuan Li, Junhao Chen, Qi Zhang,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>AAAI 2026, Oral</i> <br>
-  [<a href="https://arxiv.org/abs/2508.08001">Paper</a>] [<a href="https://github.com/yuuki20001/FOMC-sentiment-path">Code</a>]
-</li>
-
-<li>
-  FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation 
-  <br/>
-  Jian Shu, Nanjie Yao, Gangjian Zhang, Junlong Ren, Yu Feng,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>AAAI 2026</i><br>
-  [<a href="https://arxiv.org/pdf/2512.01444">Paper</a>] [<a href="https://3dagentworld.github.io/fastanimate/">Project page</a>]
-</li>
-
-
-
-<li>
-  Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps
-  <br/>
-  Chong Cheng, Sicheng Yu, Zijian Wang, Yifan Zhou,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICCV 2025</i><br>
-  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Outdoor_Monocular_SLAM_with_Global_Scale-Consistent_3D_Gaussian_Pointmaps_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/S3PO-GS/">Project Page</a>] [<a href="https://github.com/3DAgentWorld/S3PO-GS">Code</a>]  
-</li>
-
-<li>
-  RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration
-  <br/>
-  Chong Cheng, Yu Hu, Sicheng Yu, Beizhen Zhao, Zijian Wang,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICCV 2025</i> <br>
-  [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_RegGS_Unposed_Sparse_Views_Gaussian_Splatting_with_3DGS_Registration_ICCV_2025_paper.pdf">Paper</a>] [<a href="https://3dagentworld.github.io/reggs/">Project Page</a>]  [<a href="https://github.com/3DAgentWorld/RegGS">Code</a>]  
-</li>
-
-<li>
-  MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction 
-  <br/> 
-  Gangjian Zhang, Nanjie Yao, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, 
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>CVPR 2025</i> <br>
-  [<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf">Paper</a>] [<a href="https://multigohuman.github.io/">Project page</a>]
-</li>
-
-<li>
-  RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes 
-  <br/> 
-  Sicheng Yu, Chong Cheng, Yifan Zhou, Xiaojun Yang, 
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICRA 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2502.15633">Paper</a>] [<a href="https://3dagentworld.github.io/opengs-slam/">Project page</a>]
-</li>
-
-<li>
-  SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation 
-  <br/> 
-  Junlong Ren, Hao Wu, Hui Xiong, 
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICRA 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2502.19128">Paper</a>] [<a href="https://github.com/3DAgentWorld/SCA3D">Code</a>]
-</li>
-
-<li>
-  Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting
-  <br/> 
-  Chong Cheng, Gaochao Song, Yiyang Yao, Gangjian Zhang, Qinzheng Zhou, 
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ICLR 2025</i> <br>
-  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://github.com/3DAgentWorld/GraphGS">Code</a>]
-</li>
-
-<li>
-  VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft 
-  <br/> 
-  Honghao Fu, Junlong Ren, Qi Chai, Deheng Ye, Yujun Cai,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>EMNLP Main 2025</i> <br>
-  [<a href="https://aclanthology.org/2025.emnlp-main.1111/">Paper</a>]
-</li>
-
-<li>
-  CausalMACE: Causality Empowered Multi-Agents in Minecraft Cooperative Tasks
-  <br/> 
-  Qi Chai, Zhang Zheng, Junlong Ren, Deheng Ye, Zichuan Lin,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>EMNLP Findings 2025</i> <br>
-  [<a href="https://aclanthology.org/2025.findings-emnlp.777">Paper</a>]
-</li>
-
-<li>
-  SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction 
-  <br/> 
-  Gangjian Zhang, Jian Shu, Nanjie Yao,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ACM MM 2025</i><br>
-  [<a href="https://arxiv.org/abs/2508.19688">Paper</a>]
-</li>
-
-<li>
-  MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind 
-  <br/> 
-  Zhang Zheng, Nuoqian Xiao, Qi Chai, Deheng Ye,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ACM MM 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2504.18039">Paper</a>]
-</li>
-
-<li>
-  Wavelet-GS: 3D Gaussian Splatting with Wavelet Decomposition
-  <br/>
-  Beizhen Zhao, Yifan Zhou, Sicheng Yu, Zijian Wang,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ACM MM 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2507.12498">Paper</a>]
-</li>
-
-<li>
-  Graph-Guided Dual-Level Augmentation for 3D Scene Segmentation
-  <br/>
-  Hongbin Lin, Yifan Jiang, Juangui Xu, Jesse Jiaxi Xu, Yi Lu, Zhengyu Hu, Ying-Cong Chen,
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>ACM MM 2025</i> <br>
-  [<a href="https://arxiv.org/abs/2507.22668">Paper</a>]
-</li>
-
-<li>
-  GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes 
-  <br/> 
-  Gaochao Song, Cheng Chong, 
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>NeurIPS 2024</i> <br>
-  [<a href="https://openreview.net/forum?id=56vHbnk35S">Paper</a>] [<a href="https://3dagentworld.github.io/gvkf/">Project Page</a>]
-</li>
-
-
-<li>
-  LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay 
-  <br/> 
-  Yihuai Lan, Zhiqiang Hu, Lei Wang, Yang Wang, Deheng Ye, Peilin Zhao, Ee-Peng Lim, Hui Xiong, 
-  <strong><font color="black">Hao Wang*</font></strong>
-  <br/><i>EMNLP Main 2024</i> <br>
-  [<a href="https://arxiv.org/abs/2310.14985">Paper</a>] [<a href="https://github.com/3DAgentWorld/LLM-Game-Agent">Code</a>]
-</li>
-
-<li>
-  ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimization
-  <br/>
-  Wenhao Shen, Wanqi Yin, Xiaofeng Yang, Cheng Chen, Chaoyue Song, Zhongang Cai, Lei Yang,
-  <strong><font color="black">Hao Wang*</font></strong>, Guosheng Lin*
-  <br/><i>ICML 2025</i><br>
-  [<a href="https://arxiv.org/abs/2505.10250">Paper</a>] [<a href="https://github.com/MotrixLab/ADHMR">Code</a>]
-</li>
-
-
-
-<li>
-  HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery 
-  <br/> 
-  Wenhao Shen, Wanqi Yin, 
-  <strong><font color="black">Hao Wang*</font></strong>, Chen Wei, Zhongang Cai, Lei Yang, Guosheng Lin*
-  <br/><i>ACM MM 2024</i><br>
-  [<a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3681641">Paper</a>]
-</li>
-
-<!-- <li>
-  Learning Temporal Variations for 4D Point Cloud Segmentation 
-  <br/> 
-  Hanyu Shi, Jiacheng Wei, 
-  <strong><font color="black">Hao Wang</font></strong>, Fayao Liu, Guosheng Lin.
-  <br/><i>IJCV 2024</i><br>
-  [<a href="https://arxiv.org/abs/2207.04673">Paper</a>]
-</li> -->
-
-<li>
-  ManiCLIP: Multi-Attribute Face Manipulation from Text 
-  <br/> 
-  <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Ana García del Molino, Anran Wang, Jiashi Feng, Zhiqi Shen
-  <br/><i>IJCV 2024</i><br>
-  [<a href="https://link.springer.com/article/10.1007/s11263-024-02088-6">Paper</a>] [<a href="https://github.com/hwang1996/ManiCLIP">Code</a>]
-</li>
-
-<!-- <li>
-  COM3D: Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval 
-  <br/>
-  Hao Wu, Ruochong Li, 
-  <strong><font color="black">Hao Wang*</font></strong>, Hui Xiong.
-  <br/><i>ICME 2024, Oral </i> <br>
-  [<a href="https://arxiv.org/abs/2405.04103">Paper</a>]
-</li> -->
-
-<li>
-  TAPS3D: Text-Guided 3D Textured Shape Generation from Pseudo Supervision
-  <br/>
-  Jiacheng Wei*, <strong><font color="black">Hao Wang*</font></strong>, Jiashi Feng, Guosheng Lin, Kim-Hui Yap
-  <br/><i>CVPR 2023 </i> <br>
-  [<a href="https://arxiv.org/abs/2303.13273">Paper</a>] [<a href="https://github.com/plusmultiply/taps3d">Code</a>]
-</li>
-
-<li>
-  Cross-Modal Graph with Meta Concepts for Video Captioning
-  <br/>
-  <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao
-  <br/><i>TIP 2022</i><br>
-  [<a href="https://arxiv.org/abs/2108.06458">Paper</a>] [<a href="https://github.com/hwang1996/Meta-Concepts-for-Video-Captioning">Code</a>]
-</li>
-<!-- <li>
-    Paired Cross-Modal Data Augmentation for Fine-Grained Image-to-Text Retrieval
-    <br/>
-    <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>ACM MM 2022</i><br>
-  [<a href="https://arxiv.org/abs/2207.14428">Paper</a>]
-</li> -->
-<li>
-    Learning Structural Representations for Recipe Generation and Food Retrieval 
-    <br/>
-    <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao
-    <br/><i>TPAMI 2022</i><br>
-  [<a href="https://arxiv.org/abs/2110.01209">Paper</a>]
-</li>
-<!-- <li>
-    Cycle-Consistent Inverse GAN for Text-to-Image Synthesis 
-    <br/>
-    <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao.
-    <br/><i>ACM MM 2021</i><br>
-  [<a href="https://arxiv.org/abs/2108.01361">Paper</a>]
-</li> -->
-<li>
-    Structure-Aware Generation Network for Recipe Generation from Images
-    <br/> 
-    <strong><font color="black">Hao Wang</font></strong>, Guosheng Lin, Steven Hoi, Chunyan Miao
-    <br/><i>ECCV 2020</i> <br>
-    [<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5757_ECCV_2020_paper.php">Paper</a>] [<a href="https://github.com/hwang1996/SGN">Code</a>]
-</li>
-<!-- <li>
-    SpSequenceNet: Semantic Segmentation Network on 4D Point Clouds 
-    <br/> 
-    Hanyu Shi, Guosheng Lin, <strong><font color="black">Hao Wang</font></strong>, Tzu-Yi Hung, Zhenhua Wang.
-    <br/><i>CVPR 2020</i> <br>
-    [<a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Shi_SpSequenceNet_Semantic_Segmentation_Network_on_4D_Point_Clouds_CVPR_2020_paper.html">Paper</a>] [<a href="https://github.com/dante0shy/SpSequenceNet">Code</a>]
-</li>
-<li>
-    FoodAI: Food Image Recognition via Deep Learning for Smart Food Logging 
-    <br/> 
-    Doyen Sahoo, <strong><font color="black">Hao Wang</font></strong>, Shu Ke, Xiongwei Wu, Hung Le, Palakorn Achananuparp, Ee-Peng Lim, Steven Hoi.
-    <br/><i> KDD 2019</i> <br>
-  [<a href="https://arxiv.org/abs/1909.11946">Paper</a>]
-</li> -->
-<li>
-    Learning Cross-Modal Embeddings with Adversarial Networks for Cooking Recipes and Food Images
-    <br/> 
-    <strong><font color="black">Hao Wang</font></strong>, Doyen Sahoo, Chenghao Liu, Ee-peng Lim, Steven C. H. Hoi
-    <br/><i>CVPR 2019</i><br>
-    [<a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Learning_Cross-Modal_Embeddings_With_Adversarial_Networks_for_Cooking_Recipes_and_CVPR_2019_paper.html">Paper</a>] [<a href="https://github.com/hwang1996/ACME">Code</a>]
-</li>
-</ul>
-
-
-## Services
-
-* Area Chair: ACL ARR
-* Conference Reviewer: CVPR, ECCV, ICCV, ACM MM, NeurIPS, ICLR, AAAI
-* Journal Reviewer: IEEE TPAMI, IJCV, TNNLS, TMM, TCSVT
-
-## Teaching
-
-* Introduction to Computer Vision <span style="float: right;">Spring, 2026</span>
-* Multimodal Artificial Intelligence <span style="float: right;">Spring, 2026</span>
-* Introduction to Computer Science   <span style="float: right;">Fall, 2025</span>
-* Multimodal Artificial Intelligence <span style="float: right;">Spring, 2025</span>
-* Introduction to Computer Science   <span style="float: right;">Fall, 2024</span>
-* Artificial Intelligence Seminar   <span style="float: right;">Fall, 2024</span>
-* Multimodal Artificial Intelligence <span style="float: right;">Spring, 2024</span>
