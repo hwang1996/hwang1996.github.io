@@ -47,7 +47,11 @@ lang: zh-CN
     <div class="rh-showcases">
       <article class="rh-showcase" id="persistent-worlds">
         <div class="rh-media">
-          <video autoplay muted loop playsinline controls preload="metadata" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream 流式三维重建演示">
+          <video class="rh-desktop-video" autoplay muted loop playsinline controls preload="metadata" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream 流式三维重建演示">
+            <source src="https://3dagentworld.github.io/horizonstream/example/render/office/render.mp4" type="video/mp4" media="(min-width: 701px)">
+            <a href="https://3dagentworld.github.io/horizonstream/">观看 HorizonStream 演示</a>
+          </video>
+          <video class="rh-mobile-video" muted loop playsinline controls preload="none" poster="https://3dagentworld.github.io/horizonstream/example/render/office/render_poster.jpg" aria-label="HorizonStream 流式三维重建演示">
             <source src="https://3dagentworld.github.io/horizonstream/example/render/office/render.mp4" type="video/mp4">
             <a href="https://3dagentworld.github.io/horizonstream/">观看 HorizonStream 演示</a>
           </video>
