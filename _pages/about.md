@@ -104,7 +104,6 @@ redirect_from:
           <p>A unified view of AI systems that improve data, training, evaluation, workflows, and eventually themselves.</p>
           <div class="rh-tags"><span>Self-evolution</span><span>AI agents</span><span>Automated feedback</span></div>
           <div class="rh-links">
-            <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">Project</a>
             <a href="https://3dagentworld.github.io/AI4AI-survey/paper.html" target="_blank" rel="noopener noreferrer">Read survey</a>
           </div>
         </div>

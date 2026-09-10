@@ -103,7 +103,6 @@ lang: zh-CN
           <p>统一理解 AI 如何改进数据、训练、评测、工作流，并最终实现自身的持续进化。</p>
           <div class="rh-tags"><span>自进化</span><span>AI 智能体</span><span>自动反馈</span></div>
           <div class="rh-links">
-            <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">项目主页</a>
             <a href="https://3dagentworld.github.io/AI4AI-survey/paper.html" target="_blank" rel="noopener noreferrer">阅读综述</a>
           </div>
         </div>
