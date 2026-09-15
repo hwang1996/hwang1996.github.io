@@ -36,13 +36,41 @@ redirect_from:
     <a href="#self-evolving-ai">03 · Self-Evolving AI</a>
   </nav>
 
+  <section class="rh-section rh-academic" aria-label="Academic profile and news">
+    <div class="rh-info-grid">
+      <article class="rh-panel rh-panel--bio">
+        <span class="rh-kicker">Academic profile</span>
+        <h2>Research at the intersection of space and agency.</h2>
+        <p>Tenure-track Assistant Professor in the AI Thrust at HKUST(GZ). My group studies spatial intelligence, multimodal learning, and agentic AI, with the goal of building systems that perceive persistent 3D environments, reason about future outcomes, and improve through experience.</p>
+        <div class="rh-interest-list" aria-label="Research interests">
+          <span>Spatial intelligence</span><span>World models</span><span>Multimodal agents</span><span>Self-evolution</span>
+        </div>
+        <div class="rh-academic-links">
+          <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3DAgentWorld ↗</a>
+          <a href="mailto:haowang@hkust-gz.edu.cn">Email</a>
+        </div>
+      </article>
+      <aside class="rh-panel" aria-labelledby="news-title">
+        <span class="rh-kicker">Updates</span>
+        <h2 id="news-title">Recent news</h2>
+        <ul class="rh-news">
+          <li><time datetime="2026-09">Sep 2026</time><span>Released the <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">AI4AI survey</a>.</span></li>
+          <li><time datetime="2026-09">Sep 2026</time><span>Released <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">EmbodiedWM</a>.</span></li>
+          <li><time datetime="2026-07">Jul 2026</time><span>Three papers at ACM MM 2026, including <a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">CaM-Wolf</a>.</span></li>
+          <li><time datetime="2026-06">Jun 2026</time><span><a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a> accepted to ECCV 2026.</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
   <section class="rh-section" id="featured" aria-labelledby="featured-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">Featured work</span>
-        <h2 id="featured-title">See the research in action.</h2>
+        <span class="rh-kicker">Research agenda</span>
+        <h2 id="featured-title">Three connected research threads.</h2>
       </div>
-      <p>Three connected frontiers: perceive and preserve the world, use it for action, then improve the intelligence itself.</p>
+      <p>From persistent spatial representations to actionable world models and self-improving agents.</p>
     </div>
 
     <div class="rh-showcases">
@@ -114,24 +142,37 @@ redirect_from:
   <section class="rh-section" aria-labelledby="highlights-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">Research breadth</span>
+        <span class="rh-kicker">Selected research</span>
         <h2 id="highlights-title">Selected highlights.</h2>
       </div>
+      <p>A focused selection spanning embodied navigation, multimodal game intelligence, and diffusion-based 3D perception.</p>
     </div>
 
     <div class="rh-work-grid">
-      <a class="rh-work-card" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav self-evolving navigation agent">
-        <div class="rh-work-card__body"><span>Self-evolving navigation</span><h3>EvolveNav</h3></div>
-      </a>
-      <a class="rh-work-card" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf multimodal social deduction game agent">
-        <div class="rh-work-card__body"><span>Multimodal game agent · ACM MM 2026</span><h3>CaM-Wolf</h3></div>
-      </a>
-      <a class="rh-work-card" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="VLM-guided diffusion human mesh recovery results">
-        <div class="rh-work-card__body"><span>Diffusion × perception · CVPR 2026</span><h3>VLM-Guided Diffusion HMR</h3></div>
-      </a>
+      <article class="rh-work-card">
+        <a class="rh-work-card__visual" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav self-evolving navigation agent"></a>
+        <div class="rh-work-card__body">
+          <span>arXiv 2026 · Embodied navigation</span><h3>EvolveNav</h3>
+          <p>Preflection and self-evolving rule memory enable a zero-shot navigation agent to improve from past trajectories.</p>
+          <div class="rh-paper-links"><a href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">Project</a><a href="https://arxiv.org/abs/2606.18235" target="_blank" rel="noopener noreferrer">Paper</a></div>
+        </div>
+      </article>
+      <article class="rh-work-card">
+        <a class="rh-work-card__visual" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf multimodal social deduction game agent"></a>
+        <div class="rh-work-card__body">
+          <span>ACM MM 2026 · Multimodal agent</span><h3>CaM-Wolf</h3>
+          <p>A social-deduction agent that perceives video, reasons causally, and responds through an animated avatar.</p>
+          <div class="rh-paper-links"><a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">Project</a><a href="https://openreview.net/forum?id=djnKfsiN3p" target="_blank" rel="noopener noreferrer">Paper</a></div>
+        </div>
+      </article>
+      <article class="rh-work-card">
+        <a class="rh-work-card__visual" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer"><img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="VLM-guided diffusion human mesh recovery results"></a>
+        <div class="rh-work-card__body">
+          <span>CVPR 2026 · Diffusion perception</span><h3>VLM-Guided Diffusion HMR</h3>
+          <p>VLM-guided diffusion enables robust 3D human mesh recovery under challenging visual conditions.</p>
+          <div class="rh-paper-links"><a href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">Paper</a></div>
+        </div>
+      </article>
     </div>
     <div class="rh-more">
       <span>More:</span>
@@ -139,26 +180,6 @@ redirect_from:
       <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
       <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
-    </div>
-  </section>
-
-  <section class="rh-section" aria-label="About and news">
-    <div class="rh-info-grid">
-      <article class="rh-panel">
-        <span class="rh-kicker">About</span>
-        <h2>Research for open-ended worlds.</h2>
-        <p>I am a tenure-track Assistant Professor in the AI Thrust at HKUST(GZ). My group works across spatial intelligence, multimodal learning, and agentic AI, from persistent 3D environments to self-improving agents.</p>
-      </article>
-      <aside class="rh-panel" aria-labelledby="news-title">
-        <span class="rh-kicker">Updates</span>
-        <h2 id="news-title">Recent news</h2>
-        <ul class="rh-news">
-          <li><time datetime="2026-09">Sep 2026</time><span>Released AI4AI survey.</span></li>
-          <li><time datetime="2026-09">Sep 2026</time><span>Released EmbodiedWM.</span></li>
-          <li><time datetime="2026-07">Jul 2026</time><span>Three papers at ACM MM 2026.</span></li>
-          <li><time datetime="2026-06">Jun 2026</time><span>KiloGS-SLAM at ECCV 2026.</span></li>
-        </ul>
-      </aside>
     </div>
   </section>
 

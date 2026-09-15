@@ -35,13 +35,41 @@ lang: zh-CN
     <a href="#self-evolving-ai">03 · 自进化 AI</a>
   </nav>
 
+  <section class="rh-section rh-academic" aria-label="学术简介与动态">
+    <div class="rh-info-grid">
+      <article class="rh-panel rh-panel--bio">
+        <span class="rh-kicker">学术简介</span>
+        <h2>研究空间与智能体的交汇。</h2>
+        <p>香港科技大学（广州）人工智能学域长聘轨助理教授。团队聚焦空间智能、多模态学习与智能体 AI，致力于构建能够感知持久三维环境、推演未来结果，并从经验中持续改进的智能系统。</p>
+        <div class="rh-interest-list" aria-label="研究方向">
+          <span>空间智能</span><span>世界模型</span><span>多模态智能体</span><span>自进化</span>
+        </div>
+        <div class="rh-academic-links">
+          <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3DAgentWorld ↗</a>
+          <a href="mailto:haowang@hkust-gz.edu.cn">邮箱</a>
+        </div>
+      </article>
+      <aside class="rh-panel" aria-labelledby="news-title">
+        <span class="rh-kicker">动态</span>
+        <h2 id="news-title">近期进展</h2>
+        <ul class="rh-news">
+          <li><time datetime="2026-09">2026.09</time><span>发布 <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">AI4AI 综述</a>。</span></li>
+          <li><time datetime="2026-09">2026.09</time><span>发布 <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">EmbodiedWM</a>。</span></li>
+          <li><time datetime="2026-07">2026.07</time><span>3 篇论文被 ACM MM 2026 接收，包括 <a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">CaM-Wolf</a>。</span></li>
+          <li><time datetime="2026-06">2026.06</time><span><a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a> 被 ECCV 2026 接收。</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
   <section class="rh-section" id="featured" aria-labelledby="featured-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">代表工作</span>
-        <h2 id="featured-title">直观看见研究如何运行。</h2>
+        <span class="rh-kicker">研究主线</span>
+        <h2 id="featured-title">相互贯通的三条研究主线。</h2>
       </div>
-      <p>三条相互连接的前沿方向：感知并保持世界，将世界用于行动，再改进智能本身。</p>
+      <p>从持久空间表征出发，走向可行动世界模型与持续自我改进的智能体。</p>
     </div>
 
     <div class="rh-showcases">
@@ -113,24 +141,37 @@ lang: zh-CN
   <section class="rh-section" aria-labelledby="highlights-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">研究延展</span>
+        <span class="rh-kicker">精选研究</span>
         <h2 id="highlights-title">精选代表工作。</h2>
       </div>
+      <p>聚焦展示具身导航、多模态游戏智能与扩散式三维感知方向的代表成果。</p>
     </div>
 
     <div class="rh-work-grid">
-      <a class="rh-work-card" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav 自进化导航智能体">
-        <div class="rh-work-card__body"><span>自进化具身导航</span><h3>EvolveNav</h3></div>
-      </a>
-      <a class="rh-work-card" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体">
-        <div class="rh-work-card__body"><span>多模态游戏智能体 · ACM MM 2026</span><h3>CaM-Wolf</h3></div>
-      </a>
-      <a class="rh-work-card" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">
-        <img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="视觉语言模型引导的扩散式人体网格恢复结果">
-        <div class="rh-work-card__body"><span>扩散模型 × 感知 · CVPR 2026</span><h3>VLM-Guided Diffusion HMR</h3></div>
-      </a>
+      <article class="rh-work-card">
+        <a class="rh-work-card__visual" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav 自进化导航智能体"></a>
+        <div class="rh-work-card__body">
+          <span>arXiv 2026 · 具身导航</span><h3>EvolveNav</h3>
+          <p>通过主动预思考与自进化规则记忆，让零样本导航智能体从历史轨迹中持续改进。</p>
+          <div class="rh-paper-links"><a href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2606.18235" target="_blank" rel="noopener noreferrer">论文</a></div>
+        </div>
+      </article>
+      <article class="rh-work-card">
+        <a class="rh-work-card__visual" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体"></a>
+        <div class="rh-work-card__body">
+          <span>ACM MM 2026 · 多模态智能体</span><h3>CaM-Wolf</h3>
+          <p>融合视频感知、因果推理与虚拟人生成的社交推理游戏智能体。</p>
+          <div class="rh-paper-links"><a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://openreview.net/forum?id=djnKfsiN3p" target="_blank" rel="noopener noreferrer">论文</a></div>
+        </div>
+      </article>
+      <article class="rh-work-card">
+        <a class="rh-work-card__visual" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer"><img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="视觉语言模型引导的扩散式人体网格恢复结果"></a>
+        <div class="rh-work-card__body">
+          <span>CVPR 2026 · 扩散感知</span><h3>VLM-Guided Diffusion HMR</h3>
+          <p>以视觉语言模型引导扩散过程，在复杂视觉条件下恢复三维人体网格。</p>
+          <div class="rh-paper-links"><a href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">论文</a></div>
+        </div>
+      </article>
     </div>
     <div class="rh-more">
       <span>更多：</span>
@@ -138,26 +179,6 @@ lang: zh-CN
       <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
       <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
       <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
-    </div>
-  </section>
-
-  <section class="rh-section" aria-label="简介与动态">
-    <div class="rh-info-grid">
-      <article class="rh-panel">
-        <span class="rh-kicker">个人简介</span>
-        <h2>面向开放世界的智能研究。</h2>
-        <p>香港科技大学（广州）人工智能学域长聘轨助理教授。团队聚焦空间智能、多模态学习与智能体 AI，研究从持久三维环境延伸至自进化智能体。</p>
-      </article>
-      <aside class="rh-panel" aria-labelledby="news-title">
-        <span class="rh-kicker">动态</span>
-        <h2 id="news-title">近期进展</h2>
-        <ul class="rh-news">
-          <li><time datetime="2026-09">2026.09</time><span>发布 AI4AI 综述。</span></li>
-          <li><time datetime="2026-09">2026.09</time><span>发布 EmbodiedWM。</span></li>
-          <li><time datetime="2026-07">2026.07</time><span>3 篇论文被 ACM MM 2026 接收。</span></li>
-          <li><time datetime="2026-06">2026.06</time><span>KiloGS-SLAM 被 ECCV 2026 接收。</span></li>
-        </ul>
-      </aside>
     </div>
   </section>
 
