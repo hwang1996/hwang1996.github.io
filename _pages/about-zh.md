@@ -29,12 +29,6 @@ lang: zh-CN
     </div>
   </header>
 
-  <nav class="rh-path" aria-label="研究方向">
-    <a href="#persistent-worlds">01 · 长时序三维建模</a>
-    <a href="#world-models">02 · 面向决策的世界模型</a>
-    <a href="#self-evolving-ai">03 · 自进化智能体</a>
-  </nav>
-
   <section class="rh-section rh-academic" aria-label="学术简介与动态">
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">

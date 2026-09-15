@@ -30,12 +30,6 @@ redirect_from:
     </div>
   </header>
 
-  <nav class="rh-path" aria-label="Research directions">
-    <a href="#persistent-worlds">01 · Persistent Worlds</a>
-    <a href="#world-models">02 · Actionable World Models</a>
-    <a href="#self-evolving-ai">03 · Self-Evolving AI</a>
-  </nav>
-
   <section class="rh-section rh-academic" aria-label="Academic profile and news">
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">

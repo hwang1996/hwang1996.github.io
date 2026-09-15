@@ -63,7 +63,8 @@
     grid-template-columns: minmax(0, 1fr) 190px;
     gap: clamp(2rem, 5vw, 5rem);
     overflow: hidden;
-    max-width: 1240px;
+    width: calc(100% - clamp(0.3rem, 5vw, 4rem));
+    max-width: 1176px;
     margin-right: auto;
     margin-left: auto;
     padding: clamp(2rem, 5vw, 4.6rem);
@@ -199,32 +200,6 @@
     border-radius: 28px;
     object-fit: cover;
     box-shadow: 0 22px 54px rgba(30, 64, 175, 0.2);
-  }
-
-  .rh-path {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1px;
-    overflow: hidden;
-    max-width: 1240px;
-    margin: 1rem auto 0;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    background: var(--line);
-  }
-
-  .rh-path a {
-    padding: 0.9rem 1rem;
-    background: #fff;
-    color: #334155 !important;
-    font-size: 0.78rem;
-    font-weight: 760;
-    text-align: center;
-  }
-
-  .rh-path a:hover {
-    color: var(--blue) !important;
-    background: #f8fbff;
   }
 
   .rh-section {
@@ -751,7 +726,8 @@
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 2rem;
     align-items: center;
-    max-width: 1240px;
+    width: calc(100% - clamp(0.3rem, 5vw, 4rem));
+    max-width: 1176px;
     margin-right: auto;
     margin-left: auto;
     margin-top: clamp(3rem, 6vw, 5rem);
@@ -787,7 +763,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 0.9rem;
-    max-width: 1240px;
+    width: calc(100% - clamp(0.3rem, 5vw, 4rem));
+    max-width: 1176px;
     margin-right: auto;
     margin-left: auto;
     padding: 1.5rem 0 0;
@@ -872,7 +849,6 @@
       grid-template-columns: 1fr;
     }
 
-    .rh-path,
     .rh-work-grid,
     .rh-collab {
       grid-template-columns: 1fr;
