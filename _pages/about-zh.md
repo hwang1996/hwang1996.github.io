@@ -66,8 +66,7 @@ lang: zh-CN
   <section class="rh-section" id="featured" aria-labelledby="featured-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">研究主线</span>
-        <h2 id="featured-title">三条彼此衔接的研究主线。</h2>
+        <h2 id="featured-title">研究主线</h2>
       </div>
       <p>从长时序三维环境建模，到服务于决策的世界模型，再到从经验中持续进化的智能体。</p>
     </div>
@@ -141,8 +140,7 @@ lang: zh-CN
   <section class="rh-section rh-highlights" aria-labelledby="highlights-title">
     <div class="rh-section__head">
       <div>
-        <span class="rh-kicker">精选研究</span>
-        <h2 id="highlights-title">代表工作。</h2>
+        <h2 id="highlights-title">代表工作</h2>
       </div>
       <p>具身导航、多模态游戏智能体与扩散模型驱动的三维感知。</p>
     </div>
