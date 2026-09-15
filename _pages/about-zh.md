@@ -138,7 +138,7 @@ lang: zh-CN
     </div>
   </section>
 
-  <section class="rh-section" aria-labelledby="highlights-title">
+  <section class="rh-section rh-highlights" aria-labelledby="highlights-title">
     <div class="rh-section__head">
       <div>
         <span class="rh-kicker">精选研究</span>
