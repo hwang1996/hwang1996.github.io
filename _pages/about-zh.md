@@ -12,9 +12,9 @@ lang: zh-CN
   <header class="rh-hero">
     <div>
       <div class="rh-eyebrow">空间智能 × 智能体 AI</div>
-      <h1>从持久世界<br>到<span>自进化智能体。</span></h1>
+      <h1>从长时序三维建模<br>到<span>自进化智能体。</span></h1>
       <p class="rh-hero__lead">
-        构建能够理解三维世界、借助世界模型行动，并从经验中持续自我提升的智能体。
+        构建理解三维空间、借助世界模型推演与行动，并能从经验中持续进化的智能体。
       </p>
       <p class="rh-hero__meta">助理教授 · 人工智能学域 · 香港科技大学（广州）</p>
       <div class="rh-actions" aria-label="主要链接">
@@ -30,19 +30,19 @@ lang: zh-CN
   </header>
 
   <nav class="rh-path" aria-label="研究方向">
-    <a href="#persistent-worlds">01 · 持久世界</a>
-    <a href="#world-models">02 · 可行动世界模型</a>
-    <a href="#self-evolving-ai">03 · 自进化 AI</a>
+    <a href="#persistent-worlds">01 · 长时序三维建模</a>
+    <a href="#world-models">02 · 面向决策的世界模型</a>
+    <a href="#self-evolving-ai">03 · 自进化智能体</a>
   </nav>
 
   <section class="rh-section rh-academic" aria-label="学术简介与动态">
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">
         <span class="rh-kicker">学术简介</span>
-        <h2>研究空间与智能体的交汇。</h2>
-        <p>香港科技大学（广州）人工智能学域长聘轨助理教授。团队聚焦空间智能、多模态学习与智能体 AI，致力于构建能够感知持久三维环境、推演未来结果，并从经验中持续改进的智能系统。</p>
+        <h2>让智能体理解空间、推演未来并持续进化。</h2>
+        <p>香港科技大学（广州）人工智能学域长聘轨助理教授。团队聚焦空间智能、多模态学习与智能体 AI，研究如何让智能体在长时序中理解三维环境、借助世界模型推演行动后果，并从交互经验中持续进化。</p>
         <div class="rh-interest-list" aria-label="研究方向">
-          <span>空间智能</span><span>世界模型</span><span>多模态智能体</span><span>自进化</span>
+          <span>空间智能</span><span>世界模型</span><span>多模态智能体</span><span>自进化智能体</span>
         </div>
         <div class="rh-academic-links">
           <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
@@ -67,9 +67,9 @@ lang: zh-CN
     <div class="rh-section__head">
       <div>
         <span class="rh-kicker">研究主线</span>
-        <h2 id="featured-title">相互贯通的三条研究主线。</h2>
+        <h2 id="featured-title">三条彼此衔接的研究主线。</h2>
       </div>
-      <p>从持久空间表征出发，走向可行动世界模型与持续自我改进的智能体。</p>
+      <p>从长时序三维环境建模，到服务于决策的世界模型，再到从经验中持续进化的智能体。</p>
     </div>
 
     <div class="rh-showcases">
@@ -87,9 +87,9 @@ lang: zh-CN
         </div>
         <div class="rh-showcase__copy">
           <span class="rh-kicker">01 · HorizonStream</span>
-          <h3>持久世界</h3>
-          <p>HorizonStream <strong>仅使用 RGB 输入</strong>，即可在万帧以上序列中实现稳定的流式三维重建，并保持常数内存与线性时间复杂度。</p>
-          <div class="rh-tags"><span>空间记忆</span><span>3DGS</span><span>长时程</span></div>
+          <h3>长时序三维建模</h3>
+          <p>HorizonStream <strong>仅以 RGB 视频流为输入</strong>，在超过万帧的长序列中仍能稳定完成在线三维重建，同时保持常数级内存占用和线性时间复杂度。</p>
+          <div class="rh-tags"><span>空间记忆</span><span>3DGS</span><span>长序列</span></div>
           <div class="rh-links">
             <a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">项目主页</a>
             <a href="https://arxiv.org/abs/2605.23889" target="_blank" rel="noopener noreferrer">论文</a>
@@ -109,8 +109,8 @@ lang: zh-CN
         </div>
         <div class="rh-showcase__copy">
           <span class="rh-kicker">02 · EmbodiedWM</span>
-          <h3>可行动世界模型</h3>
-          <p>推动世界模型从合理生成走向可控预测，并最终带来可衡量的决策收益。</p>
+          <h3>面向决策的世界模型</h3>
+          <p>关注世界模型如何从生成可信的未来，走向可控预测，并最终以可衡量的决策效用服务于智能体行动。</p>
           <div class="rh-tags"><span>具身智能</span><span>游戏智能体</span><span>规划</span></div>
           <div class="rh-links">
             <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">查看框架</a>
@@ -127,9 +127,9 @@ lang: zh-CN
         </div>
         <div class="rh-showcase__copy">
           <span class="rh-kicker">03 · AI4AI</span>
-          <h3>用 AI 改进 AI</h3>
-          <p>统一理解 AI 如何改进数据、训练、评测、工作流，并最终实现自身的持续进化。</p>
-          <div class="rh-tags"><span>自进化</span><span>AI 智能体</span><span>自动反馈</span></div>
+          <h3>让 AI 持续改进 AI</h3>
+          <p>系统梳理 AI 如何优化数据、训练、评测与研发流程，并进一步走向能够持续改进自身的智能系统。</p>
+          <div class="rh-tags"><span>自进化</span><span>智能体系统</span><span>自动化反馈</span></div>
           <div class="rh-links">
             <a href="https://3dagentworld.github.io/AI4AI-survey/paper.html" target="_blank" rel="noopener noreferrer">阅读综述</a>
           </div>
@@ -142,9 +142,9 @@ lang: zh-CN
     <div class="rh-section__head">
       <div>
         <span class="rh-kicker">精选研究</span>
-        <h2 id="highlights-title">精选代表工作。</h2>
+        <h2 id="highlights-title">代表工作。</h2>
       </div>
-      <p>聚焦展示具身导航、多模态游戏智能与扩散式三维感知方向的代表成果。</p>
+      <p>具身导航、多模态游戏智能体与扩散模型驱动的三维感知。</p>
     </div>
 
     <div class="rh-work-grid">
@@ -152,7 +152,7 @@ lang: zh-CN
         <a class="rh-work-card__visual" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav 自进化导航智能体"></a>
         <div class="rh-work-card__body">
           <span>arXiv 2026 · 具身导航</span><h3>EvolveNav</h3>
-          <p>通过主动预思考与自进化规则记忆，让零样本导航智能体从历史轨迹中持续改进。</p>
+          <p>在行动前推演候选路径，并将历史轨迹沉淀为持续演化的规则记忆，从而提升零样本目标导航。</p>
           <div class="rh-paper-links"><a href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2606.18235" target="_blank" rel="noopener noreferrer">论文</a></div>
         </div>
       </article>
@@ -160,7 +160,7 @@ lang: zh-CN
         <a class="rh-work-card__visual" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体"></a>
         <div class="rh-work-card__body">
           <span>ACM MM 2026 · 多模态智能体</span><h3>CaM-Wolf</h3>
-          <p>融合视频感知、因果推理与虚拟人生成的社交推理游戏智能体。</p>
+          <p>融合视频感知、因果推理与虚拟人生成，可参与社交推理游戏的多模态智能体。</p>
           <div class="rh-paper-links"><a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://openreview.net/forum?id=djnKfsiN3p" target="_blank" rel="noopener noreferrer">论文</a></div>
         </div>
       </article>
@@ -168,7 +168,7 @@ lang: zh-CN
         <a class="rh-work-card__visual" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer"><img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="视觉语言模型引导的扩散式人体网格恢复结果"></a>
         <div class="rh-work-card__body">
           <span>CVPR 2026 · 扩散感知</span><h3>VLM-Guided Diffusion HMR</h3>
-          <p>以视觉语言模型引导扩散过程，在复杂视觉条件下恢复三维人体网格。</p>
+          <p>利用视觉语言模型引导扩散推理，在遮挡与复杂场景下稳健恢复三维人体网格。</p>
           <div class="rh-paper-links"><a href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">论文</a></div>
         </div>
       </article>
@@ -184,8 +184,8 @@ lang: zh-CN
 
   <section class="rh-collab" aria-labelledby="collab-title">
     <div>
-      <h2 id="collab-title">共同构建下一代智能世界。</h2>
-      <p>欢迎围绕三维空间计算、数字孪生、具身与游戏智能体、生成式 AI 和自进化系统开展联合研究与产业合作。</p>
+      <h2 id="collab-title">共同推动空间智能与智能体研究落地。</h2>
+      <p>期待与学界和产业界围绕长时序三维建模、数字孪生、具身与游戏智能体、世界模型和自进化系统开展合作。</p>
     </div>
     <a class="rh-button" href="mailto:haowang@hkust-gz.edu.cn?subject=Research%20collaboration">联系合作 →</a>
   </section>
