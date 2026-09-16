@@ -104,7 +104,7 @@ lang: zh-CN
           <span class="rh-kicker">02 · EmbodiedWM</span>
           <h3>面向决策的世界模型</h3>
           <p>关注世界模型如何从生成可信的未来，走向可控预测，并最终以可衡量的决策效用服务于智能体行动。</p>
-          <div class="rh-tags"><span>具身智能</span><span>游戏智能体</span><span>规划</span></div>
+          <div class="rh-tags"><span>具身智能</span><span>游戏智能</span><span>规划</span></div>
           <div class="rh-links">
             <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">查看框架</a>
           </div>
@@ -136,48 +136,156 @@ lang: zh-CN
       <div>
         <h2 id="highlights-title">代表工作</h2>
       </div>
-      <p>具身导航、多模态游戏智能体与扩散模型驱动的三维感知。</p>
+      <p>空间智能、世界模型与游戏智能</p>
     </div>
 
-    <div class="rh-work-grid">
-      <article class="rh-work-card">
-        <a class="rh-work-card__visual" href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/evolvenav.jpg" loading="lazy" decoding="async" alt="EvolveNav 自进化导航智能体"></a>
-        <div class="rh-work-card__body">
-          <span>arXiv 2026 · 具身导航</span><h3>EvolveNav</h3>
-          <p>在行动前推演候选路径，并将历史轨迹沉淀为持续演化的规则记忆，从而提升零样本目标导航。</p>
-          <div class="rh-paper-links"><a href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2606.18235" target="_blank" rel="noopener noreferrer">论文</a></div>
+    <div class="rh-highlight-groups">
+      <details class="rh-highlight-group">
+        <summary>
+          <span class="rh-highlight-group__index">01</span>
+          <span class="rh-highlight-group__title"><strong>空间智能</strong><small>长时序三维感知、场景重建、SLAM 与人体空间理解</small></span>
+          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="rh-project-list">
+          <article class="rh-project-item">
+            <span>arXiv 2026</span><h3>HorizonStream</h3>
+            <p>仅以 RGB 视频为输入，实现万帧级稳定流式三维重建。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2605.23889" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/HorizonStream" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ECCV 2026</span><h3>KiloGS-SLAM</h3>
+            <p>面向公里级室外场景的单目 3D Gaussian SLAM。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2606.30436" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/KiloGS-SLAM" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>CVPR 2026</span><h3>LongStream</h3>
+            <p>面向长序列的流式自回归视觉几何建模。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2602.13172" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/LongStream" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>CVPR 2026 Findings</span><h3>VGGT4D</h3>
+            <p>从视觉几何 Transformer 中挖掘运动线索，实现免训练的四维场景重建。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2511.19971" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/VGGT4D" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>IEEE TVCG 2026</span><h3>MultiGO++</h3>
+            <p>通过几何与纹理协同，从单张图像重建带纹理的三维服装人体。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/multigo++/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2603.04993" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ICML 2026</span><h3>MotionGRPO</h3>
+            <p>以强化学习后训练提升扩散式第一视角人体运动恢复。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2605.05680" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/MotionGRPO" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>AAAI 2026</span><h3>FastAnimate</h3>
+            <p>以可学习模板与姿态变形实现高效三维人体动画。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/fastanimate/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2512.01444" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/Moronrift08/FastAnimate" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ICCV 2025</span><h3>S3PO-GS</h3>
+            <p>以全局尺度一致的三维高斯点图提升室外单目 SLAM。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/S3PO-GS/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2507.03737" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/S3PO-GS" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ICCV 2025</span><h3>RegGS</h3>
+            <p>通过 3DGS 配准，从稀疏且无相机位姿的图像中重建场景。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/reggs/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2507.08136" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/RegGS" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ICRA 2025</span><h3>OpenGS-SLAM</h3>
+            <p>仅以 RGB 图像为输入，面向无边界室外场景的 Gaussian SLAM。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/opengs-slam/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2502.15633" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/OpenGS-SLAM" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ICLR 2025</span><h3>GraphGS</h3>
+            <p>利用相机图结构，从图像中高效重建大规模开放场景。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/graphgs/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2502.17377" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/GraphGS" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>NeurIPS 2024</span><h3>GVKF</h3>
+            <p>以高斯体素核函数高效重建开放场景表面。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/gvkf/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2411.01853" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/GVKF" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
         </div>
-      </article>
-      <article class="rh-work-card">
-        <a class="rh-work-card__visual" href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer"><img src="/images/projects/cam-wolf.jpg" loading="lazy" decoding="async" alt="CaM-Wolf 多模态社交推理游戏智能体"></a>
-        <div class="rh-work-card__body">
-          <span>ACM MM 2026 · 多模态智能体</span><h3>CaM-Wolf</h3>
-          <p>融合视频感知、因果推理与虚拟人生成，可参与社交推理游戏的多模态智能体。</p>
-          <div class="rh-paper-links"><a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://openreview.net/forum?id=djnKfsiN3p" target="_blank" rel="noopener noreferrer">论文</a></div>
+      </details>
+
+      <details class="rh-highlight-group">
+        <summary>
+          <span class="rh-highlight-group__index">02</span>
+          <span class="rh-highlight-group__title"><strong>世界模型</strong><small>从环境预测走向行动决策与智能体自进化</small></span>
+          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="rh-project-list rh-project-list--two">
+          <article class="rh-project-item">
+            <span>ICLR 2026</span><h3>ReCAPA</h3>
+            <p>通过分层预测校正，抑制具身智能体长时序任务中的错误级联。</p>
+            <div class="rh-paper-links"><a href="https://sunandreas0437-svg.github.io/recapa-project-page/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2604.21232" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/dmsn26/ReCAPA" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>2026 · 框架与综述</span><h3>EmbodiedWM</h3>
+            <p>从生成可信、动作可控到服务决策，系统刻画具身世界模型的能力层级。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">查看</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>arXiv 2026</span><h3>EvolveNav</h3>
+            <p>通过结果预判与自进化规则记忆，让零样本导航智能体持续改进。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/evolvenav/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2606.18235" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>2026 · 综述</span><h3>AI4AI</h3>
+            <p>系统梳理 AI 如何改进数据、训练、评测、研发流程乃至自身。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/AI4AI-survey/paper.html" target="_blank" rel="noopener noreferrer">阅读综述</a></div>
+          </article>
         </div>
-      </article>
-      <article class="rh-work-card">
-        <a class="rh-work-card__visual" href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer"><img src="/images/projects/human_mesh_recovery.png" loading="lazy" decoding="async" alt="视觉语言模型引导的扩散式人体网格恢复结果"></a>
-        <div class="rh-work-card__body">
-          <span>CVPR 2026 · 扩散感知</span><h3>VLM-Guided Diffusion HMR</h3>
-          <p>利用视觉语言模型引导扩散推理，在遮挡与复杂场景下稳健恢复三维人体网格。</p>
-          <div class="rh-paper-links"><a href="https://arxiv.org/abs/2602.19180" target="_blank" rel="noopener noreferrer">论文</a></div>
+      </details>
+
+      <details class="rh-highlight-group">
+        <summary>
+          <span class="rh-highlight-group__index">03</span>
+          <span class="rh-highlight-group__title"><strong>游戏智能</strong><small>多模态交互、策略推理与社会智能</small></span>
+          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="rh-project-list">
+          <article class="rh-project-item">
+            <span>ACM MM 2026</span><h3>CaM-Wolf</h3>
+            <p>面向社交推理游戏的因果感知多模态智能体。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://openreview.net/forum?id=djnKfsiN3p" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ACL 2026</span><h3>The Stackelberg Speaker</h3>
+            <p>利用博弈建模优化社交推理智能体的说服性沟通。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/leader_follower/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://aclanthology.org/2026.acl-long.250/" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>EMNLP 2025</span><h3>VistaWise</h3>
+            <p>以跨模态知识图谱构建高效、低成本的 Minecraft 智能体。</p>
+            <div class="rh-paper-links"><a href="https://aclanthology.org/2025.emnlp-main.1111/" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>EMNLP Findings 2025</span><h3>CausalMACE</h3>
+            <p>以因果推理增强 Minecraft 多智能体协作。</p>
+            <div class="rh-paper-links"><a href="https://aclanthology.org/2025.findings-emnlp.777/" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>ACM MM 2025</span><h3>MultiMind</h3>
+            <p>融合多模态推理与心智理论的狼人杀智能体。</p>
+            <div class="rh-paper-links"><a href="https://arxiv.org/abs/2504.18039" target="_blank" rel="noopener noreferrer">论文</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>EMNLP 2024</span><h3>LLM-Based Agent Society</h3>
+            <p>以 Avalon 为试验场，研究大语言模型智能体之间的协作、对抗与社会行为。</p>
+            <div class="rh-paper-links"><a href="https://aclanthology.org/2024.emnlp-main.7/" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/LLM-Game-Agent" target="_blank" rel="noopener noreferrer">代码</a></div>
+          </article>
         </div>
-      </article>
-    </div>
-    <div class="rh-more">
-      <span>更多：</span>
-      <a href="https://3dagentworld.github.io/longstream/" target="_blank" rel="noopener noreferrer">LongStream ↗</a>
-      <a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM ↗</a>
-      <a href="https://3dagentworld.github.io/vggt4d/" target="_blank" rel="noopener noreferrer">VGGT4D ↗</a>
-      <a href="https://3dagentworld.github.io/MotionGRPO/" target="_blank" rel="noopener noreferrer">MotionGRPO ↗</a>
+      </details>
     </div>
   </section>
 
   <section class="rh-collab" aria-labelledby="collab-title">
     <div>
       <h2 id="collab-title">共同推动空间智能与智能体研究落地。</h2>
-      <p>期待与学界和产业界围绕长时序三维建模、数字孪生、具身与游戏智能体、世界模型和自进化系统开展合作。</p>
+      <p>期待与学界和产业界围绕长时序三维建模、数字孪生、具身智能与游戏智能、世界模型和自进化系统开展合作。</p>
     </div>
     <a class="rh-button" href="mailto:haowang@hkust-gz.edu.cn?subject=Research%20collaboration">联系合作 →</a>
   </section>
