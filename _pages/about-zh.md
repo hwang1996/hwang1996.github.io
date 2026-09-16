@@ -60,9 +60,9 @@ lang: zh-CN
   <section class="rh-section" id="featured" aria-labelledby="featured-title">
     <div class="rh-section__head">
       <div>
-        <h2 id="featured-title">研究主线</h2>
+        <h2 id="featured-title">最新进展</h2>
       </div>
-      <p>从长时序三维环境建模，到服务于决策的世界模型，再到从经验中持续进化的智能体。</p>
+      <p>近期在长时序三维重建、面向决策的世界模型与自进化智能系统上的代表工作</p>
     </div>
 
     <div class="rh-showcases">
@@ -140,9 +140,9 @@ lang: zh-CN
     </div>
 
     <div class="rh-highlight-groups">
-      <details class="rh-highlight-group">
+      <details class="rh-highlight-group" name="research-highlights">
         <summary>
-          <span class="rh-highlight-group__index">01</span>
+          <span class="rh-highlight-group__visual"><img src="/images/projects/longstream.png" alt="LongStream 长距离三维重建" loading="lazy"><span class="rh-highlight-group__index">01</span></span>
           <span class="rh-highlight-group__title"><strong>空间智能</strong><small>长时序三维感知、场景重建、SLAM 与人体空间理解</small></span>
           <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
         </summary>
@@ -210,9 +210,9 @@ lang: zh-CN
         </div>
       </details>
 
-      <details class="rh-highlight-group">
+      <details class="rh-highlight-group" name="research-highlights">
         <summary>
-          <span class="rh-highlight-group__index">02</span>
+          <span class="rh-highlight-group__visual"><img src="/images/projects/evolvenav.jpg" alt="EvolveNav 自进化导航智能体" loading="lazy"><span class="rh-highlight-group__index">02</span></span>
           <span class="rh-highlight-group__title"><strong>世界模型</strong><small>从环境预测走向行动决策与智能体自进化</small></span>
           <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
         </summary>
@@ -240,9 +240,9 @@ lang: zh-CN
         </div>
       </details>
 
-      <details class="rh-highlight-group">
+      <details class="rh-highlight-group" name="research-highlights">
         <summary>
-          <span class="rh-highlight-group__index">03</span>
+          <span class="rh-highlight-group__visual"><img src="/images/projects/cam-wolf.jpg" alt="CaM-Wolf 多模态社交推理智能体" loading="lazy"><span class="rh-highlight-group__index">03</span></span>
           <span class="rh-highlight-group__title"><strong>游戏智能</strong><small>多模态交互、策略推理与社会智能</small></span>
           <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
         </summary>
@@ -300,4 +300,5 @@ lang: zh-CN
     </div>
     <span class="rh-updated">最后更新：2026 年 9 月</span>
   </footer>
+  <script src="/assets/js/research-highlights.js" defer></script>
 </div>
