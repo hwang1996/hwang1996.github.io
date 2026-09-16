@@ -33,7 +33,10 @@ lang: zh-CN
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">
         <span class="rh-kicker">学术简介</span>
-        <p>香港科技大学（广州）人工智能学域长聘轨助理教授，博士毕业于南洋理工大学。已发表 70 余篇学术论文，担任 ACL ARR Area Chair、AAAI 高级程序委员会委员（SPC），入选广东省青年拔尖人才。</p>
+        <p>香港科技大学（广州）人工智能学域长聘轨助理教授，博士毕业于新加坡南洋理工大学。团队聚焦结合空间智能与智能体 AI，已发表 70 余篇学术论文，担任 ACL ARR Area Chair、AAAI 高级程序委员会委员（SPC），入选广东省青年拔尖人才。</p>
+        <div class="rh-interest-list" aria-label="研究方向">
+          <span>空间智能</span><span>世界模型</span><span>多模态智能体</span><span>自进化智能体</span>
+        </div>
         <div class="rh-academic-links">
           <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
           <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3DAgentWorld ↗</a>

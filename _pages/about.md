@@ -34,7 +34,7 @@ redirect_from:
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">
         <span class="rh-kicker">Academic profile</span>
-        <p>Hao Wang is a tenure-track Assistant Professor in the AI Thrust at HKUST(GZ). He received his Ph.D. from Nanyang Technological University and has published more than 70 academic papers. He serves as an Area Chair for ACL ARR and a Senior Program Committee (SPC) member for AAAI.</p>
+        <p>Hao Wang is a tenure-track Assistant Professor in the AI Thrust at HKUST(GZ). He received his Ph.D. from Nanyang Technological University, Singapore. His research lies at the intersection of spatial intelligence and agentic AI, with more than 70 academic paper published. He serves as an Area Chair for ACL ARR and a Senior Program Committee (SPC) member for AAAI.</p>
         <div class="rh-interest-list" aria-label="Research interests">
           <span>Spatial intelligence</span><span>World models</span><span>Multimodal agents</span><span>Self-evolution</span>
         </div>
