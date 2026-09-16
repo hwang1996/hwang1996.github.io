@@ -15,7 +15,7 @@ redirect_from:
       <div class="rh-eyebrow">Spatial Intelligence × Agentic AI</div>
       <h1>From Persistent Worlds<br>to <span>Self-Evolving Agents.</span></h1>
       <p class="rh-hero__lead">
-        I build agents that understand 3D worlds, act through world models, and improve themselves through experience.
+        Building agents that understand 3D worlds, act through world models, and improve through experience.
       </p>
       <p class="rh-hero__meta">Assistant Professor · AI Thrust · HKUST(GZ)</p>
       <div class="rh-actions" aria-label="Primary links">
@@ -34,11 +34,7 @@ redirect_from:
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">
         <span class="rh-kicker">Academic profile</span>
-        <h2>Research at the intersection of space and agency.</h2>
-        <p>Tenure-track Assistant Professor in the AI Thrust at HKUST(GZ). My group studies spatial intelligence, multimodal learning, and agentic AI, with the goal of building systems that perceive persistent 3D environments, reason about future outcomes, and improve through experience.</p>
-        <div class="rh-interest-list" aria-label="Research interests">
-          <span>Spatial intelligence</span><span>World models</span><span>Multimodal agents</span><span>Self-evolution</span>
-        </div>
+        <p>Hao Wang is a tenure-track Assistant Professor in the AI Thrust at HKUST(GZ). He received his Ph.D. from Nanyang Technological University and has published more than 70 academic papers. He serves as an Area Chair for ACL ARR and a Senior Program Committee (SPC) member for AAAI.</p>
         <div class="rh-academic-links">
           <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
           <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3DAgentWorld ↗</a>
@@ -63,7 +59,6 @@ redirect_from:
       <div>
         <h2 id="featured-title">Latest updates.</h2>
       </div>
-      <p>Recent progress in long-horizon 3D reconstruction, actionable world models, and self-improving AI.</p>
     </div>
 
     <div class="rh-showcases">
@@ -137,7 +132,6 @@ redirect_from:
       <div>
         <h2 id="highlights-title">Selected highlights.</h2>
       </div>
-      <p>Three research programs spanning spatial intelligence, world models, and game AI.</p>
     </div>
 
     <div class="rh-highlight-groups">

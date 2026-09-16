@@ -33,11 +33,7 @@ lang: zh-CN
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">
         <span class="rh-kicker">学术简介</span>
-        <h2>让智能体理解空间、推演未来并持续进化。</h2>
-        <p>香港科技大学（广州）人工智能学域长聘轨助理教授。团队聚焦空间智能、多模态学习与智能体 AI，研究如何让智能体在长时序中理解三维环境、借助世界模型推演行动后果，并从交互经验中持续进化。</p>
-        <div class="rh-interest-list" aria-label="研究方向">
-          <span>空间智能</span><span>世界模型</span><span>多模态智能体</span><span>自进化智能体</span>
-        </div>
+        <p>香港科技大学（广州）人工智能学域长聘轨助理教授，博士毕业于南洋理工大学。已发表 70 余篇学术论文，担任 ACL ARR Area Chair、AAAI 高级程序委员会委员（SPC），入选广东省青年拔尖人才。</p>
         <div class="rh-academic-links">
           <a href="https://scholar.google.com/citations?user=856zi9EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
           <a href="https://github.com/3DAgentWorld" target="_blank" rel="noopener noreferrer">3DAgentWorld ↗</a>
@@ -62,7 +58,6 @@ lang: zh-CN
       <div>
         <h2 id="featured-title">最新进展</h2>
       </div>
-      <p>近期在长时序三维重建、面向决策的世界模型与自进化智能系统上的代表工作</p>
     </div>
 
     <div class="rh-showcases">
@@ -136,7 +131,6 @@ lang: zh-CN
       <div>
         <h2 id="highlights-title">代表工作</h2>
       </div>
-      <p>空间智能、世界模型与游戏智能</p>
     </div>
 
     <div class="rh-highlight-groups">
