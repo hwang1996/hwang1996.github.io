@@ -33,7 +33,7 @@ lang: zh-CN
     <div class="rh-info-grid">
       <article class="rh-panel rh-panel--bio">
         <span class="rh-kicker">学术简介</span>
-        <p>香港科技大学（广州）人工智能学域长聘轨助理教授，博士毕业于新加坡南洋理工大学。团队聚焦结合空间智能与智能体 AI，已发表 70 余篇学术论文，担任 ACL ARR Area Chair、AAAI 高级程序委员会委员（SPC），入选广东省青年拔尖人才。</p>
+        <p>香港科技大学（广州）人工智能学域长聘轨助理教授，博士毕业于新加坡南洋理工大学。团队聚焦结合空间智能与智能体 AI，已发表 70 余篇学术论文。担任 ACL ARR Area Chair、AAAI 高级程序委员会委员（SPC）。入选广东省青年拔尖人才。</p>
         <div class="rh-interest-list" aria-label="研究方向">
           <span>空间智能</span><span>世界模型</span><span>多模态智能体</span><span>自进化智能体</span>
         </div>
@@ -49,7 +49,7 @@ lang: zh-CN
         <ul class="rh-news">
           <li><time datetime="2026-09">2026.09</time><span>发布 <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">AI4AI 综述</a>。</span></li>
           <li><time datetime="2026-09">2026.09</time><span>发布 <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">EmbodiedWM</a>。</span></li>
-          <li><time datetime="2026-07">2026.07</time><span>3 篇论文被 ACM MM 2026 接收，包括 <a href="https://3dagentworld.github.io/avatar_wolf/" target="_blank" rel="noopener noreferrer">CaM-Wolf</a>。</span></li>
+          <li><time datetime="2026-07">2026.07</time><span>3 篇论文被 ACM MM 2026 接收。</span></li>
           <li><time datetime="2026-06">2026.06</time><span><a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a> 被 ECCV 2026 接收。</span></li>
         </ul>
       </aside>
