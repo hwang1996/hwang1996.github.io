@@ -47,7 +47,7 @@ lang: zh-CN
         <span class="rh-kicker">动态</span>
         <h2 id="news-title">近期进展</h2>
         <ul class="rh-news">
-          <li><time datetime="2026-09">2026.09</time><span>发布 <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">AI4AI 综述</a>。</span></li>
+          <li><time datetime="2026-09">2026.09</time><span><a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">HorizonStream</a> 被 NeurIPS 2026 接收。</span></li>
           <li><time datetime="2026-09">2026.09</time><span>发布 <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">EmbodiedWM</a>。</span></li>
           <li><time datetime="2026-07">2026.07</time><span>3 篇论文被 ACM MM 2026 接收。</span></li>
           <li><time datetime="2026-06">2026.06</time><span><a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a> 被 ECCV 2026 接收。</span></li>

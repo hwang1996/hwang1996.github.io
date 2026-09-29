@@ -48,7 +48,7 @@ redirect_from:
         <span class="rh-kicker">Updates</span>
         <h2 id="news-title">Recent news</h2>
         <ul class="rh-news">
-          <li><time datetime="2026-09">Sep 2026</time><span>Released the <a href="https://3dagentworld.github.io/AI4AI-survey/" target="_blank" rel="noopener noreferrer">AI4AI survey</a>.</span></li>
+          <li><time datetime="2026-09">Sep 2026</time><span><a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">HorizonStream</a> accepted to NeurIPS 2026.</span></li>
           <li><time datetime="2026-09">Sep 2026</time><span>Released <a href="https://3dagentworld.github.io/EmbodiedWM/" target="_blank" rel="noopener noreferrer">EmbodiedWM</a>.</span></li>
           <li><time datetime="2026-07">Jul 2026</time><span>Three papers at ACM MM 2026.</span></li>
           <li><time datetime="2026-06">Jun 2026</time><span><a href="https://3dagentworld.github.io/KiloGS-SLAM/" target="_blank" rel="noopener noreferrer">KiloGS-SLAM</a> accepted to ECCV 2026.</span></li>
