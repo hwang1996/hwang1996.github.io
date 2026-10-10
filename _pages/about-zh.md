@@ -141,7 +141,7 @@ lang: zh-CN
         <summary>
           <span class="rh-highlight-group__visual"><img src="/images/projects/longstream.png" alt="LongStream 长距离三维重建" loading="lazy"><span class="rh-highlight-group__index">01</span></span>
           <span class="rh-highlight-group__title"><strong>空间智能</strong><small>长时序三维感知、场景重建、SLAM 与人体空间理解</small></span>
-          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+          <span class="rh-highlight-group__toggle"><span class="rh-highlight-group__expand">查看项目</span><span class="rh-highlight-group__collapse">收起项目</span></span>
         </summary>
         <div class="rh-project-list">
           <article class="rh-project-item">
@@ -211,7 +211,7 @@ lang: zh-CN
         <summary>
           <span class="rh-highlight-group__visual"><img src="/images/projects/evolvenav.jpg" alt="EvolveNav 自进化导航智能体" loading="lazy"><span class="rh-highlight-group__index">02</span></span>
           <span class="rh-highlight-group__title"><strong>世界模型</strong><small>从环境预测走向行动决策与智能体自进化</small></span>
-          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+          <span class="rh-highlight-group__toggle"><span class="rh-highlight-group__expand">查看项目</span><span class="rh-highlight-group__collapse">收起项目</span></span>
         </summary>
         <div class="rh-project-list rh-project-list--two">
           <article class="rh-project-item">
@@ -251,7 +251,7 @@ lang: zh-CN
         <summary>
           <span class="rh-highlight-group__visual"><img src="/images/projects/cam-wolf.jpg" alt="CaM-Wolf 多模态社交推理智能体" loading="lazy"><span class="rh-highlight-group__index">03</span></span>
           <span class="rh-highlight-group__title"><strong>游戏智能</strong><small>多模态交互、策略推理与社会智能</small></span>
-          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+          <span class="rh-highlight-group__toggle"><span class="rh-highlight-group__expand">查看项目</span><span class="rh-highlight-group__collapse">收起项目</span></span>
         </summary>
         <div class="rh-project-list">
           <article class="rh-project-item">

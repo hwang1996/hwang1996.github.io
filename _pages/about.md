@@ -142,7 +142,7 @@ redirect_from:
         <summary>
           <span class="rh-highlight-group__visual"><img src="/images/projects/longstream.png" alt="LongStream metric-scale 3D reconstruction" loading="lazy"><span class="rh-highlight-group__index">01</span></span>
           <span class="rh-highlight-group__title"><strong>Spatial Intelligence</strong><small>Long-horizon 3D perception, reconstruction, SLAM, and human-centered spatial intelligence</small></span>
-          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+          <span class="rh-highlight-group__toggle"><span class="rh-highlight-group__expand">View projects</span><span class="rh-highlight-group__collapse">Hide projects</span></span>
         </summary>
         <div class="rh-project-list">
           <article class="rh-project-item">
@@ -212,7 +212,7 @@ redirect_from:
         <summary>
           <span class="rh-highlight-group__visual"><img src="/images/projects/evolvenav.jpg" alt="EvolveNav self-evolving navigation agent" loading="lazy"><span class="rh-highlight-group__index">02</span></span>
           <span class="rh-highlight-group__title"><strong>World Models</strong><small>From predictive environments to actionable and self-improving agents</small></span>
-          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+          <span class="rh-highlight-group__toggle"><span class="rh-highlight-group__expand">View projects</span><span class="rh-highlight-group__collapse">Hide projects</span></span>
         </summary>
         <div class="rh-project-list rh-project-list--two">
           <article class="rh-project-item">
@@ -252,7 +252,7 @@ redirect_from:
         <summary>
           <span class="rh-highlight-group__visual"><img src="/images/projects/cam-wolf.jpg" alt="CaM-Wolf multimodal social deduction agent" loading="lazy"><span class="rh-highlight-group__index">03</span></span>
           <span class="rh-highlight-group__title"><strong>Game AI</strong><small>Multimodal, strategic, and socially intelligent agents</small></span>
-          <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
+          <span class="rh-highlight-group__toggle"><span class="rh-highlight-group__expand">View projects</span><span class="rh-highlight-group__collapse">Hide projects</span></span>
         </summary>
         <div class="rh-project-list">
           <article class="rh-project-item">
