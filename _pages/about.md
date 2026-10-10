@@ -146,7 +146,7 @@ redirect_from:
         </summary>
         <div class="rh-project-list">
           <article class="rh-project-item">
-            <span>arXiv 2026</span><h3>HorizonStream</h3>
+            <span>NeurIPS 2026</span><h3>HorizonStream</h3>
             <p>RGB-only streaming 3D reconstruction beyond 10K frames.</p>
             <div class="rh-paper-links"><a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">Project</a><a href="https://arxiv.org/abs/2605.23889" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/3DAgentWorld/HorizonStream" target="_blank" rel="noopener noreferrer">Code</a></div>
           </article>
@@ -215,6 +215,16 @@ redirect_from:
           <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
         </summary>
         <div class="rh-project-list rh-project-list--two">
+          <article class="rh-project-item">
+            <span>2026 · Robot Manipulation</span><h3>ReEnvision</h3>
+            <p>Future-guided selective action repair for robust long-horizon robotic manipulation.</p>
+            <div class="rh-paper-links"><a href="https://reenvision.pages.dev/" target="_blank" rel="noopener noreferrer">Project</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>2026 · 3D Scene Graphs</span><h3>RECAP</h3>
+            <p>Persistent 3D semantic scene graphs built from multi-view relational evidence for language-guided robot navigation.</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/RECAP/" target="_blank" rel="noopener noreferrer">Project</a></div>
+          </article>
           <article class="rh-project-item">
             <span>ICLR 2026</span><h3>ReCAPA</h3>
             <p>Hierarchical predictive correction that prevents cascading failures in embodied agents.</p>

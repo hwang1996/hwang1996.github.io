@@ -145,7 +145,7 @@ lang: zh-CN
         </summary>
         <div class="rh-project-list">
           <article class="rh-project-item">
-            <span>arXiv 2026</span><h3>HorizonStream</h3>
+            <span>NeurIPS 2026</span><h3>HorizonStream</h3>
             <p>仅以 RGB 视频为输入，实现万帧级稳定流式三维重建。</p>
             <div class="rh-paper-links"><a href="https://3dagentworld.github.io/horizonstream/" target="_blank" rel="noopener noreferrer">项目</a><a href="https://arxiv.org/abs/2605.23889" target="_blank" rel="noopener noreferrer">论文</a><a href="https://github.com/3DAgentWorld/HorizonStream" target="_blank" rel="noopener noreferrer">代码</a></div>
           </article>
@@ -214,6 +214,16 @@ lang: zh-CN
           <span class="rh-highlight-group__toggle" aria-hidden="true"></span>
         </summary>
         <div class="rh-project-list rh-project-list--two">
+          <article class="rh-project-item">
+            <span>2026 · 机器人操作</span><h3>ReEnvision</h3>
+            <p>以未来预测引导选择性动作修复，提升长时序机器人操作的执行鲁棒性。</p>
+            <div class="rh-paper-links"><a href="https://reenvision.pages.dev/" target="_blank" rel="noopener noreferrer">项目</a></div>
+          </article>
+          <article class="rh-project-item">
+            <span>2026 · 三维场景图</span><h3>RECAP</h3>
+            <p>融合多视角关系证据，构建持久三维语义场景图，支持语言引导的机器人导航。</p>
+            <div class="rh-paper-links"><a href="https://3dagentworld.github.io/RECAP/" target="_blank" rel="noopener noreferrer">项目</a></div>
+          </article>
           <article class="rh-project-item">
             <span>ICLR 2026</span><h3>ReCAPA</h3>
             <p>通过分层预测校正，抑制具身智能体长时序任务中的错误级联。</p>
